@@ -1,0 +1,2 @@
+class_name FloorPlate
+extends StaticBody3D

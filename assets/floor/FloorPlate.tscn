@@ -1,0 +1,86 @@
+[gd_scene load_steps=7 format=4 uid="uid://c7e3vg3fcj8wh"]
+
+[ext_resource type="Script" uid="uid://dl7qv6pdl3fn0" path="res://assets/floor/FloorPlate.gd" id="1_8reys"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q8qi0"]
+resource_name = "Black"
+cull_mode = 2
+albedo_color = Color(0, 0, 0, 1)
+roughness = 0.5
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i2d1p"]
+resource_name = "Floor"
+cull_mode = 2
+albedo_color = Color(0.061015382, 0.7964447, 0.90633965, 1)
+roughness = 0.5
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_i41pn"]
+_surfaces = [{
+"aabb": AABB(-1, -1, -1, 2, 2, 2),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUABwAIAAUACQAEAAYACQAGAAoACwAHAAQACwAEAAkABwALAAgACwAJAAoACwAKAAgA"),
+"name": "Black",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 12,
+"vertex_data": PackedByteArray("y/2v/zMCAAAzAq//y/0AADMCr/8zAgAAy/2v/8v9AAD//wAA//8AAAAA/////wAA////////AAAAAAAA//8AAAAA//8AAAAA//8AAAAAAAD/////AAAAAAAAAAAAAAAA")
+}, {
+"aabb": AABB(-1, 0.9975625, -1, 2, 0.0024374723, 2),
+"format": 34896613377,
+"index_count": 24,
+"index_data": PackedByteArray("AAABAAIAAgABAAMAAAAEAAEAAgADAAUABgAEAAAABQADAAcABgAHAAQABQAHAAYA"),
+"name": "Floor",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("y/0AAMv9AAAAAP////8AADMCAADL/QAAAAD//wAAAAD///////8AADMCAAAzAgAAy/0AADMCAAD/////AAAAAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_a8wgv"]
+resource_name = "FloorPlate_Cube_002"
+_surfaces = [{
+"aabb": AABB(-1, -1, -1, 2, 2, 2),
+"attribute_data": PackedByteArray("jKByf3LfjEBy33J/jKCMQP9f/z//nwAA/5//P/9fAAD/X////5//v/+f////X/+//x//f/9f/z//X/9//x//P/9f/3//n/8//5//f/9f/z//X/+//5//f/+f/7//X/9/"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA"),
+"material": SubResource("StandardMaterial3D_q8qi0"),
+"name": "Black",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("y/2v/zMC//8zAq//y/3//zMCr/8zAv//y/2v/8v9/////wAA////vwAA//////+//////////78AAAAA////vwAAAAD//1TVAAD//wAAVNUAAP////9U1QAAAAAAAFTVAAAAAAAA/7///wAA////v///AAAAAP+/AAAAAP///7///wAAAABU1f///////1TV/////wAAVNX//wAA//9U1QAAAAAAAP///////wAA//8AAP//AAD/////AAAAAP///3//v/9//7//f/+//3//v/////////////////////9U1VTVVNVU1VTVVNVU1VTVAAD/fwAA/38AAP9/AAD/f6oqqiqqKqoqqiqqKqoqqir/v/+//7//v/+//7//v/+/")
+}, {
+"aabb": AABB(-1, 0.9975625, -1, 2, 0.0024374723, 2),
+"attribute_data": PackedByteArray("jKCMQP/f/z9y34xA/5//P4ygcn//n/8/jKCMQP+f/39y34xA/9//f3Lfcn//3/8/ct9yf/+f/3+MoHJ//9//fw=="),
+"format": 34896613399,
+"index_count": 24,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0A"),
+"material": SubResource("StandardMaterial3D_i2d1p"),
+"name": "Floor",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 16,
+"vertex_data": PackedByteArray("y/0AAMv9//8AAP///////zMCAADL/f/////////////L/QAAMwLw+/////////D7y/0AAMv98Pv/////AADw+zMCAADL/fD7AAD//wAA8PszAgAAMwLw+wAA//////D7MwIAADMC////////AAD//8v9AAAzAv//AAD//wAA////f4PE/3+DxP9/g8T/f4PEo3vRvaN70b2je9G9o3vRvdE9XATRPVwE0T1cBNE9XAT/f3u7/397u/9/e7v/f3u7")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_i41pn")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_80cnc"]
+size = Vector3(2, 0.2, 2)
+
+[node name="FloorPlate" type="StaticBody3D"]
+script = ExtResource("1_8reys")
+
+[node name="FloorPlate" type="Node3D" parent="."]
+
+[node name="Plate" type="MeshInstance3D" parent="FloorPlate"]
+transform = Transform3D(1, 0, 0, 0, 0.100000024, 0, 0, 0, 1, 0, 0, 0)
+mesh = SubResource("ArrayMesh_a8wgv")
+skeleton = NodePath("")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.9802322e-08, 0)
+shape = SubResource("BoxShape3D_80cnc")
