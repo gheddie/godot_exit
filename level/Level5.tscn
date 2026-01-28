@@ -1,0 +1,1028 @@
+[gd_scene load_steps=9 format=3 uid="uid://dr567v7nywjdt"]
+
+[ext_resource type="PackedScene" uid="uid://r6c5xfkfev64" path="res://level/BaseLevel.tscn" id="1_vm2aq"]
+[ext_resource type="Script" uid="uid://bfd2xt6qy2gfi" path="res://level/Level5.gd" id="2_k3irw"]
+[ext_resource type="PackedScene" uid="uid://olf3xpdlfxs" path="res://assets/architecture/floor/regular/RegularFloorPlate.tscn" id="3_u7efl"]
+[ext_resource type="PackedScene" uid="uid://dana7u7dfrvfe" path="res://assets/architecture/wall/WallBow.tscn" id="4_kw3de"]
+[ext_resource type="PackedScene" uid="uid://d0fm5sijs3e0g" path="res://assets/architecture/wall/StraigthWall.tscn" id="5_tf57m"]
+[ext_resource type="PackedScene" uid="uid://c4frnd44exhvu" path="res://assets/architecture/wall/WallCorner.tscn" id="6_djpb2"]
+[ext_resource type="PackedScene" uid="uid://dn72v4tcielvb" path="res://assets/architecture/floor/start/StartFloorPlate.tscn" id="7_1k1mr"]
+[ext_resource type="PackedScene" uid="uid://craoy8cx6i3ao" path="res://assets/architecture/floor/end/EndFloorPlate.tscn" id="8_2d35u"]
+
+[node name="Level5" instance=ExtResource("1_vm2aq")]
+script = ExtResource("2_k3irw")
+
+[node name="DirectionalLight3D" parent="." index="1"]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, -8)
+
+[node name="ressourced" type="Node3D" parent="." index="2"]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, -8)
+
+[node name="RegularFloorPlate1" parent="ressourced" index="0" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660254, 1.0908407e-08, -0.50000006, -0.43301278, 0.5, 0.75, 0.24999997, 0.86602545, -0.4330127, 13.856406, 6.9282045, -4)
+
+[node name="RegularFloorPlate2" parent="ressourced" index="1" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660254, 2.381319e-08, -0.50000006, -0.4330128, 0.5, 0.75, 0.24999996, 0.86602545, -0.4330127, 12.124355, 6.062179, -3.4999998)
+
+[node name="RegularFloorPlate3" parent="ressourced" index="2" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301287, 0.5, 0.75, 0.24999997, 0.86602545, -0.4330127, 10.392304, 5.1961536, -2.9999995)
+
+[node name="RegularFloorPlate4" parent="ressourced" index="3" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999996, 0.86602545, -0.4330127, 8.660254, 4.3301287, -2.4999995)
+
+[node name="RegularFloorPlate5" parent="ressourced" index="4" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999993, 0.86602545, -0.4330127, 6.9282036, 3.4641037, -1.9999998)
+
+[node name="RegularFloorPlate6" parent="ressourced" index="5" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999991, 0.86602545, -0.4330127, 5.1961527, 2.598078, -1.4999996)
+
+[node name="RegularFloorPlate7" parent="ressourced" index="6" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301287, 0.5, 0.75, 0.24999988, 0.86602545, -0.4330127, 3.4641018, 1.7320527, -0.99999964)
+
+[node name="RegularFloorPlate8" parent="ressourced" index="7" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999987, 0.86602545, -0.4330127, 1.7320511, 0.8660272, -0.49999964)
+
+[node name="RegularFloorPlate9" parent="ressourced" index="8" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999985, 0.86602545, -0.4330127, 3.7887128e-07, 1.6497495e-06, 3.5520154e-07)
+
+[node name="RegularFloorPlate10" parent="ressourced" index="9" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999982, 0.86602545, -0.4330127, -1.7320504, -0.86602396, 0.50000036)
+
+[node name="RegularFloorPlate11" parent="ressourced" index="10" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.2499998, 0.86602545, -0.4330127, -3.4641013, -1.7320495, 1.0000004)
+
+[node name="RegularFloorPlate12" parent="ressourced" index="11" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999979, 0.86602545, -0.4330127, -5.196152, -2.5980752, 1.5000002)
+
+[node name="RegularFloorPlate153" parent="ressourced" index="12" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301287, 0.5, 0.75, 0.24999988, 0.86602545, -0.4330127, 6.196153, 1.0980787, -0.6339743)
+
+[node name="RegularFloorPlate154" parent="ressourced" index="13" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999987, 0.86602545, -0.4330127, 4.4641013, 0.2320528, -0.13397431)
+
+[node name="RegularFloorPlate155" parent="ressourced" index="14" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999985, 0.86602545, -0.4330127, 2.7320514, -0.63397264, 0.3660257)
+
+[node name="RegularFloorPlate156" parent="ressourced" index="15" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999982, 0.86602545, -0.4330127, 1.0000005, -1.4999981, 0.8660259)
+
+[node name="RegularFloorPlate157" parent="ressourced" index="16" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.2499998, 0.86602545, -0.4330127, -0.7320504, -2.366024, 1.3660254)
+
+[node name="RegularFloorPlate158" parent="ressourced" index="17" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999979, 0.86602545, -0.4330127, -2.4641013, -3.232049, 1.8660254)
+
+[node name="RegularFloorPlate159" parent="ressourced" index="18" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -4.196152, -4.098075, 2.3660254)
+
+[node name="RegularFloorPlate160" parent="ressourced" index="19" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999987, 0.86602545, -0.4330127, 7.196153, -0.40192127, 0.23205137)
+
+[node name="RegularFloorPlate161" parent="ressourced" index="20" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999985, 0.86602545, -0.4330127, 5.4641013, -1.2679472, 0.7320514)
+
+[node name="RegularFloorPlate162" parent="ressourced" index="21" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999982, 0.86602545, -0.4330127, 3.7320514, -2.1339722, 1.2320514)
+
+[node name="RegularFloorPlate163" parent="ressourced" index="22" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.2499998, 0.86602545, -0.4330127, 2.0000005, -2.999998, 1.7320514)
+
+[node name="RegularFloorPlate164" parent="ressourced" index="23" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999979, 0.86602545, -0.4330127, 0.26794958, -3.866024, 2.232051)
+
+[node name="RegularFloorPlate165" parent="ressourced" index="24" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -1.4641018, -4.732048, 2.732051)
+
+[node name="RegularFloorPlate166" parent="ressourced" index="25" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301296, 0.5, 0.75, 0.24999976, 0.86602545, -0.4330127, -3.1961522, -5.598075, 3.2320514)
+
+[node name="RegularFloorPlate167" parent="ressourced" index="26" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999985, 0.86602545, -0.4330127, 8.196154, -1.9019208, 1.0980763)
+
+[node name="RegularFloorPlate168" parent="ressourced" index="27" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999982, 0.86602545, -0.4330127, 6.4641013, -2.7679472, 1.5980768)
+
+[node name="RegularFloorPlate169" parent="ressourced" index="28" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.2499998, 0.86602545, -0.4330127, 4.7320514, -3.6339722, 2.0980768)
+
+[node name="RegularFloorPlate170" parent="ressourced" index="29" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999979, 0.86602545, -0.4330127, 3.0000005, -4.499998, 2.5980768)
+
+[node name="RegularFloorPlate171" parent="ressourced" index="30" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 1.2679496, -5.366024, 3.0980759)
+
+[node name="RegularFloorPlate172" parent="ressourced" index="31" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301296, 0.5, 0.75, 0.24999976, 0.86602545, -0.4330127, -0.4641013, -6.232048, 3.5980768)
+
+[node name="RegularFloorPlate173" parent="ressourced" index="32" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -2.1961522, -7.098075, 4.0980763)
+
+[node name="RegularFloorPlate174" parent="ressourced" index="33" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999982, 0.86602545, -0.4330127, 9.196154, -3.4019203, 1.9641018)
+
+[node name="RegularFloorPlate175" parent="ressourced" index="34" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.2499998, 0.86602545, -0.4330127, 7.4641013, -4.267947, 2.4641023)
+
+[node name="RegularFloorPlate176" parent="ressourced" index="35" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999979, 0.86602545, -0.4330127, 5.7320514, -5.133972, 2.9641023)
+
+[node name="RegularFloorPlate177" parent="ressourced" index="36" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 4.0000005, -5.999998, 3.4641023)
+
+[node name="RegularFloorPlate178" parent="ressourced" index="37" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301296, 0.5, 0.75, 0.24999976, 0.86602545, -0.4330127, 2.2679496, -6.866024, 3.9641013)
+
+[node name="RegularFloorPlate179" parent="ressourced" index="38" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 0.5358987, -7.732048, 4.4641023)
+
+[node name="RegularFloorPlate180" parent="ressourced" index="39" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -1.1961522, -8.598074, 4.9641013)
+
+[node name="RegularFloorPlate181" parent="ressourced" index="40" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.2499998, 0.86602545, -0.4330127, 10.196154, -4.9019194, 2.8301272)
+
+[node name="RegularFloorPlate182" parent="ressourced" index="41" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999979, 0.86602545, -0.4330127, 8.464102, -5.767948, 3.3301282)
+
+[node name="RegularFloorPlate183" parent="ressourced" index="42" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 6.7320514, -6.633973, 3.8301287)
+
+[node name="RegularFloorPlate184" parent="ressourced" index="43" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301296, 0.5, 0.75, 0.24999976, 0.86602545, -0.4330127, 5.0000014, -7.499999, 4.330128)
+
+[node name="RegularFloorPlate185" parent="ressourced" index="44" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 3.26795, -8.366025, 4.8301272)
+
+[node name="RegularFloorPlate186" parent="ressourced" index="45" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 1.5358987, -9.232048, 5.330128)
+
+[node name="RegularFloorPlate187" parent="ressourced" index="46" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -0.19615221, -10.098074, 5.8301272)
+
+[node name="RegularFloorPlate188" parent="ressourced" index="47" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999979, 0.86602545, -0.4330127, 11.196154, -6.4019194, 3.6961532)
+
+[node name="RegularFloorPlate189" parent="ressourced" index="48" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 9.464102, -7.267948, 4.196154)
+
+[node name="RegularFloorPlate190" parent="ressourced" index="49" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301296, 0.5, 0.75, 0.24999976, 0.86602545, -0.4330127, 7.7320514, -8.133973, 4.696154)
+
+[node name="RegularFloorPlate191" parent="ressourced" index="50" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 6.0000014, -8.999999, 5.196154)
+
+[node name="RegularFloorPlate319" parent="ressourced" index="51" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 7.0000005, -10.499998, 6.06218)
+
+[node name="RegularFloorPlate192" parent="ressourced" index="52" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 4.2679496, -9.866025, 5.696153)
+
+[node name="RegularFloorPlate258" parent="ressourced" index="53" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 5.2679496, -11.366026, 6.562178)
+
+[node name="RegularFloorPlate259" parent="ressourced" index="54" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 3.5358982, -12.232052, 7.062178)
+
+[node name="RegularFloorPlate260" parent="ressourced" index="55" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 1.8038468, -13.098078, 7.562178)
+
+[node name="RegularFloorPlate261" parent="ressourced" index="56" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 8.73205, -9.633975, 5.562178)
+
+[node name="RegularFloorPlate262" parent="ressourced" index="57" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 10.4641, -8.767949, 5.062178)
+
+[node name="RegularFloorPlate263" parent="ressourced" index="58" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 12.196152, -7.901924, 4.562178)
+
+[node name="RegularFloorPlate264" parent="ressourced" index="59" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 12.196152, -7.901924, 4.562178)
+
+[node name="RegularFloorPlate193" parent="ressourced" index="60" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 2.5358987, -10.732048, 6.196154)
+
+[node name="RegularFloorPlate194" parent="ressourced" index="61" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 0.8038473, -11.598074, 6.696153)
+
+[node name="RegularFloorPlate195" parent="ressourced" index="62" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 13.196156, -9.401918, 5.428204)
+
+[node name="RegularFloorPlate196" parent="ressourced" index="63" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301296, 0.5, 0.75, 0.24999976, 0.86602545, -0.4330127, 11.464102, -10.267948, 5.928204)
+
+[node name="RegularFloorPlate197" parent="ressourced" index="64" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 9.732052, -11.133972, 6.428205)
+
+[node name="RegularFloorPlate198" parent="ressourced" index="65" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 8.000002, -11.999998, 6.928205)
+
+[node name="RegularFloorPlate199" parent="ressourced" index="66" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 6.2679505, -12.866026, 7.428203)
+
+[node name="RegularFloorPlate200" parent="ressourced" index="67" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 4.5358987, -13.732048, 7.928205)
+
+[node name="RegularFloorPlate201" parent="ressourced" index="68" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 2.8038468, -14.598074, 8.428204)
+
+[node name="RegularFloorPlate13" parent="ressourced" index="69" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301296, 0.5, 0.75, 0.24999976, 0.86602545, -0.4330127, -6.928203, -3.4641008, 2)
+
+[node name="RegularFloorPlate14" parent="ressourced" index="70" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -8.660254, -4.330126, 2.5000005)
+
+[node name="RegularFloorPlate15" parent="ressourced" index="71" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -10.392305, -5.1961517, 3.0000005)
+
+[node name="RegularFloorPlate16" parent="ressourced" index="72" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -12.124355, -6.0621777, 3.5000005)
+
+[node name="RegularFloorPlate17" parent="ressourced" index="73" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -13.856407, -6.9282055, 4.000001)
+
+[node name="RegularFloorPlate18" parent="ressourced" index="74" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660254, 2.381319e-08, -0.50000006, -0.4330128, 0.5, 0.75, 0.24999996, 0.86602545, -0.4330127, 12.856407, 8.428205, -4.866025)
+
+[node name="RegularFloorPlate19" parent="ressourced" index="75" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301287, 0.5, 0.75, 0.24999997, 0.86602545, -0.4330127, 11.124355, 7.5621796, -4.366025)
+
+[node name="RegularFloorPlate20" parent="ressourced" index="76" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999996, 0.86602545, -0.4330127, 9.392303, 6.6961546, -3.8660247)
+
+[node name="RegularFloorPlate21" parent="ressourced" index="77" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999993, 0.86602545, -0.4330127, 7.660254, 5.8301296, -3.3660252)
+
+[node name="RegularFloorPlate22" parent="ressourced" index="78" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999991, 0.86602545, -0.4330127, 5.928203, 4.964104, -2.866025)
+
+[node name="RegularFloorPlate23" parent="ressourced" index="79" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301287, 0.5, 0.75, 0.24999988, 0.86602545, -0.4330127, 4.196152, 4.0980787, -2.366025)
+
+[node name="RegularFloorPlate24" parent="ressourced" index="80" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999987, 0.86602545, -0.4330127, 2.4641013, 3.232053, -1.866025)
+
+[node name="RegularFloorPlate25" parent="ressourced" index="81" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999985, 0.86602545, -0.4330127, 0.7320509, 2.3660274, -1.366025)
+
+[node name="RegularFloorPlate26" parent="ressourced" index="82" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999982, 0.86602545, -0.4330127, -1, 1.5000019, -0.866025)
+
+[node name="RegularFloorPlate27" parent="ressourced" index="83" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.2499998, 0.86602545, -0.4330127, -2.732051, 0.63397646, -0.36602497)
+
+[node name="RegularFloorPlate28" parent="ressourced" index="84" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999979, 0.86602545, -0.4330127, -4.464102, -0.23204899, 0.13397503)
+
+[node name="RegularFloorPlate29" parent="ressourced" index="85" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -6.1961527, -1.0980749, 0.633975)
+
+[node name="RegularFloorPlate30" parent="ressourced" index="86" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301296, 0.5, 0.75, 0.24999976, 0.86602545, -0.4330127, -7.9282036, -1.9641008, 1.1339746)
+
+[node name="RegularFloorPlate31" parent="ressourced" index="87" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -9.660254, -2.8301258, 1.633975)
+
+[node name="RegularFloorPlate32" parent="ressourced" index="88" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -11.392305, -3.6961517, 2.133975)
+
+[node name="RegularFloorPlate33" parent="ressourced" index="89" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -13.124355, -4.5621777, 2.633975)
+
+[node name="RegularFloorPlate34" parent="ressourced" index="90" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -14.856407, -5.4282055, 3.1339755)
+
+[node name="RegularFloorPlate35" parent="ressourced" index="91" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660254, 2.381319e-08, -0.50000006, -0.4330128, 0.5, 0.75, 0.24999996, 0.86602545, -0.4330127, 11.856405, 9.928205, -5.7320504)
+
+[node name="RegularFloorPlate36" parent="ressourced" index="92" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301287, 0.5, 0.75, 0.24999997, 0.86602545, -0.4330127, 10.124355, 9.06218, -5.23205)
+
+[node name="RegularFloorPlate37" parent="ressourced" index="93" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999996, 0.86602545, -0.4330127, 8.392303, 8.196155, -4.73205)
+
+[node name="RegularFloorPlate38" parent="ressourced" index="94" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999993, 0.86602545, -0.4330127, 6.660254, 7.3301296, -4.2320504)
+
+[node name="RegularFloorPlate39" parent="ressourced" index="95" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999991, 0.86602545, -0.4330127, 4.928203, 6.4641037, -3.7320504)
+
+[node name="RegularFloorPlate40" parent="ressourced" index="96" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301287, 0.5, 0.75, 0.24999988, 0.86602545, -0.4330127, 3.1961522, 5.5980783, -3.2320504)
+
+[node name="RegularFloorPlate41" parent="ressourced" index="97" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999987, 0.86602545, -0.4330127, 1.4641013, 4.732053, -2.7320504)
+
+[node name="RegularFloorPlate42" parent="ressourced" index="98" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999985, 0.86602545, -0.4330127, -0.2679491, 3.8660274, -2.2320504)
+
+[node name="RegularFloorPlate43" parent="ressourced" index="99" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999982, 0.86602545, -0.4330127, -2, 3.0000017, -1.7320503)
+
+[node name="RegularFloorPlate44" parent="ressourced" index="100" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.2499998, 0.86602545, -0.4330127, -3.732051, 2.133976, -1.2320504)
+
+[node name="RegularFloorPlate45" parent="ressourced" index="101" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999979, 0.86602545, -0.4330127, -5.464102, 1.2679505, -0.7320504)
+
+[node name="RegularFloorPlate46" parent="ressourced" index="102" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -7.1961527, 0.4019251, -0.23205042)
+
+[node name="RegularFloorPlate47" parent="ressourced" index="103" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301296, 0.5, 0.75, 0.24999976, 0.86602545, -0.4330127, -8.928204, -0.46410084, 0.26794958)
+
+[node name="RegularFloorPlate48" parent="ressourced" index="104" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -10.660254, -1.3301268, 0.7679496)
+
+[node name="RegularFloorPlate49" parent="ressourced" index="105" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -12.392305, -2.1961527, 1.2679496)
+
+[node name="RegularFloorPlate50" parent="ressourced" index="106" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -14.124355, -3.0621777, 1.7679496)
+
+[node name="RegularFloorPlate51" parent="ressourced" index="107" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -15.856409, -3.9282055, 2.2679505)
+
+[node name="RegularFloorPlate52" parent="ressourced" index="108" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301287, 0.5, 0.75, 0.24999997, 0.86602545, -0.4330127, 10.856407, 11.4282055, -6.598076)
+
+[node name="RegularFloorPlate53" parent="ressourced" index="109" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999996, 0.86602545, -0.4330127, 9.124355, 10.5621805, -6.098076)
+
+[node name="RegularFloorPlate54" parent="ressourced" index="110" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999993, 0.86602545, -0.4330127, 7.392304, 9.696155, -5.5980754)
+
+[node name="RegularFloorPlate55" parent="ressourced" index="111" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999991, 0.86602545, -0.4330127, 5.660253, 8.83013, -5.098076)
+
+[node name="RegularFloorPlate56" parent="ressourced" index="112" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301287, 0.5, 0.75, 0.24999988, 0.86602545, -0.4330127, 3.928203, 7.964104, -4.598076)
+
+[node name="RegularFloorPlate57" parent="ressourced" index="113" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999987, 0.86602545, -0.4330127, 2.1961522, 7.0980787, -4.098076)
+
+[node name="RegularFloorPlate58" parent="ressourced" index="114" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999985, 0.86602545, -0.4330127, 0.4641013, 6.2320533, -3.5980756)
+
+[node name="RegularFloorPlate59" parent="ressourced" index="115" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999982, 0.86602545, -0.4330127, -1.2679491, 5.3660274, -3.0980756)
+
+[node name="RegularFloorPlate60" parent="ressourced" index="116" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.2499998, 0.86602545, -0.4330127, -3, 4.500002, -2.5980754)
+
+[node name="RegularFloorPlate61" parent="ressourced" index="117" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999979, 0.86602545, -0.4330127, -4.7320514, 3.6339765, -2.0980756)
+
+[node name="RegularFloorPlate62" parent="ressourced" index="118" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -6.464102, 2.767951, -1.5980756)
+
+[node name="RegularFloorPlate63" parent="ressourced" index="119" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301296, 0.5, 0.75, 0.24999976, 0.86602545, -0.4330127, -8.196154, 1.9019246, -1.0980756)
+
+[node name="RegularFloorPlate64" parent="ressourced" index="120" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -9.928204, 1.0358992, -0.59807634)
+
+[node name="RegularFloorPlate65" parent="ressourced" index="121" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -11.6602545, 0.16987324, -0.09807539)
+
+[node name="RegularFloorPlate66" parent="ressourced" index="122" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -13.392305, -0.6961527, 0.4019246)
+
+[node name="RegularFloorPlate67" parent="ressourced" index="123" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -15.124355, -1.5621777, 0.90192413)
+
+[node name="RegularFloorPlate68" parent="ressourced" index="124" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -16.856407, -2.4282064, 1.4019251)
+
+[node name="RegularFloorPlate69" parent="ressourced" index="125" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660254, 2.381319e-08, -0.50000006, -0.4330128, 0.5, 0.75, 0.24999996, 0.86602545, -0.4330127, 9.856405, 12.928205, -7.464101)
+
+[node name="RegularFloorPlate70" parent="ressourced" index="126" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301287, 0.5, 0.75, 0.24999997, 0.86602545, -0.4330127, 8.124355, 12.06218, -6.964101)
+
+[node name="RegularFloorPlate71" parent="ressourced" index="127" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999996, 0.86602545, -0.4330127, 6.392304, 11.196155, -6.464101)
+
+[node name="RegularFloorPlate72" parent="ressourced" index="128" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999993, 0.86602545, -0.4330127, 4.660253, 10.33013, -5.9641013)
+
+[node name="RegularFloorPlate73" parent="ressourced" index="129" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999991, 0.86602545, -0.4330127, 2.928203, 9.464104, -5.464101)
+
+[node name="RegularFloorPlate74" parent="ressourced" index="130" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301287, 0.5, 0.75, 0.24999988, 0.86602545, -0.4330127, 1.1961522, 8.598078, -4.964101)
+
+[node name="RegularFloorPlate75" parent="ressourced" index="131" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999987, 0.86602545, -0.4330127, -0.5358987, 7.732053, -4.464101)
+
+[node name="RegularFloorPlate76" parent="ressourced" index="132" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999985, 0.86602545, -0.4330127, -2.2679493, 6.8660274, -3.964101)
+
+[node name="RegularFloorPlate78" parent="ressourced" index="133" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.2499998, 0.86602545, -0.4330127, -5.732051, 5.133976, -2.964101)
+
+[node name="RegularFloorPlate79" parent="ressourced" index="134" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999979, 0.86602545, -0.4330127, -7.464102, 4.2679505, -2.4641008)
+
+[node name="RegularFloorPlate80" parent="ressourced" index="135" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -9.196153, 3.4019248, -1.9641011)
+
+[node name="RegularFloorPlate81" parent="ressourced" index="136" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301296, 0.5, 0.75, 0.24999976, 0.86602545, -0.4330127, -10.928204, 2.535899, -1.4641013)
+
+[node name="RegularFloorPlate82" parent="ressourced" index="137" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -12.660255, 1.6698732, -0.9641011)
+
+[node name="RegularFloorPlate83" parent="ressourced" index="138" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -14.392305, 0.8038473, -0.46410108)
+
+[node name="RegularFloorPlate84" parent="ressourced" index="139" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -16.124355, -0.062178135, 0.035898924)
+
+[node name="RegularFloorPlate85" parent="ressourced" index="140" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -17.85641, -0.9282055, 0.53589964)
+
+[node name="RegularFloorPlate86" parent="ressourced" index="141" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301287, 0.5, 0.75, 0.24999997, 0.86602545, -0.4330127, 8.856407, 14.4282055, -8.330126)
+
+[node name="RegularFloorPlate87" parent="ressourced" index="142" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999996, 0.86602545, -0.4330127, 7.124356, 13.5621805, -7.8301263)
+
+[node name="RegularFloorPlate88" parent="ressourced" index="143" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999993, 0.86602545, -0.4330127, 5.392303, 12.696155, -7.330126)
+
+[node name="RegularFloorPlate89" parent="ressourced" index="144" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999991, 0.86602545, -0.4330127, 3.660253, 11.83013, -6.830127)
+
+[node name="RegularFloorPlate90" parent="ressourced" index="145" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301287, 0.5, 0.75, 0.24999988, 0.86602545, -0.4330127, 1.9282026, 10.964104, -6.3301263)
+
+[node name="RegularFloorPlate91" parent="ressourced" index="146" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999987, 0.86602545, -0.4330127, 0.19615173, 10.098079, -5.8301263)
+
+[node name="RegularFloorPlate92" parent="ressourced" index="147" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999985, 0.86602545, -0.4330127, -1.5358992, 9.232054, -5.3301263)
+
+[node name="RegularFloorPlate93" parent="ressourced" index="148" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999982, 0.86602545, -0.4330127, -3.2679496, 8.366028, -4.8301263)
+
+[node name="RegularFloorPlate94" parent="ressourced" index="149" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.2499998, 0.86602545, -0.4330127, -5.0000005, 7.500002, -4.3301263)
+
+[node name="RegularFloorPlate95" parent="ressourced" index="150" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999979, 0.86602545, -0.4330127, -6.7320514, 6.6339765, -3.8301263)
+
+[node name="RegularFloorPlate96" parent="ressourced" index="151" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -8.464102, 5.767951, -3.3301263)
+
+[node name="RegularFloorPlate97" parent="ressourced" index="152" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301296, 0.5, 0.75, 0.24999976, 0.86602545, -0.4330127, -10.196154, 4.9019246, -2.8301263)
+
+[node name="RegularFloorPlate98" parent="ressourced" index="153" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -11.928204, 4.035899, -2.330127)
+
+[node name="RegularFloorPlate99" parent="ressourced" index="154" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -13.660255, 3.1698735, -1.830126)
+
+[node name="RegularFloorPlate100" parent="ressourced" index="155" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -15.392307, 2.3038476, -1.330126)
+
+[node name="RegularFloorPlate101" parent="ressourced" index="156" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -17.124357, 1.4378223, -0.8301263)
+
+[node name="RegularFloorPlate102" parent="ressourced" index="157" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -18.85641, 0.57179356, -0.3301258)
+
+[node name="RegularFloorPlate103" parent="ressourced" index="158" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301287, 0.5, 0.75, 0.24999997, 0.86602545, -0.4330127, 7.856405, 15.9282055, -9.196152)
+
+[node name="RegularFloorPlate104" parent="ressourced" index="159" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999996, 0.86602545, -0.4330127, 6.1243567, 15.0621805, -8.696152)
+
+[node name="RegularFloorPlate105" parent="ressourced" index="160" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999993, 0.86602545, -0.4330127, 4.392303, 14.196155, -8.196152)
+
+[node name="RegularFloorPlate106" parent="ressourced" index="161" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999991, 0.86602545, -0.4330127, 2.660254, 13.33013, -7.6961517)
+
+[node name="RegularFloorPlate107" parent="ressourced" index="162" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301287, 0.5, 0.75, 0.24999988, 0.86602545, -0.4330127, 0.9282031, 12.464104, -7.1961517)
+
+[node name="RegularFloorPlate108" parent="ressourced" index="163" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999987, 0.86602545, -0.4330127, -0.8038485, 11.598078, -6.6961517)
+
+[node name="RegularFloorPlate109" parent="ressourced" index="164" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999985, 0.86602545, -0.4330127, -2.5358992, 10.732053, -6.1961517)
+
+[node name="RegularFloorPlate110" parent="ressourced" index="165" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999982, 0.86602545, -0.4330127, -4.2679496, 9.866028, -5.6961517)
+
+[node name="RegularFloorPlate111" parent="ressourced" index="166" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.2499998, 0.86602545, -0.4330127, -6.0000005, 9.000002, -5.1961517)
+
+[node name="RegularFloorPlate112" parent="ressourced" index="167" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999979, 0.86602545, -0.4330127, -7.7320514, 8.133976, -4.6961517)
+
+[node name="RegularFloorPlate113" parent="ressourced" index="168" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -9.464102, 7.26795, -4.1961517)
+
+[node name="RegularFloorPlate114" parent="ressourced" index="169" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301296, 0.5, 0.75, 0.24999976, 0.86602545, -0.4330127, -11.196154, 6.401925, -3.6961517)
+
+[node name="RegularFloorPlate115" parent="ressourced" index="170" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -12.928204, 5.535899, -3.1961517)
+
+[node name="RegularFloorPlate116" parent="ressourced" index="171" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -14.660254, 4.669873, -2.6961517)
+
+[node name="RegularFloorPlate117" parent="ressourced" index="172" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -16.392305, 3.8038468, -2.196152)
+
+[node name="RegularFloorPlate118" parent="ressourced" index="173" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -18.124355, 2.9378226, -1.6961521)
+
+[node name="RegularFloorPlate119" parent="ressourced" index="174" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -19.85641, 2.071794, -1.196151)
+
+[node name="RegularFloorPlate120" parent="ressourced" index="175" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999996, 0.86602545, -0.4330127, 6.8564067, 17.428205, -10.062178)
+
+[node name="RegularFloorPlate121" parent="ressourced" index="176" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999993, 0.86602545, -0.4330127, 5.124355, 16.562181, -9.562178)
+
+[node name="RegularFloorPlate122" parent="ressourced" index="177" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999991, 0.86602545, -0.4330127, 3.392303, 15.696156, -9.062178)
+
+[node name="RegularFloorPlate123" parent="ressourced" index="178" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301287, 0.5, 0.75, 0.24999988, 0.86602545, -0.4330127, 1.6602526, 14.83013, -8.562178)
+
+[node name="RegularFloorPlate124" parent="ressourced" index="179" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999987, 0.86602545, -0.4330127, -0.07179713, 13.964105, -8.062178)
+
+[node name="RegularFloorPlate137" parent="ressourced" index="180" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999991, 0.86602545, -0.4330127, 15.588457, 7.7942314, -4.4999995)
+
+[node name="RegularFloorPlate138" parent="ressourced" index="181" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301287, 0.5, 0.75, 0.24999988, 0.86602545, -0.4330127, 14.588457, 9.294231, -5.366025)
+
+[node name="RegularFloorPlate139" parent="ressourced" index="182" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301287, 0.5, 0.75, 0.24999988, 0.86602545, -0.4330127, 13.588459, 10.794232, -6.2320504)
+
+[node name="RegularFloorPlate140" parent="ressourced" index="183" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999987, 0.86602545, -0.4330127, 12.588459, 12.294232, -7.098076)
+
+[node name="RegularFloorPlate141" parent="ressourced" index="184" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301287, 0.5, 0.75, 0.24999988, 0.86602545, -0.4330127, 11.588455, 13.794231, -7.964101)
+
+[node name="RegularFloorPlate142" parent="ressourced" index="185" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999987, 0.86602545, -0.4330127, 10.588455, 15.294231, -8.830126)
+
+[node name="RegularFloorPlate143" parent="ressourced" index="186" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999987, 0.86602545, -0.4330127, 9.588457, 16.794231, -9.696152)
+
+[node name="RegularFloorPlate144" parent="ressourced" index="187" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999985, 0.86602545, -0.4330127, 8.588457, 18.294233, -10.562178)
+
+[node name="RegularFloorPlate125" parent="ressourced" index="188" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.4330129, 0.5, 0.75, 0.24999985, 0.86602545, -0.4330127, -1.8038478, 13.098079, -7.562177)
+
+[node name="RegularFloorPlate126" parent="ressourced" index="189" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999982, 0.86602545, -0.4330127, -3.5358994, 12.232054, -7.0621767)
+
+[node name="RegularFloorPlate127" parent="ressourced" index="190" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.2499998, 0.86602545, -0.4330127, -5.2679496, 11.366028, -6.5621767)
+
+[node name="RegularFloorPlate128" parent="ressourced" index="191" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999979, 0.86602545, -0.4330127, -7.000001, 10.500002, -6.0621767)
+
+[node name="RegularFloorPlate129" parent="ressourced" index="192" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -8.732052, 9.633977, -5.562177)
+
+[node name="RegularFloorPlate130" parent="ressourced" index="193" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301296, 0.5, 0.75, 0.24999976, 0.86602545, -0.4330127, -10.464103, 8.767951, -5.062177)
+
+[node name="RegularFloorPlate131" parent="ressourced" index="194" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -12.196154, 7.9019246, -4.562177)
+
+[node name="RegularFloorPlate202" parent="ressourced" index="195" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999982, 0.86602545, -0.4330127, -2.8038478, 14.59808, -8.428204)
+
+[node name="RegularFloorPlate203" parent="ressourced" index="196" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.2499998, 0.86602545, -0.4330127, -4.5358996, 13.732054, -7.928202)
+
+[node name="RegularFloorPlate204" parent="ressourced" index="197" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999979, 0.86602545, -0.4330127, -6.26795, 12.866028, -7.4282026)
+
+[node name="RegularFloorPlate205" parent="ressourced" index="198" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -8.000001, 12.000002, -6.9282026)
+
+[node name="RegularFloorPlate206" parent="ressourced" index="199" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301296, 0.5, 0.75, 0.24999976, 0.86602545, -0.4330127, -9.732052, 11.133977, -6.4282026)
+
+[node name="RegularFloorPlate207" parent="ressourced" index="200" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -11.464104, 10.267951, -5.9282026)
+
+[node name="RegularFloorPlate208" parent="ressourced" index="201" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -13.196154, 9.401924, -5.4282026)
+
+[node name="RegularFloorPlate209" parent="ressourced" index="202" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.2499998, 0.86602545, -0.4330127, -3.8038483, 16.098082, -9.2942295)
+
+[node name="RegularFloorPlate210" parent="ressourced" index="203" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999979, 0.86602545, -0.4330127, -5.5358996, 15.232054, -8.794228)
+
+[node name="RegularFloorPlate211" parent="ressourced" index="204" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -7.26795, 14.366028, -8.294228)
+
+[node name="RegularFloorPlate212" parent="ressourced" index="205" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301296, 0.5, 0.75, 0.24999976, 0.86602545, -0.4330127, -9.000002, 13.500002, -7.7942286)
+
+[node name="RegularFloorPlate213" parent="ressourced" index="206" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -10.732052, 12.633977, -7.294228)
+
+[node name="RegularFloorPlate214" parent="ressourced" index="207" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -12.464104, 11.76795, -6.794228)
+
+[node name="RegularFloorPlate215" parent="ressourced" index="208" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -14.196156, 10.901924, -6.2942286)
+
+[node name="RegularFloorPlate216" parent="ressourced" index="209" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999979, 0.86602545, -0.4330127, -4.8038487, 17.598082, -10.160255)
+
+[node name="RegularFloorPlate217" parent="ressourced" index="210" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -6.5358996, 16.732056, -9.660254)
+
+[node name="RegularFloorPlate218" parent="ressourced" index="211" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301296, 0.5, 0.75, 0.24999976, 0.86602545, -0.4330127, -8.26795, 15.866029, -9.160254)
+
+[node name="RegularFloorPlate219" parent="ressourced" index="212" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -10.000003, 15.000003, -8.660255)
+
+[node name="RegularFloorPlate220" parent="ressourced" index="213" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -11.732052, 14.133977, -8.160254)
+
+[node name="RegularFloorPlate221" parent="ressourced" index="214" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -13.464104, 13.26795, -7.660254)
+
+[node name="RegularFloorPlate222" parent="ressourced" index="215" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -15.196156, 12.401924, -7.160254)
+
+[node name="RegularFloorPlate223" parent="ressourced" index="216" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301293, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -5.8038483, 19.098082, -11.026281)
+
+[node name="RegularFloorPlate224" parent="ressourced" index="217" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301296, 0.5, 0.75, 0.24999976, 0.86602545, -0.4330127, -7.5358996, 18.232056, -10.526279)
+
+[node name="RegularFloorPlate225" parent="ressourced" index="218" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -9.26795, 17.366028, -10.026279)
+
+[node name="RegularFloorPlate226" parent="ressourced" index="219" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -11.000003, 16.500004, -9.526281)
+
+[node name="RegularFloorPlate227" parent="ressourced" index="220" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -12.732052, 15.633978, -9.026279)
+
+[node name="RegularFloorPlate228" parent="ressourced" index="221" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -14.464104, 14.767948, -8.526279)
+
+[node name="RegularFloorPlate229" parent="ressourced" index="222" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -16.196156, 13.901924, -8.026279)
+
+[node name="RegularFloorPlate230" parent="ressourced" index="223" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301296, 0.5, 0.75, 0.24999976, 0.86602545, -0.4330127, -6.803848, 20.598082, -11.892307)
+
+[node name="RegularFloorPlate231" parent="ressourced" index="224" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -8.5359, 19.732056, -11.392305)
+
+[node name="RegularFloorPlate232" parent="ressourced" index="225" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -10.267952, 18.866028, -10.892305)
+
+[node name="RegularFloorPlate233" parent="ressourced" index="226" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -12.000002, 18.000004, -10.392306)
+
+[node name="RegularFloorPlate234" parent="ressourced" index="227" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -13.732052, 17.13398, -9.892305)
+
+[node name="RegularFloorPlate235" parent="ressourced" index="228" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -15.464104, 16.267948, -9.392305)
+
+[node name="RegularFloorPlate236" parent="ressourced" index="229" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -17.196156, 15.401924, -8.892305)
+
+[node name="RegularFloorPlate237" parent="ressourced" index="230" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -7.8038473, 22.098082, -12.758333)
+
+[node name="RegularFloorPlate238" parent="ressourced" index="231" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -9.5359, 21.232056, -12.258331)
+
+[node name="RegularFloorPlate239" parent="ressourced" index="232" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -11.267952, 20.366028, -11.758331)
+
+[node name="RegularFloorPlate240" parent="ressourced" index="233" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -13.000002, 19.500004, -11.258332)
+
+[node name="RegularFloorPlate241" parent="ressourced" index="234" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -14.732052, 18.63398, -10.758331)
+
+[node name="RegularFloorPlate251" parent="ressourced" index="235" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -15.732052, 20.13398, -11.624357)
+
+[node name="RegularFloorPlate252" parent="ressourced" index="236" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -17.464102, 19.267952, -11.124357)
+
+[node name="RegularFloorPlate253" parent="ressourced" index="237" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -19.196152, 18.401928, -10.624357)
+
+[node name="RegularFloorPlate254" parent="ressourced" index="238" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -12.26795, 21.86603, -12.624357)
+
+[node name="RegularFloorPlate255" parent="ressourced" index="239" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -10.5359, 22.732056, -13.124359)
+
+[node name="RegularFloorPlate256" parent="ressourced" index="240" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -8.80385, 23.598082, -13.624359)
+
+[node name="RegularFloorPlate257" parent="ressourced" index="241" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -8.80385, 23.598082, -13.624359)
+
+[node name="RegularFloorPlate242" parent="ressourced" index="242" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -16.464104, 17.767948, -10.258331)
+
+[node name="RegularFloorPlate243" parent="ressourced" index="243" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -18.196156, 16.901924, -9.75833)
+
+[node name="RegularFloorPlate244" parent="ressourced" index="244" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -9.803846, 25.098083, -14.490383)
+
+[node name="RegularFloorPlate245" parent="ressourced" index="245" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -11.5359, 24.232056, -13.990383)
+
+[node name="RegularFloorPlate246" parent="ressourced" index="246" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -13.267952, 23.36603, -13.490383)
+
+[node name="RegularFloorPlate247" parent="ressourced" index="247" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -15, 22.500004, -12.990383)
+
+[node name="RegularFloorPlate248" parent="ressourced" index="248" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -16.732052, 21.63398, -12.490383)
+
+[node name="RegularFloorPlate249" parent="ressourced" index="249" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -18.464104, 20.767948, -11.990383)
+
+[node name="RegularFloorPlate250" parent="ressourced" index="250" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -20.196154, 19.901924, -11.490381)
+
+[node name="RegularFloorPlate132" parent="ressourced" index="251" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -13.9282055, 7.0358987, -4.0621777)
+
+[node name="RegularFloorPlate145" parent="ressourced" index="252" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.8660255, 2.381319e-08, -0.50000006, -0.43301296, 0.5, 0.75, 0.24999976, 0.86602545, -0.4330127, -15.588457, -7.7942286, 4.5)
+
+[node name="RegularFloorPlate265" parent="ressourced" index="253" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -5.9282036, -4.964101, 2.8660254)
+
+[node name="RegularFloorPlate266" parent="ressourced" index="254" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -7.660254, -5.830126, 3.366026)
+
+[node name="RegularFloorPlate267" parent="ressourced" index="255" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -9.392305, -6.6961517, 3.866026)
+
+[node name="RegularFloorPlate268" parent="ressourced" index="256" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -11.124355, -7.5621777, 4.3660254)
+
+[node name="RegularFloorPlate269" parent="ressourced" index="257" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -12.856407, -8.428206, 4.8660264)
+
+[node name="RegularFloorPlate270" parent="ressourced" index="258" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -14.588457, -9.294229, 5.3660254)
+
+[node name="RegularFloorPlate271" parent="ressourced" index="259" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -4.9282036, -6.464101, 3.7320514)
+
+[node name="RegularFloorPlate272" parent="ressourced" index="260" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -6.660254, -7.330126, 4.2320514)
+
+[node name="RegularFloorPlate273" parent="ressourced" index="261" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -8.392305, -8.196152, 4.7320514)
+
+[node name="RegularFloorPlate274" parent="ressourced" index="262" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -10.124355, -9.062178, 5.2320504)
+
+[node name="RegularFloorPlate275" parent="ressourced" index="263" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -11.856407, -9.928206, 5.7320514)
+
+[node name="RegularFloorPlate276" parent="ressourced" index="264" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -13.588457, -10.794228, 6.2320514)
+
+[node name="RegularFloorPlate277" parent="ressourced" index="265" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 17.588459, 4.7942305, -2.7679486)
+
+[node name="RegularFloorPlate278" parent="ressourced" index="266" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 15.856405, 3.9282074, -2.2679489)
+
+[node name="RegularFloorPlate279" parent="ressourced" index="267" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 14.124355, 3.0621805, -1.7679482)
+
+[node name="RegularFloorPlate280" parent="ressourced" index="268" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 12.392303, 2.1961546, -1.2679489)
+
+[node name="RegularFloorPlate281" parent="ressourced" index="269" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 10.660254, 1.3301249, -0.7679486)
+
+[node name="RegularFloorPlate282" parent="ressourced" index="270" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 8.928202, 0.46410513, -0.2679484)
+
+[node name="RegularFloorPlate283" parent="ressourced" index="271" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 16.588459, 6.2942305, -3.6339736)
+
+[node name="RegularFloorPlate284" parent="ressourced" index="272" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 14.856407, 5.4282084, -3.1339746)
+
+[node name="RegularFloorPlate285" parent="ressourced" index="273" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 13.124355, 4.562181, -2.6339734)
+
+[node name="RegularFloorPlate286" parent="ressourced" index="274" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 11.392303, 3.6961546, -2.1339738)
+
+[node name="RegularFloorPlate287" parent="ressourced" index="275" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 9.660254, 2.8301253, -1.6339743)
+
+[node name="RegularFloorPlate288" parent="ressourced" index="276" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 7.928202, 1.9641047, -1.1339734)
+
+[node name="RegularFloorPlate289" parent="ressourced" index="277" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 16.588459, 6.2942305, -3.6339736)
+
+[node name="RegularFloorPlate290" parent="ressourced" index="278" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 14.856407, 5.4282084, -3.1339746)
+
+[node name="RegularFloorPlate291" parent="ressourced" index="279" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 13.124355, 4.562181, -2.6339734)
+
+[node name="RegularFloorPlate292" parent="ressourced" index="280" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 11.392303, 3.6961546, -2.1339738)
+
+[node name="RegularFloorPlate293" parent="ressourced" index="281" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 9.660254, 2.8301253, -1.6339743)
+
+[node name="RegularFloorPlate294" parent="ressourced" index="282" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 7.928202, 1.9641047, -1.1339734)
+
+[node name="RegularFloorPlate295" parent="ressourced" index="283" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 7.5884585, 19.79423, -11.428202)
+
+[node name="RegularFloorPlate296" parent="ressourced" index="284" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 5.8564067, 18.92821, -10.928204)
+
+[node name="RegularFloorPlate297" parent="ressourced" index="285" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 4.124355, 18.062181, -10.428202)
+
+[node name="RegularFloorPlate298" parent="ressourced" index="286" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 2.3923016, 17.196156, -9.928202)
+
+[node name="RegularFloorPlate299" parent="ressourced" index="287" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 0.6602535, 16.330126, -9.428202)
+
+[node name="RegularFloorPlate300" parent="ressourced" index="288" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -1.0717988, 15.464105, -8.928202)
+
+[node name="RegularFloorPlate301" parent="ressourced" index="289" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 6.5884585, 21.29423, -12.294228)
+
+[node name="RegularFloorPlate302" parent="ressourced" index="290" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 4.8564067, 20.42821, -11.7942295)
+
+[node name="RegularFloorPlate303" parent="ressourced" index="291" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 3.1243553, 19.562181, -11.294228)
+
+[node name="RegularFloorPlate304" parent="ressourced" index="292" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, 1.3923016, 18.696157, -10.794228)
+
+[node name="RegularFloorPlate305" parent="ressourced" index="293" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -0.33974648, 17.830126, -10.294228)
+
+[node name="RegularFloorPlate306" parent="ressourced" index="294" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -2.0717988, 16.964104, -9.794228)
+
+[node name="RegularFloorPlate307" parent="ressourced" index="295" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -15.9282, 10.035899, -5.794229)
+
+[node name="RegularFloorPlate308" parent="ressourced" index="296" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -17.660254, 9.169877, -5.2942295)
+
+[node name="RegularFloorPlate309" parent="ressourced" index="297" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -19.392305, 8.303849, -4.7942286)
+
+[node name="RegularFloorPlate310" parent="ressourced" index="298" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -21.124357, 7.437825, -4.294228)
+
+[node name="RegularFloorPlate311" parent="ressourced" index="299" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -22.856407, 6.571795, -3.7942288)
+
+[node name="RegularFloorPlate312" parent="ressourced" index="300" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -24.588459, 5.705772, -3.2942276)
+
+[node name="RegularFloorPlate313" parent="ressourced" index="301" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -14.9282, 8.535899, -4.928204)
+
+[node name="RegularFloorPlate314" parent="ressourced" index="302" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -16.660254, 7.669877, -4.4282045)
+
+[node name="RegularFloorPlate315" parent="ressourced" index="303" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -18.392305, 6.803848, -3.9282033)
+
+[node name="RegularFloorPlate316" parent="ressourced" index="304" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -20.124357, 5.937825, -3.428203)
+
+[node name="RegularFloorPlate317" parent="ressourced" index="305" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -21.85641, 5.0717936, -2.9282033)
+
+[node name="RegularFloorPlate318" parent="ressourced" index="306" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -23.588459, 4.2057734, -2.4282038)
+
+[node name="RegularFloorPlate146" parent="ressourced" index="307" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -16.588457, -6.2942286, 3.6339746)
+
+[node name="RegularFloorPlate147" parent="ressourced" index="308" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -17.588457, -4.7942286, 2.767949)
+
+[node name="RegularFloorPlate148" parent="ressourced" index="309" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -18.588459, -3.2942286, 1.9019237)
+
+[node name="RegularFloorPlate149" parent="ressourced" index="310" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -19.588459, -1.7942295, 1.0358987)
+
+[node name="RegularFloorPlate150" parent="ressourced" index="311" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -20.588459, -0.29422855, 0.16987252)
+
+[node name="RegularFloorPlate151" parent="ressourced" index="312" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -21.588457, 1.2057714, -0.69615173)
+
+[node name="RegularFloorPlate152" parent="ressourced" index="313" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -22.58846, 2.7057705, -1.5621777)
+
+[node name="RegularFloorPlate133" parent="ressourced" index="314" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -15.660255, 6.169873, -3.5621767)
+
+[node name="RegularFloorPlate134" parent="ressourced" index="315" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -17.392307, 5.3038473, -3.0621767)
+
+[node name="RegularFloorPlate135" parent="ressourced" index="316" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -19.124357, 4.4378223, -2.5621772)
+
+[node name="RegularFloorPlate136" parent="ressourced" index="317" instance=ExtResource("3_u7efl")]
+transform = Transform3D(-0.86602557, 2.381319e-08, -0.50000006, -0.433013, 0.5, 0.75, 0.24999978, 0.86602545, -0.4330127, -20.856407, 3.5717936, -2.0621767)
+
+[node name="walls" type="Node3D" parent="." index="3"]
+
+[node name="WallBow" parent="walls" index="0" instance=ExtResource("4_kw3de")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 0, -7)
+
+[node name="WallBow5" parent="walls" index="1" instance=ExtResource("4_kw3de")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -19)
+
+[node name="WallBow2" parent="walls" index="2" instance=ExtResource("4_kw3de")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 12, 0, -7)
+
+[node name="WallBow6" parent="walls" index="3" instance=ExtResource("4_kw3de")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0, 0, -19)
+
+[node name="WallBow3" parent="walls" index="4" instance=ExtResource("4_kw3de")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -12, 0, 5)
+
+[node name="WallBow4" parent="walls" index="5" instance=ExtResource("4_kw3de")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 12, 0, 5)
+
+[node name="StraigthWall" parent="walls" index="6" instance=ExtResource("5_tf57m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -18, 0, 2)
+
+[node name="StraigthWall2" parent="walls" index="7" instance=ExtResource("5_tf57m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -18, 0, -4)
+
+[node name="StraigthWall3" parent="walls" index="8" instance=ExtResource("5_tf57m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 18, 0, 2)
+
+[node name="StraigthWall4" parent="walls" index="9" instance=ExtResource("5_tf57m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 18, 0, -4)
+
+[node name="WallCorner" parent="walls" index="10" instance=ExtResource("6_djpb2")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -6, 0, -13)
+
+[node name="WallCorner2" parent="walls" index="11" instance=ExtResource("6_djpb2")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 6, 0, -13)
+
+[node name="WallBow7" parent="walls" index="12" instance=ExtResource("4_kw3de")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 17)
+
+[node name="WallBow8" parent="walls" index="13" instance=ExtResource("4_kw3de")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0, 0, 17)
+
+[node name="WallCorner3" parent="walls" index="14" instance=ExtResource("6_djpb2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 11)
+
+[node name="WallCorner4" parent="walls" index="15" instance=ExtResource("6_djpb2")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 6, 0, 11)
+
+[node name="StartFloorPlate" parent="." index="4" instance=ExtResource("7_1k1mr")]
+
+[node name="EndFloorPlate" parent="." index="5" instance=ExtResource("8_2d35u")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 20)
