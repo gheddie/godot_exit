@@ -18,6 +18,7 @@ config/icon="res://icon.svg"
 [autoload]
 
 CollectableFactoryInstance="*res://globals/CollectableFactory.gd"
+GameManagerInstance="*res://globals/GameManager.gd"
 
 [input]
 

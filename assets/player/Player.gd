@@ -7,6 +7,9 @@ extends CharacterBody3D
 const WALK_SPEED = 10.0
 const TURN_SPEED = 5.0
 
+func _process(_delta: float) -> void:
+	GameManagerInstance.acceptPlayerPosition(global_position)
+
 func _physics_process(delta: float) -> void:
 	if not is_on_floor():
 		velocity += get_gravity() * delta
