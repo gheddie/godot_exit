@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=4 uid="uid://c7e3vg3fcj8wh"]
 
-[ext_resource type="Script" uid="uid://dl7qv6pdl3fn0" path="res://assets/floor/FloorPlate.gd" id="1_8reys"]
+[ext_resource type="Script" uid="uid://dl7qv6pdl3fn0" path="res://assets/architecture/floor/FloorPlate.gd" id="1_8reys"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q8qi0"]
 resource_name = "Black"

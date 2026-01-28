@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dyx3yy56nek8k"
-path="res://.godot/imported/FloorPlate.blend-c18ecb92676774bfca35dbdf96127c9d.scn"
+path="res://.godot/imported/FloorPlate.blend-74e819db12715e8fe02e211b60693e4a.scn"
 
 [deps]
 
-source_file="res://assets/floor/FloorPlate.blend"
-dest_files=["res://.godot/imported/FloorPlate.blend-c18ecb92676774bfca35dbdf96127c9d.scn"]
+source_file="res://assets/architecture/floor/FloorPlate.blend"
+dest_files=["res://.godot/imported/FloorPlate.blend-74e819db12715e8fe02e211b60693e4a.scn"]
 
 [params]
 

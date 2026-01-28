@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://cf6odijx5xcx2"
-path="res://.godot/imported/FloorPlate.glb-b123f139339bd15349361c322add1111.scn"
+uid="uid://cjl4qv0gp7j3n"
+path="res://.godot/imported/WallBow.glb-b4549599cf0a8d705c3d3c5702698b7b.scn"
 
 [deps]
 
-source_file="res://assets/floor/FloorPlate.glb"
-dest_files=["res://.godot/imported/FloorPlate.glb-b123f139339bd15349361c322add1111.scn"]
+source_file="res://assets/architecture/wall/WallBow.glb"
+dest_files=["res://.godot/imported/WallBow.glb-b4549599cf0a8d705c3d3c5702698b7b.scn"]
 
 [params]
 

@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://r6c5xfkfev64" path="res://level/BaseLevel.tscn" id="1_xokmx"]
 [ext_resource type="Script" uid="uid://b7utugmtmrocc" path="res://level/Level2.gd" id="2_doh07"]
-[ext_resource type="PackedScene" uid="uid://c7e3vg3fcj8wh" path="res://assets/floor/FloorPlate.tscn" id="2_en6wr"]
+[ext_resource type="PackedScene" uid="uid://c7e3vg3fcj8wh" path="res://assets/architecture/floor/FloorPlate.tscn" id="2_en6wr"]
 
 [node name="Level2" instance=ExtResource("1_xokmx")]
 script = ExtResource("2_doh07")

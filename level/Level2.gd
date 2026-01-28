@@ -8,4 +8,7 @@ func get_end_point() -> String:
 	return "FloorPlate52"
 
 func get_collectable_positions() -> Array:
-	return ["red@FloorPlate1", "green@FloorPlate2"]
+	return [
+		"red@FloorPlate1",
+		"green@FloorPlate2"
+		]

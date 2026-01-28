@@ -1,8 +1,11 @@
 class_name Player
 extends CharacterBody3D
 
-const WALK_SPEED = 5.0
-const TURN_SPEED = 2.5
+# const WALK_SPEED = 5.0
+# const TURN_SPEED = 2.5
+
+const WALK_SPEED = 10.0
+const TURN_SPEED = 5.0
 
 func _physics_process(delta: float) -> void:
 	if not is_on_floor():

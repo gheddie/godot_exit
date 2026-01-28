@@ -9,6 +9,7 @@ var player_instance: PackedScene = preload("res://assets/player/Player.tscn")
 func _ready() -> void:	
 	var plates = find_all_items(get_tree().root, [])
 	for plate in plates:
+		print(str("detected fllor plate --> ", str(plate.name)))
 		floor_plates.set(plate.name, plate)
 	print(str("starting level ", str(self), ", ", "[", str(floor_plates.size()), "] ", " floor plates..."), str("(", get_start_point(), "->", get_end_point(), ")"))
 	put_player()
@@ -29,7 +30,8 @@ func put_player() -> void:
 	get_tree().get_current_scene().add_child(player)
 	
 func get_plate_by_name(name: String) -> FloorPlate:
-	return floor_plates.get(name)
+	var plate = floor_plates.get(name)
+	return plate
 	
 func get_plate_position(name: String) -> Vector3:
 	return get_plate_by_name(name).global_position
