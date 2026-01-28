@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Exit"
-run/main_scene="uid://dq7jtpoqwo52x"
+run/main_scene="uid://dngwwnq8un80s"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -19,6 +19,7 @@ config/icon="res://icon.svg"
 
 CollectableFactoryInstance="*res://globals/CollectableFactory.gd"
 GameManagerInstance="*res://globals/GameManager.gd"
+LevelProviderInstance="*res://LevelProvider.gd"
 
 [input]
 
