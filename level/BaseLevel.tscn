@@ -1,6 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://r6c5xfkfev64"]
-
-[ext_resource type="Script" uid="uid://ckrto4fs6t547" path="res://level/BaseLevel.gd" id="1_sdxai"]
+[gd_scene load_steps=4 format=3 uid="uid://r6c5xfkfev64"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_aqunb"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -16,7 +14,6 @@ tonemap_mode = 2
 glow_enabled = true
 
 [node name="BaseLevel" type="Node3D"]
-script = ExtResource("1_sdxai")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_bdxbw")

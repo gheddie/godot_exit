@@ -17,7 +17,8 @@ func levelFinished() -> void:
 		terminateLevelSequence()
 		
 func terminateLevelSequence() -> void:
-	tree.quit()
+	if tree != null:
+		tree.quit()
 	
 func loadLevelByIndex() -> void:
 	tree.change_scene_to_packed(levels[actualLevelIndex])
