@@ -12,6 +12,6 @@ func _ready() -> void:
 	templates.set("red", preload("res://assets/collectable/red/RedCollectable.tscn"))
 	templates.set("green", preload("res://assets/collectable/green/GreenCollectable.tscn"))
 
-func make_collectable_instance(type: String) -> BaseCollectable:
+func makeCollectableInstance(type: String) -> BaseCollectable:
 	print(str("making collectable of type {", type, "}"))
 	return templates.get(type).instantiate()

@@ -3,6 +3,7 @@ extends Object
 
 var floorPlates : Dictionary[String, FloorPlate] = {}
 var doors : Dictionary[String, WallDoor] = {}
+var collectables : Dictionary[String, BaseCollectable] = {}
 
 var startPlate : StartFloorPlate
 var endPlate : EndFloorPlate
@@ -16,7 +17,9 @@ func acceptLevelObject(levelItem: Node3D) -> void:
 	if levelItem is EndFloorPlate:
 		endPlate = levelItem
 	if levelItem is WallDoor:
-		doors.set(levelItem.name, levelItem)	
+		doors.set(levelItem.name, levelItem)
+	if levelItem is BaseCollectable:
+		collectables.set(str(levelItem.get_instance_id()), levelItem)
 
 func getPlateByName(name: String) -> FloorPlate:
 	var plate = floorPlates.get(name)
@@ -40,3 +43,7 @@ func acceptPlayerPosition(position: Vector3) -> void:
 		plate.acceptPlayerPosition(position)
 	for door in doors.values():
 		door.acceptPlayerPosition(position)
+	for collectable in collectables.values():
+		if collectable != null:
+			collectable.acceptPlayerPosition(position)		
+		pass

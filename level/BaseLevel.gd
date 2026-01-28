@@ -21,11 +21,12 @@ func _ready() -> void:
 func put_collectables() -> void:	
 	var collectables = get_collectable_positions()
 	print(str("putting ", str(collectables.size()), " collectables..."))
-	var collectable_instance: BaseCollectable
+	var collectableInstance: BaseCollectable
 	for collectable in collectables:		
-		collectable_instance = CollectableFactoryInstance.make_collectable_instance(collectable.split("@")[0])			
-		collectable_instance.global_position = levelObjectManager.getPlatePosition(collectable.split("@")[1])		
-		get_tree().get_current_scene().add_child(collectable_instance)
+		collectableInstance = CollectableFactoryInstance.makeCollectableInstance(collectable.split("@")[0])			
+		collectableInstance.global_position = levelObjectManager.getPlatePosition(collectable.split("@")[1])		
+		get_tree().get_current_scene().add_child(collectableInstance)
+		levelObjectManager.acceptLevelObject(collectableInstance)
 	
 func put_player() -> void:	
 	var player = playerInstance.instantiate()
