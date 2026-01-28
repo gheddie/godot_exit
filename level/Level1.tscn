@@ -2264,7 +2264,7 @@ transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 21, 
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 33, 0, -23.000004)
 
 [node name="WallCorner" parent="walls" index="35" instance=ExtResource("6_2c5no")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 39.000004, 0, -59)
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 33, 0, -65)
 
 [node name="WallCorner2" parent="walls" index="36" instance=ExtResource("6_2c5no")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 39.000008, 0, -59)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45, 0, -65)
