@@ -1,6 +1,4 @@
-[gd_scene load_steps=7 format=4 uid="uid://c7e3vg3fcj8wh"]
-
-[ext_resource type="Script" uid="uid://dqvfibtfiksqo" path="res://assets/architecture/floor/FloorPlate.gd" id="1_8reys"]
+[gd_scene load_steps=6 format=4 uid="uid://c7e3vg3fcj8wh"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q8qi0"]
 resource_name = "Black"
@@ -72,7 +70,6 @@ shadow_mesh = SubResource("ArrayMesh_i41pn")
 size = Vector3(2, 0.2, 2)
 
 [node name="FloorPlate" type="StaticBody3D"]
-script = ExtResource("1_8reys")
 
 [node name="FloorPlate" type="Node3D" parent="."]
 

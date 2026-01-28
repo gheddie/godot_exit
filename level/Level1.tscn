@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://dq7jtpoqwo52x"]
+[gd_scene load_steps=11 format=3 uid="uid://dq7jtpoqwo52x"]
 
 [ext_resource type="PackedScene" uid="uid://r6c5xfkfev64" path="res://level/BaseLevel.tscn" id="1_vlk1v"]
 [ext_resource type="Script" uid="uid://c2aebsd4uued1" path="res://level/Level1.gd" id="2_gf8f6"]
@@ -9,6 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://d0fm5sijs3e0g" path="res://assets/architecture/wall/StraigthWall.tscn" id="5_cmn86"]
 [ext_resource type="PackedScene" uid="uid://c4frnd44exhvu" path="res://assets/architecture/wall/WallCorner.tscn" id="6_2c5no"]
 [ext_resource type="PackedScene" uid="uid://b115nqg6aaxo2" path="res://assets/architecture/wall/WallTee.tscn" id="7_oai8q"]
+[ext_resource type="PackedScene" uid="uid://vvw5iyrgcxfm" path="res://assets/architecture/wall/WallDoor.tscn" id="10_by4ku"]
 
 [node name="Level1" instance=ExtResource("1_vlk1v")]
 script = ExtResource("2_gf8f6")
@@ -2268,3 +2269,9 @@ transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 33, 
 
 [node name="WallCorner2" parent="walls" index="36" instance=ExtResource("6_2c5no")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45, 0, -65)
+
+[node name="WallDoor" parent="walls" index="37" instance=ExtResource("10_by4ku")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 33, 0, -32)
+
+[node name="WallDoor2" parent="walls" index="38" instance=ExtResource("10_by4ku")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21, 0, -32)

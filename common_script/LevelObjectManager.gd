@@ -1,17 +1,22 @@
-class_name FloorManager
+class_name LevelObjectManager
 extends Object
 
 var floorPlates : Dictionary[String, FloorPlate] = {}
+var doors : Dictionary[String, WallDoor] = {}
+
 var startPlate : StartFloorPlate
 var endPlate : EndFloorPlate
 
-func acceptPlate(plate: FloorPlate) -> void:	
-	plate.initialize()
-	if plate is StartFloorPlate:
-		startPlate = plate
-	if plate is EndFloorPlate:
-		endPlate = plate
-	floorPlates.set(plate.name, plate)
+func acceptLevelObject(levelItem: Node3D) -> void:	
+	# levelItem.initialize()
+	if levelItem is FloorPlate:
+		floorPlates.set(levelItem.name, levelItem)
+	if levelItem is StartFloorPlate:
+		startPlate = levelItem
+	if levelItem is EndFloorPlate:
+		endPlate = levelItem
+	if levelItem is WallDoor:
+		doors.set(levelItem.name, levelItem)	
 
 func getPlateByName(name: String) -> FloorPlate:
 	var plate = floorPlates.get(name)
@@ -33,3 +38,5 @@ func getPlatePosition(name: String) -> Vector3:
 func acceptPlayerPosition(position: Vector3) -> void:
 	for plate in floorPlates.values():
 		plate.acceptPlayerPosition(position)
+	for door in doors.values():
+		door.acceptPlayerPosition(position)
