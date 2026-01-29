@@ -1,0 +1,1114 @@
+[gd_scene load_steps=9 format=3 uid="uid://7dtrjmxr01vs"]
+
+[ext_resource type="PackedScene" uid="uid://r6c5xfkfev64" path="res://level/BaseLevel.tscn" id="1_2dnde"]
+[ext_resource type="Script" uid="uid://cmrf5a0s37ptd" path="res://level/Level7.gd" id="2_8nfq7"]
+[ext_resource type="PackedScene" uid="uid://d0fm5sijs3e0g" path="res://assets/architecture/wall/StraigthWall.tscn" id="2_oeptn"]
+[ext_resource type="PackedScene" uid="uid://vvw5iyrgcxfm" path="res://assets/architecture/wall/WallDoor.tscn" id="3_44175"]
+[ext_resource type="PackedScene" uid="uid://b115nqg6aaxo2" path="res://assets/architecture/wall/WallTee.tscn" id="4_qxqy4"]
+[ext_resource type="PackedScene" uid="uid://olf3xpdlfxs" path="res://assets/architecture/floor/regular/RegularFloorPlate.tscn" id="5_hpt4k"]
+[ext_resource type="PackedScene" uid="uid://dn72v4tcielvb" path="res://assets/architecture/floor/start/StartFloorPlate.tscn" id="6_fvwt8"]
+[ext_resource type="PackedScene" uid="uid://craoy8cx6i3ao" path="res://assets/architecture/floor/end/EndFloorPlate.tscn" id="7_8nfq7"]
+
+[node name="Level7" instance=ExtResource("1_2dnde")]
+script = ExtResource("2_8nfq7")
+
+[node name="DirectionalLight3D" parent="." index="1"]
+transform = Transform3D(0.86602545, 0.4330127, -0.25, 2.7805946e-08, 0.49999994, 0.86602545, 0.49999997, -0.75000006, 0.43301263, -0.52602863, 0, -28.49315)
+
+[node name="walls" type="Node3D" parent="." index="2"]
+
+[node name="WallTee" parent="walls" index="0" instance=ExtResource("4_qxqy4")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -9.526029, 0, -28.493149)
+
+[node name="WallTee3" parent="walls" index="1" instance=ExtResource("4_qxqy4")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -27.52603, 0, -28.493149)
+
+[node name="WallTee4" parent="walls" index="2" instance=ExtResource("4_qxqy4")]
+transform = Transform3D(1, 0, 1.7484555e-07, 0, 1, 0, -1.7484555e-07, 0, 1, 26.47397, 0, -28.493153)
+
+[node name="WallTee2" parent="walls" index="3" instance=ExtResource("4_qxqy4")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 8.473971, 0, -28.493153)
+
+[node name="WallTee5" parent="walls" index="4" instance=ExtResource("4_qxqy4")]
+transform = Transform3D(-4.371138e-08, 0, -1, 0, 1, 0, 1, 0, -4.371138e-08, -9.526027, 0, -4.4931498)
+
+[node name="WallTee6" parent="walls" index="5" instance=ExtResource("4_qxqy4")]
+transform = Transform3D(-4.371138e-08, 0, -1, 0, 1, 0, 1, 0, -4.371138e-08, 8.473973, 0, -4.4931517)
+
+[node name="WallDoor" parent="walls" index="6" instance=ExtResource("3_44175")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -0.52602863, 0, -28.49315)
+
+[node name="WallDoor3" parent="walls" index="7" instance=ExtResource("3_44175")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 17.47397, 0, -28.493153)
+
+[node name="WallDoor6" parent="walls" index="8" instance=ExtResource("3_44175")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -0.5260265, 0, -4.4931507)
+
+[node name="WallDoor2" parent="walls" index="9" instance=ExtResource("3_44175")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -18.52603, 0, -28.493149)
+
+[node name="WallDoor4" parent="walls" index="10" instance=ExtResource("3_44175")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.473972, 0, -13.493152)
+
+[node name="WallDoor5" parent="walls" index="11" instance=ExtResource("3_44175")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.526028, 0, -13.49315)
+
+[node name="StraigthWall" parent="walls" index="12" instance=ExtResource("2_oeptn")]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 1, 0, 1, 0, 1.3113416e-07, 8.473972, 0, -19.493153)
+
+[node name="StraigthWall3" parent="walls" index="13" instance=ExtResource("2_oeptn")]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 1, 0, 1, 0, 1.3113416e-07, -9.526028, 0, -19.493149)
+
+[node name="StraigthWall4" parent="walls" index="14" instance=ExtResource("2_oeptn")]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 1, 0, 1, 0, 1.3113416e-07, -21.526026, 0, 0.5068512)
+
+[node name="StraigthWall8" parent="walls" index="15" instance=ExtResource("2_oeptn")]
+transform = Transform3D(1, 0, 1.7484555e-07, 0, 1, 0, -1.7484555e-07, 0, 1, 3.4739754, 0, 15.50685)
+
+[node name="StraigthWall9" parent="walls" index="16" instance=ExtResource("2_oeptn")]
+transform = Transform3D(1, 0, 1.7484555e-07, 0, 1, 0, -1.7484555e-07, 0, 1, -4.5260253, 0, 15.50685)
+
+[node name="StraigthWall5" parent="walls" index="17" instance=ExtResource("2_oeptn")]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 1, 0, 1, 0, 1.3113416e-07, -21.526028, 0, -7.493149)
+
+[node name="StraigthWall10" parent="walls" index="18" instance=ExtResource("2_oeptn")]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 1, 0, 1, 0, 1.3113416e-07, -3.5260277, 0, -19.49315)
+
+[node name="StraigthWall11" parent="walls" index="19" instance=ExtResource("2_oeptn")]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 1, 0, 1, 0, 1.3113416e-07, 2.4739723, 0, -19.49315)
+
+[node name="StraigthWall6" parent="walls" index="20" instance=ExtResource("2_oeptn")]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 1, 0, 1, 0, 1.3113416e-07, 20.473974, 0, 0.5068474)
+
+[node name="StraigthWall7" parent="walls" index="21" instance=ExtResource("2_oeptn")]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 1, 0, 1, 0, 1.3113416e-07, 20.473972, 0, -7.4931526)
+
+[node name="plates" type="Node3D" parent="." index="3"]
+
+[node name="regular" type="Node3D" parent="plates" index="0"]
+
+[node name="Regular1" parent="plates/regular" index="0" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.5260296, 0, -39.49315)
+
+[node name="Regular2" parent="plates/regular" index="1" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.5260293, 0, -39.49315)
+
+[node name="Regular3" parent="plates/regular" index="2" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.4739703, 0, -39.49315)
+
+[node name="Regular4" parent="plates/regular" index="3" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.5260294, 0, -37.49315)
+
+[node name="Regular5" parent="plates/regular" index="4" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.5260293, 0, -37.49315)
+
+[node name="Regular6" parent="plates/regular" index="5" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.4739705, 0, -37.49315)
+
+[node name="Regular7" parent="plates/regular" index="6" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.5260292, 0, -35.49315)
+
+[node name="Regular8" parent="plates/regular" index="7" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.526029, 0, -35.49315)
+
+[node name="Regular9" parent="plates/regular" index="8" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.4739707, 0, -35.49315)
+
+[node name="Regular49" parent="plates/regular" index="9" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.5260301, 0, -45.49315)
+
+[node name="Regular50" parent="plates/regular" index="10" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.5260298, 0, -45.49315)
+
+[node name="Regular51" parent="plates/regular" index="11" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.4739698, 0, -45.49315)
+
+[node name="Regular53" parent="plates/regular" index="12" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.5260298, 0, -43.49315)
+
+[node name="Regular54" parent="plates/regular" index="13" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.47397, 0, -43.49315)
+
+[node name="Regular55" parent="plates/regular" index="14" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.52602977, 0, -41.49315)
+
+[node name="Regular56" parent="plates/regular" index="15" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.5260296, 0, -41.49315)
+
+[node name="Regular57" parent="plates/regular" index="16" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.4739702, 0, -41.49315)
+
+[node name="Regular58" parent="plates/regular" index="17" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -6.5260296, 0, -37.49315)
+
+[node name="Regular59" parent="plates/regular" index="18" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -8.52603, 0, -37.49315)
+
+[node name="Regular60" parent="plates/regular" index="19" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -4.5260296, 0, -37.49315)
+
+[node name="Regular61" parent="plates/regular" index="20" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -6.5260296, 0, -35.49315)
+
+[node name="Regular62" parent="plates/regular" index="21" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -8.52603, 0, -35.49315)
+
+[node name="Regular63" parent="plates/regular" index="22" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -4.5260296, 0, -35.49315)
+
+[node name="Regular64" parent="plates/regular" index="23" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -6.5260296, 0, -33.49315)
+
+[node name="Regular65" parent="plates/regular" index="24" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -8.52603, 0, -33.49315)
+
+[node name="Regular66" parent="plates/regular" index="25" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -4.5260296, 0, -33.49315)
+
+[node name="Regular67" parent="plates/regular" index="26" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -12.52603, 0, -37.49315)
+
+[node name="Regular68" parent="plates/regular" index="27" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -14.52603, 0, -37.49315)
+
+[node name="Regular69" parent="plates/regular" index="28" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -10.52603, 0, -37.49315)
+
+[node name="Regular70" parent="plates/regular" index="29" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -12.52603, 0, -35.49315)
+
+[node name="Regular71" parent="plates/regular" index="30" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -14.52603, 0, -35.49315)
+
+[node name="Regular72" parent="plates/regular" index="31" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -10.52603, 0, -35.49315)
+
+[node name="Regular73" parent="plates/regular" index="32" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -12.52603, 0, -33.49315)
+
+[node name="Regular74" parent="plates/regular" index="33" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -14.52603, 0, -33.49315)
+
+[node name="Regular75" parent="plates/regular" index="34" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -10.52603, 0, -33.49315)
+
+[node name="Regular76" parent="plates/regular" index="35" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -18.52603, 0, -37.49315)
+
+[node name="Regular77" parent="plates/regular" index="36" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -20.52603, 0, -37.49315)
+
+[node name="Regular78" parent="plates/regular" index="37" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -16.52603, 0, -37.49315)
+
+[node name="Regular79" parent="plates/regular" index="38" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -18.52603, 0, -35.49315)
+
+[node name="Regular80" parent="plates/regular" index="39" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -20.52603, 0, -35.49315)
+
+[node name="Regular81" parent="plates/regular" index="40" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -16.52603, 0, -35.49315)
+
+[node name="Regular82" parent="plates/regular" index="41" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -18.52603, 0, -33.49315)
+
+[node name="Regular83" parent="plates/regular" index="42" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -20.52603, 0, -33.49315)
+
+[node name="Regular84" parent="plates/regular" index="43" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -16.52603, 0, -33.49315)
+
+[node name="Regular85" parent="plates/regular" index="44" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 17.47397, 0, -37.493153)
+
+[node name="Regular86" parent="plates/regular" index="45" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 15.47397, 0, -37.493153)
+
+[node name="Regular87" parent="plates/regular" index="46" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 19.47397, 0, -37.493153)
+
+[node name="Regular88" parent="plates/regular" index="47" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 17.47397, 0, -35.493153)
+
+[node name="Regular89" parent="plates/regular" index="48" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 15.47397, 0, -35.493153)
+
+[node name="Regular90" parent="plates/regular" index="49" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 19.47397, 0, -35.493153)
+
+[node name="Regular91" parent="plates/regular" index="50" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 17.47397, 0, -33.493153)
+
+[node name="Regular92" parent="plates/regular" index="51" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 15.47397, 0, -33.493153)
+
+[node name="Regular93" parent="plates/regular" index="52" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 19.47397, 0, -33.493153)
+
+[node name="Regular94" parent="plates/regular" index="53" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 11.47397, 0, -37.493153)
+
+[node name="Regular95" parent="plates/regular" index="54" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 9.47397, 0, -37.49315)
+
+[node name="Regular96" parent="plates/regular" index="55" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 13.47397, 0, -37.493153)
+
+[node name="Regular97" parent="plates/regular" index="56" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 11.47397, 0, -35.493153)
+
+[node name="Regular98" parent="plates/regular" index="57" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 9.47397, 0, -35.49315)
+
+[node name="Regular99" parent="plates/regular" index="58" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 13.47397, 0, -35.493153)
+
+[node name="Regular100" parent="plates/regular" index="59" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 11.47397, 0, -33.493153)
+
+[node name="Regular101" parent="plates/regular" index="60" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 9.47397, 0, -33.49315)
+
+[node name="Regular102" parent="plates/regular" index="61" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 13.47397, 0, -33.493153)
+
+[node name="Regular103" parent="plates/regular" index="62" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 5.4739704, 0, -37.49315)
+
+[node name="Regular104" parent="plates/regular" index="63" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 3.4739707, 0, -37.49315)
+
+[node name="Regular105" parent="plates/regular" index="64" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 7.4739704, 0, -37.49315)
+
+[node name="Regular106" parent="plates/regular" index="65" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 5.4739704, 0, -35.49315)
+
+[node name="Regular107" parent="plates/regular" index="66" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 3.473971, 0, -35.49315)
+
+[node name="Regular108" parent="plates/regular" index="67" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 7.4739704, 0, -35.49315)
+
+[node name="Regular109" parent="plates/regular" index="68" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 5.4739704, 0, -33.49315)
+
+[node name="Regular110" parent="plates/regular" index="69" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 3.4739711, 0, -33.49315)
+
+[node name="Regular111" parent="plates/regular" index="70" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 7.4739704, 0, -33.49315)
+
+[node name="Regular10" parent="plates/regular" index="71" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.52602905, 0, -33.49315)
+
+[node name="Regular11" parent="plates/regular" index="72" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.5260289, 0, -33.49315)
+
+[node name="Regular12" parent="plates/regular" index="73" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.4739709, 0, -33.49315)
+
+[node name="Regular13" parent="plates/regular" index="74" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.5260289, 0, -31.493149)
+
+[node name="Regular14" parent="plates/regular" index="75" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.5260286, 0, -31.493149)
+
+[node name="Regular15" parent="plates/regular" index="76" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.473971, 0, -31.493149)
+
+[node name="Regular16" parent="plates/regular" index="77" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.52602875, 0, -29.49315)
+
+[node name="Regular17" parent="plates/regular" index="78" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.5260286, 0, -29.49315)
+
+[node name="Regular18" parent="plates/regular" index="79" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.4739712, 0, -29.49315)
+
+[node name="Regular19" parent="plates/regular" index="80" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.5260285, 0, -27.49315)
+
+[node name="Regular20" parent="plates/regular" index="81" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.5260284, 0, -27.49315)
+
+[node name="Regular21" parent="plates/regular" index="82" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.4739714, 0, -27.49315)
+
+[node name="Regular22" parent="plates/regular" index="83" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.5260284, 0, -25.49315)
+
+[node name="Regular23" parent="plates/regular" index="84" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.5260282, 0, -25.49315)
+
+[node name="Regular24" parent="plates/regular" index="85" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.4739716, 0, -25.49315)
+
+[node name="Regular25" parent="plates/regular" index="86" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.52602816, 0, -23.49315)
+
+[node name="Regular26" parent="plates/regular" index="87" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.526028, 0, -23.49315)
+
+[node name="Regular27" parent="plates/regular" index="88" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.4739717, 0, -23.49315)
+
+[node name="Regular28" parent="plates/regular" index="89" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.52602804, 0, -21.49315)
+
+[node name="Regular29" parent="plates/regular" index="90" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.526028, 0, -21.49315)
+
+[node name="Regular30" parent="plates/regular" index="91" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.473972, 0, -21.49315)
+
+[node name="Regular31" parent="plates/regular" index="92" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.5260278, 0, -19.49315)
+
+[node name="Regular32" parent="plates/regular" index="93" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.5260277, 0, -19.49315)
+
+[node name="Regular33" parent="plates/regular" index="94" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.4739721, 0, -19.49315)
+
+[node name="Regular34" parent="plates/regular" index="95" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.5260277, 0, -17.49315)
+
+[node name="Regular35" parent="plates/regular" index="96" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.5260274, 0, -17.49315)
+
+[node name="Regular36" parent="plates/regular" index="97" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.4739723, 0, -17.49315)
+
+[node name="Regular37" parent="plates/regular" index="98" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.5260275, 0, -15.493151)
+
+[node name="Regular38" parent="plates/regular" index="99" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.5260272, 0, -15.493151)
+
+[node name="Regular39" parent="plates/regular" index="100" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.4739724, 0, -15.493151)
+
+[node name="Regular40" parent="plates/regular" index="101" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.5260273, 0, -13.493151)
+
+[node name="Regular41" parent="plates/regular" index="102" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.5260272, 0, -13.493151)
+
+[node name="Regular42" parent="plates/regular" index="103" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.4739727, 0, -13.493151)
+
+[node name="Regular44" parent="plates/regular" index="104" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.526027, 0, -11.493151)
+
+[node name="Regular45" parent="plates/regular" index="105" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.4739728, 0, -11.493151)
+
+[node name="Regular46" parent="plates/regular" index="106" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.52602696, 0, -9.493151)
+
+[node name="Regular47" parent="plates/regular" index="107" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.5260267, 0, -9.493151)
+
+[node name="Regular48" parent="plates/regular" index="108" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.4739729, 0, -9.493151)
+
+[node name="Regular52" parent="plates/regular" index="109" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.5260268, 0, -7.4931507)
+
+[node name="Regular205" parent="plates/regular" index="110" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.5260267, 0, -7.4931507)
+
+[node name="Regular206" parent="plates/regular" index="111" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.4739732, 0, -7.4931507)
+
+[node name="Regular207" parent="plates/regular" index="112" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.5260266, 0, -5.4931507)
+
+[node name="Regular208" parent="plates/regular" index="113" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.5260265, 0, -5.4931507)
+
+[node name="Regular209" parent="plates/regular" index="114" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.4739733, 0, -5.4931507)
+
+[node name="Regular210" parent="plates/regular" index="115" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.5260264, 0, -3.4931507)
+
+[node name="Regular340" parent="plates/regular" index="116" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.52602625, 0, -1.4931507)
+
+[node name="Regular341" parent="plates/regular" index="117" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -18.526028, 0, -3.4931488)
+
+[node name="Regular342" parent="plates/regular" index="118" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 17.473972, 0, -3.4931526)
+
+[node name="Regular211" parent="plates/regular" index="119" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.5260262, 0, -3.4931507)
+
+[node name="Regular212" parent="plates/regular" index="120" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.4739735, 0, -3.4931507)
+
+[node name="Regular213" parent="plates/regular" index="121" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.52602714, 0, -11.493151)
+
+[node name="Regular214" parent="plates/regular" index="122" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.526026, 0, -1.4931507)
+
+[node name="Regular215" parent="plates/regular" index="123" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.4739736, 0, -1.4931507)
+
+[node name="Regular216" parent="plates/regular" index="124" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.5260261, 0, 0.5068493)
+
+[node name="Regular217" parent="plates/regular" index="125" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.526026, 0, 0.5068493)
+
+[node name="Regular218" parent="plates/regular" index="126" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.4739739, 0, 0.5068493)
+
+[node name="Regular237" parent="plates/regular" index="127" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.5260259, 0, 2.5068502)
+
+[node name="Regular238" parent="plates/regular" index="128" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.5260258, 0, 2.5068502)
+
+[node name="Regular239" parent="plates/regular" index="129" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.473974, 0, 2.5068502)
+
+[node name="Regular304" parent="plates/regular" index="130" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.5260258, 0, 4.5068502)
+
+[node name="Regular305" parent="plates/regular" index="131" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.5260255, 0, 4.5068502)
+
+[node name="Regular307" parent="plates/regular" index="132" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -4.5260262, 0, 4.5068502)
+
+[node name="Regular308" parent="plates/regular" index="133" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 3.4739745, 0, 4.5068502)
+
+[node name="Regular306" parent="plates/regular" index="134" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.4739742, 0, 4.5068502)
+
+[node name="Regular309" parent="plates/regular" index="135" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.52602553, 0, 6.5068502)
+
+[node name="Regular310" parent="plates/regular" index="136" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.5260253, 0, 6.5068502)
+
+[node name="Regular311" parent="plates/regular" index="137" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -4.526026, 0, 6.5068502)
+
+[node name="Regular314" parent="plates/regular" index="138" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -6.526026, 0, 6.5068502)
+
+[node name="Regular315" parent="plates/regular" index="139" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 5.473974, 0, 6.5068502)
+
+[node name="Regular312" parent="plates/regular" index="140" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 3.4739747, 0, 6.5068502)
+
+[node name="Regular313" parent="plates/regular" index="141" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.4739743, 0, 6.5068502)
+
+[node name="Regular316" parent="plates/regular" index="142" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.5260254, 0, 8.50685)
+
+[node name="Regular317" parent="plates/regular" index="143" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.5260253, 0, 8.50685)
+
+[node name="Regular318" parent="plates/regular" index="144" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -4.526026, 0, 8.50685)
+
+[node name="Regular319" parent="plates/regular" index="145" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -6.526026, 0, 8.50685)
+
+[node name="Regular323" parent="plates/regular" index="146" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -8.526026, 0, 8.50685)
+
+[node name="Regular324" parent="plates/regular" index="147" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 7.473974, 0, 8.50685)
+
+[node name="Regular320" parent="plates/regular" index="148" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 5.473974, 0, 8.50685)
+
+[node name="Regular321" parent="plates/regular" index="149" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 3.4739747, 0, 8.50685)
+
+[node name="Regular322" parent="plates/regular" index="150" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.4739746, 0, 8.50685)
+
+[node name="Regular246" parent="plates/regular" index="151" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 15.473973, 0, -3.4931517)
+
+[node name="Regular247" parent="plates/regular" index="152" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 19.473972, 0, -3.4931526)
+
+[node name="Regular248" parent="plates/regular" index="153" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 17.473974, 0, -1.4931526)
+
+[node name="Regular249" parent="plates/regular" index="154" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 15.473973, 0, -1.4931517)
+
+[node name="Regular250" parent="plates/regular" index="155" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 19.473974, 0, -1.4931526)
+
+[node name="Regular251" parent="plates/regular" index="156" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 17.473974, 0, 0.5068474)
+
+[node name="Regular252" parent="plates/regular" index="157" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 15.473973, 0, 0.50684834)
+
+[node name="Regular253" parent="plates/regular" index="158" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 19.473974, 0, 0.5068474)
+
+[node name="Regular254" parent="plates/regular" index="159" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -20.526028, 0, -3.4931488)
+
+[node name="Regular255" parent="plates/regular" index="160" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -16.526028, 0, -3.4931498)
+
+[node name="Regular256" parent="plates/regular" index="161" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -18.526026, 0, -1.4931488)
+
+[node name="Regular257" parent="plates/regular" index="162" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -20.526026, 0, -1.4931488)
+
+[node name="Regular258" parent="plates/regular" index="163" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -16.526026, 0, -1.4931498)
+
+[node name="Regular259" parent="plates/regular" index="164" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -18.526026, 0, 0.5068512)
+
+[node name="Regular260" parent="plates/regular" index="165" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -20.526026, 0, 0.5068512)
+
+[node name="Regular261" parent="plates/regular" index="166" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -16.526026, 0, 0.50685024)
+
+[node name="Regular262" parent="plates/regular" index="167" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -18.526026, 0, 2.5068521)
+
+[node name="Regular263" parent="plates/regular" index="168" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -20.526026, 0, 2.5068521)
+
+[node name="Regular264" parent="plates/regular" index="169" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -16.526026, 0, 2.5068521)
+
+[node name="Regular265" parent="plates/regular" index="170" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 17.473974, 0, 2.5068483)
+
+[node name="Regular266" parent="plates/regular" index="171" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 15.473974, 0, 2.5068483)
+
+[node name="Regular267" parent="plates/regular" index="172" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 19.473974, 0, 2.5068483)
+
+[node name="Regular112" parent="plates/regular" index="173" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -18.52603, 0, -31.493149)
+
+[node name="Regular113" parent="plates/regular" index="174" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -20.52603, 0, -31.493149)
+
+[node name="Regular114" parent="plates/regular" index="175" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -16.52603, 0, -31.493149)
+
+[node name="Regular115" parent="plates/regular" index="176" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -18.52603, 0, -29.493149)
+
+[node name="Regular116" parent="plates/regular" index="177" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -20.52603, 0, -29.493149)
+
+[node name="Regular117" parent="plates/regular" index="178" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -16.52603, 0, -29.493149)
+
+[node name="Regular118" parent="plates/regular" index="179" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -18.52603, 0, -27.493149)
+
+[node name="Regular119" parent="plates/regular" index="180" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -20.52603, 0, -27.493149)
+
+[node name="Regular120" parent="plates/regular" index="181" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -16.52603, 0, -27.493149)
+
+[node name="Regular121" parent="plates/regular" index="182" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -18.52603, 0, -25.493149)
+
+[node name="Regular122" parent="plates/regular" index="183" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -20.52603, 0, -25.493149)
+
+[node name="Regular123" parent="plates/regular" index="184" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -16.52603, 0, -25.493149)
+
+[node name="Regular124" parent="plates/regular" index="185" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -18.526028, 0, -23.493149)
+
+[node name="Regular125" parent="plates/regular" index="186" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -20.526028, 0, -23.493149)
+
+[node name="Regular126" parent="plates/regular" index="187" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -16.526028, 0, -23.493149)
+
+[node name="Regular127" parent="plates/regular" index="188" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 17.47397, 0, -31.493153)
+
+[node name="Regular128" parent="plates/regular" index="189" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 15.47397, 0, -31.493153)
+
+[node name="Regular129" parent="plates/regular" index="190" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 19.47397, 0, -31.493153)
+
+[node name="Regular130" parent="plates/regular" index="191" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 17.47397, 0, -29.493153)
+
+[node name="Regular131" parent="plates/regular" index="192" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 15.473971, 0, -29.493153)
+
+[node name="Regular132" parent="plates/regular" index="193" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 19.47397, 0, -29.493153)
+
+[node name="Regular133" parent="plates/regular" index="194" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 17.47397, 0, -27.493153)
+
+[node name="Regular134" parent="plates/regular" index="195" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 15.473971, 0, -27.493153)
+
+[node name="Regular135" parent="plates/regular" index="196" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 19.47397, 0, -27.493153)
+
+[node name="Regular136" parent="plates/regular" index="197" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 17.47397, 0, -25.493153)
+
+[node name="Regular137" parent="plates/regular" index="198" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 15.473971, 0, -25.493153)
+
+[node name="Regular138" parent="plates/regular" index="199" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 19.47397, 0, -25.493153)
+
+[node name="Regular139" parent="plates/regular" index="200" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 17.473972, 0, -23.493153)
+
+[node name="Regular140" parent="plates/regular" index="201" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 15.473971, 0, -23.493153)
+
+[node name="Regular141" parent="plates/regular" index="202" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 19.473972, 0, -23.493153)
+
+[node name="Regular142" parent="plates/regular" index="203" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 15.473971, 0, -21.493153)
+
+[node name="Regular143" parent="plates/regular" index="204" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 13.473971, 0, -21.493153)
+
+[node name="Regular144" parent="plates/regular" index="205" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 17.473972, 0, -21.493153)
+
+[node name="Regular145" parent="plates/regular" index="206" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -16.526028, 0, -21.493149)
+
+[node name="Regular146" parent="plates/regular" index="207" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -18.526028, 0, -21.493149)
+
+[node name="Regular147" parent="plates/regular" index="208" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -14.526029, 0, -21.493149)
+
+[node name="Regular148" parent="plates/regular" index="209" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -14.526028, 0, -19.493149)
+
+[node name="Regular149" parent="plates/regular" index="210" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -16.526028, 0, -19.493149)
+
+[node name="Regular150" parent="plates/regular" index="211" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -12.526028, 0, -19.493149)
+
+[node name="Regular163" parent="plates/regular" index="212" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -12.526028, 0, -15.49315)
+
+[node name="Regular164" parent="plates/regular" index="213" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -14.526028, 0, -15.49315)
+
+[node name="Regular165" parent="plates/regular" index="214" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -10.526028, 0, -15.49315)
+
+[node name="Regular166" parent="plates/regular" index="215" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -12.526028, 0, -13.49315)
+
+[node name="Regular167" parent="plates/regular" index="216" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -14.526028, 0, -13.49315)
+
+[node name="Regular168" parent="plates/regular" index="217" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -10.526028, 0, -13.49315)
+
+[node name="Regular169" parent="plates/regular" index="218" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -12.526028, 0, -11.49315)
+
+[node name="Regular170" parent="plates/regular" index="219" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -14.526028, 0, -11.49315)
+
+[node name="Regular219" parent="plates/regular" index="220" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -16.526028, 0, -13.493149)
+
+[node name="Regular220" parent="plates/regular" index="221" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -16.526028, 0, -11.493149)
+
+[node name="Regular221" parent="plates/regular" index="222" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -16.526028, 0, -9.493149)
+
+[node name="Regular222" parent="plates/regular" index="223" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -18.526028, 0, -11.493149)
+
+[node name="Regular223" parent="plates/regular" index="224" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -18.526028, 0, -9.493149)
+
+[node name="Regular224" parent="plates/regular" index="225" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -18.526028, 0, -7.4931493)
+
+[node name="Regular240" parent="plates/regular" index="226" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -16.526028, 0, -7.4931493)
+
+[node name="Regular241" parent="plates/regular" index="227" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 15.473973, 0, -7.493152)
+
+[node name="Regular225" parent="plates/regular" index="228" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -20.526028, 0, -9.493149)
+
+[node name="Regular226" parent="plates/regular" index="229" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -20.526028, 0, -7.493149)
+
+[node name="Regular227" parent="plates/regular" index="230" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -20.526028, 0, -5.493149)
+
+[node name="Regular242" parent="plates/regular" index="231" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -18.526028, 0, -5.493149)
+
+[node name="Regular243" parent="plates/regular" index="232" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -16.526028, 0, -5.4931498)
+
+[node name="Regular244" parent="plates/regular" index="233" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 17.473972, 0, -5.4931526)
+
+[node name="Regular245" parent="plates/regular" index="234" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 15.473973, 0, -5.4931517)
+
+[node name="Regular228" parent="plates/regular" index="235" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 15.473972, 0, -13.493152)
+
+[node name="Regular229" parent="plates/regular" index="236" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 15.473972, 0, -11.493153)
+
+[node name="Regular230" parent="plates/regular" index="237" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 15.473972, 0, -9.493153)
+
+[node name="Regular231" parent="plates/regular" index="238" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 17.473972, 0, -11.493153)
+
+[node name="Regular232" parent="plates/regular" index="239" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 17.473972, 0, -9.493153)
+
+[node name="Regular233" parent="plates/regular" index="240" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 17.473972, 0, -7.493152)
+
+[node name="Regular234" parent="plates/regular" index="241" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 19.473972, 0, -9.493153)
+
+[node name="Regular235" parent="plates/regular" index="242" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 19.473972, 0, -7.4931526)
+
+[node name="Regular236" parent="plates/regular" index="243" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 19.473972, 0, -5.4931526)
+
+[node name="Regular184" parent="plates/regular" index="244" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -4.5260277, 0, -15.493151)
+
+[node name="Regular185" parent="plates/regular" index="245" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -4.5260277, 0, -13.493151)
+
+[node name="Regular186" parent="plates/regular" index="246" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -4.526027, 0, -11.493151)
+
+[node name="Regular187" parent="plates/regular" index="247" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -6.5260277, 0, -15.49315)
+
+[node name="Regular188" parent="plates/regular" index="248" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -6.5260277, 0, -13.49315)
+
+[node name="Regular189" parent="plates/regular" index="249" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -6.526027, 0, -11.493151)
+
+[node name="Regular190" parent="plates/regular" index="250" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -8.526028, 0, -15.49315)
+
+[node name="Regular191" parent="plates/regular" index="251" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -8.526028, 0, -13.49315)
+
+[node name="Regular192" parent="plates/regular" index="252" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -8.526028, 0, -11.49315)
+
+[node name="Regular193" parent="plates/regular" index="253" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 3.4739728, 0, -15.493151)
+
+[node name="Regular194" parent="plates/regular" index="254" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 3.4739728, 0, -13.493151)
+
+[node name="Regular195" parent="plates/regular" index="255" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 3.473973, 0, -11.493151)
+
+[node name="Regular196" parent="plates/regular" index="256" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 5.4739723, 0, -15.493151)
+
+[node name="Regular197" parent="plates/regular" index="257" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 5.4739723, 0, -13.493151)
+
+[node name="Regular198" parent="plates/regular" index="258" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 5.473973, 0, -11.493151)
+
+[node name="Regular199" parent="plates/regular" index="259" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 7.4739723, 0, -15.493152)
+
+[node name="Regular200" parent="plates/regular" index="260" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 7.4739723, 0, -13.493152)
+
+[node name="Regular201" parent="plates/regular" index="261" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 7.473973, 0, -11.493152)
+
+[node name="Regular202" parent="plates/regular" index="262" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 7.4739723, 0, -15.493152)
+
+[node name="Regular203" parent="plates/regular" index="263" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 7.4739723, 0, -13.493152)
+
+[node name="Regular204" parent="plates/regular" index="264" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 7.473973, 0, -11.493152)
+
+[node name="Regular171" parent="plates/regular" index="265" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -10.526028, 0, -11.49315)
+
+[node name="Regular172" parent="plates/regular" index="266" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 11.473972, 0, -15.493152)
+
+[node name="Regular173" parent="plates/regular" index="267" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 9.473972, 0, -15.493152)
+
+[node name="Regular174" parent="plates/regular" index="268" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 13.473972, 0, -15.493152)
+
+[node name="Regular175" parent="plates/regular" index="269" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 11.473972, 0, -13.493152)
+
+[node name="Regular176" parent="plates/regular" index="270" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 9.473972, 0, -13.493152)
+
+[node name="Regular177" parent="plates/regular" index="271" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 13.473972, 0, -13.493152)
+
+[node name="Regular178" parent="plates/regular" index="272" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 11.473972, 0, -11.493152)
+
+[node name="Regular179" parent="plates/regular" index="273" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 9.473972, 0, -11.493152)
+
+[node name="Regular180" parent="plates/regular" index="274" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 13.473972, 0, -11.493152)
+
+[node name="Regular181" parent="plates/regular" index="275" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 11.473972, 0, -11.493152)
+
+[node name="Regular182" parent="plates/regular" index="276" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 9.473972, 0, -11.493152)
+
+[node name="Regular183" parent="plates/regular" index="277" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 13.473972, 0, -11.493152)
+
+[node name="Regular154" parent="plates/regular" index="278" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -12.526028, 0, -17.493149)
+
+[node name="Regular155" parent="plates/regular" index="279" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -14.526028, 0, -17.493149)
+
+[node name="Regular156" parent="plates/regular" index="280" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -10.526028, 0, -17.493149)
+
+[node name="Regular151" parent="plates/regular" index="281" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 13.473972, 0, -19.493153)
+
+[node name="Regular152" parent="plates/regular" index="282" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 11.473972, 0, -19.493153)
+
+[node name="Regular153" parent="plates/regular" index="283" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 15.473972, 0, -19.493153)
+
+[node name="Regular268" parent="plates/regular" index="284" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 15.473974, 0, 4.5068483)
+
+[node name="Regular269" parent="plates/regular" index="285" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 13.473974, 0, 4.5068483)
+
+[node name="Regular270" parent="plates/regular" index="286" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 17.473974, 0, 4.5068483)
+
+[node name="Regular271" parent="plates/regular" index="287" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -16.526026, 0, 4.506852)
+
+[node name="Regular272" parent="plates/regular" index="288" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -18.526026, 0, 4.506852)
+
+[node name="Regular273" parent="plates/regular" index="289" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -14.526026, 0, 4.506852)
+
+[node name="Regular274" parent="plates/regular" index="290" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -14.526026, 0, 6.506852)
+
+[node name="Regular275" parent="plates/regular" index="291" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -16.526026, 0, 6.506852)
+
+[node name="Regular276" parent="plates/regular" index="292" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -12.526026, 0, 6.506852)
+
+[node name="Regular280" parent="plates/regular" index="293" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -12.526026, 0, 8.506852)
+
+[node name="Regular281" parent="plates/regular" index="294" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -14.526026, 0, 8.506852)
+
+[node name="Regular282" parent="plates/regular" index="295" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -10.526026, 0, 8.50685)
+
+[node name="Regular283" parent="plates/regular" index="296" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -10.526026, 0, 10.50685)
+
+[node name="Regular284" parent="plates/regular" index="297" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -12.526026, 0, 10.506852)
+
+[node name="Regular285" parent="plates/regular" index="298" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -8.526026, 0, 10.50685)
+
+[node name="Regular286" parent="plates/regular" index="299" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -8.526026, 0, 12.50685)
+
+[node name="Regular287" parent="plates/regular" index="300" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -10.526026, 0, 12.50685)
+
+[node name="Regular288" parent="plates/regular" index="301" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -6.5260253, 0, 12.50685)
+
+[node name="Regular289" parent="plates/regular" index="302" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -6.5260253, 0, 14.50685)
+
+[node name="Regular290" parent="plates/regular" index="303" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -8.526025, 0, 14.50685)
+
+[node name="Regular291" parent="plates/regular" index="304" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -4.5260253, 0, 14.50685)
+
+[node name="Regular325" parent="plates/regular" index="305" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 3.473975, 0, 10.50685)
+
+[node name="Regular326" parent="plates/regular" index="306" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.4739747, 0, 10.50685)
+
+[node name="Regular327" parent="plates/regular" index="307" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 5.4739747, 0, 10.50685)
+
+[node name="Regular328" parent="plates/regular" index="308" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.526025, 0, 10.50685)
+
+[node name="Regular329" parent="plates/regular" index="309" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -4.5260253, 0, 10.50685)
+
+[node name="Regular330" parent="plates/regular" index="310" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.5260252, 0, 10.50685)
+
+[node name="Regular331" parent="plates/regular" index="311" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.5260248, 0, 12.50685)
+
+[node name="Regular332" parent="plates/regular" index="312" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -4.5260253, 0, 12.50685)
+
+[node name="Regular334" parent="plates/regular" index="313" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.5260249, 0, 14.50685)
+
+[node name="Regular335" parent="plates/regular" index="314" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.5260246, 0, 14.50685)
+
+[node name="Regular336" parent="plates/regular" index="315" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.4739751, 0, 14.50685)
+
+[node name="Regular277" parent="plates/regular" index="316" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 13.473974, 0, 6.5068483)
+
+[node name="Regular278" parent="plates/regular" index="317" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 11.473974, 0, 6.5068483)
+
+[node name="Regular279" parent="plates/regular" index="318" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 15.473974, 0, 6.5068483)
+
+[node name="Regular292" parent="plates/regular" index="319" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 11.473974, 0, 8.506848)
+
+[node name="Regular293" parent="plates/regular" index="320" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 9.473974, 0, 8.50685)
+
+[node name="Regular294" parent="plates/regular" index="321" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 13.473974, 0, 8.506848)
+
+[node name="Regular295" parent="plates/regular" index="322" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 9.473974, 0, 10.50685)
+
+[node name="Regular296" parent="plates/regular" index="323" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 7.4739747, 0, 10.50685)
+
+[node name="Regular297" parent="plates/regular" index="324" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 11.473974, 0, 10.506848)
+
+[node name="Regular298" parent="plates/regular" index="325" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 7.4739747, 0, 12.50685)
+
+[node name="Regular299" parent="plates/regular" index="326" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 5.4739747, 0, 12.50685)
+
+[node name="Regular337" parent="plates/regular" index="327" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 3.4739752, 0, 12.50685)
+
+[node name="Regular338" parent="plates/regular" index="328" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.473975, 0, 12.50685)
+
+[node name="Regular339" parent="plates/regular" index="329" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -6.5260253, 0, 10.50685)
+
+[node name="Regular300" parent="plates/regular" index="330" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 9.473974, 0, 12.50685)
+
+[node name="Regular301" parent="plates/regular" index="331" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 5.4739747, 0, 14.50685)
+
+[node name="Regular302" parent="plates/regular" index="332" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 3.4739754, 0, 14.50685)
+
+[node name="Regular303" parent="plates/regular" index="333" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 7.4739747, 0, 14.50685)
+
+[node name="Regular157" parent="plates/regular" index="334" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 11.473972, 0, -17.493153)
+
+[node name="Regular158" parent="plates/regular" index="335" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 9.473972, 0, -17.493153)
+
+[node name="Regular159" parent="plates/regular" index="336" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 13.473972, 0, -17.493153)
+
+[node name="Regular160" parent="plates/regular" index="337" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 11.473972, 0, -17.493153)
+
+[node name="Regular161" parent="plates/regular" index="338" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 9.473972, 0, -17.493153)
+
+[node name="Regular162" parent="plates/regular" index="339" instance=ExtResource("5_hpt4k")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 13.473972, 0, -17.493153)
+
+[node name="StartFloorPlate" parent="." index="4" instance=ExtResource("6_fvwt8")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.52602994, 0, -43.49315)
+
+[node name="EndFloorPlate" parent="." index="5" instance=ExtResource("7_8nfq7")]
+transform = Transform3D(1, 0, 1.7484555e-07, 0, 1, 0, -1.7484555e-07, 0, 1, -0.52602506, 0, 12.50685)

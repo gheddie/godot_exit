@@ -1,15 +1,13 @@
 class_name EndFloorPlate
 extends FloorPlate
 
-const END_OFFSET = 5.0
+var exitTemplate: PackedScene = preload("res://assets/architecture/common/Exit.tscn")
 
 func acceptPlayerPosition(_position: Vector3) -> void:
-	var distanceToEnd = global_position.distance_to(_position)	
-	if distanceToEnd <= END_OFFSET:
-		LevelProviderInstance.levelFinished()
+	pass
 
 func initialize() -> void:
-	pass
+	add_child(exitTemplate.instantiate())
 
 func tick() -> void:
 	print(str("ticking --> ", str(self)))

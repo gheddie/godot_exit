@@ -7,10 +7,10 @@ var collectables : Dictionary[String, BaseCollectable] = {}
 var startPlate : StartFloorPlate
 var endPlate : EndFloorPlate
 
-func acceptLevelObject(levelItem: Node3D) -> void:	
-	# levelItem.initialize()
+func acceptLevelObject(levelItem: Node3D) -> void:		
 	if levelItem is FloorPlate:
 		floorPlates.set(levelItem.name, levelItem)
+		levelItem.initialize()
 	if levelItem is StartFloorPlate:
 		startPlate = levelItem
 	if levelItem is EndFloorPlate:

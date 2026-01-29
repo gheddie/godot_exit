@@ -13,1324 +13,1328 @@
 [node name="Level3" instance=ExtResource("1_e056x")]
 script = ExtResource("2_yvdoh")
 
+[node name="DirectionalLight3D" parent="." index="1"]
+transform = Transform3D(0.8660253, 0.43301284, -0.25000006, 2.780595e-08, 0.49999994, 0.86602545, 0.5000001, -0.75, 0.4330126, 23.472782, 0, -62.322723)
+
 [node name="floor" type="Node3D" parent="." index="2"]
 
 [node name="regular" type="Node3D" parent="floor" index="0"]
 
 [node name="RegularFloorPlate389" parent="floor/regular" index="0" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -60)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 7.472778, 0, -2.3227272)
 
 [node name="RegularFloorPlate390" parent="floor/regular" index="1" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -60)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 5.472778, 0, -2.3227272)
 
 [node name="RegularFloorPlate391" parent="floor/regular" index="2" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -60)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727774, 0, -2.3227272)
 
 [node name="RegularFloorPlate392" parent="floor/regular" index="3" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -60)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727774, 0, -2.3227272)
 
 [node name="RegularFloorPlate393" parent="floor/regular" index="4" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 0, -60)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 1.4727774, 0, -2.3227272)
 
 [node name="RegularFloorPlate394" parent="floor/regular" index="5" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, -60)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -0.52722263, 0, -2.322729)
 
 [node name="RegularFloorPlate395" parent="floor/regular" index="6" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -60)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272226, 0, -2.322729)
 
 [node name="RegularFloorPlate396" parent="floor/regular" index="7" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -60)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272226, 0, -2.322729)
 
 [node name="RegularFloorPlate397" parent="floor/regular" index="8" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 0, -60)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -4.5272226, 0, -2.322729)
 
 [node name="RegularFloorPlate398" parent="floor/regular" index="9" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -60)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -6.5272226, 0, -2.322729)
 
 [node name="RegularFloorPlate423" parent="floor/regular" index="10" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -58)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 7.472778, 0, -4.322727)
 
 [node name="RegularFloorPlate424" parent="floor/regular" index="11" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -58)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 5.472778, 0, -4.322727)
 
 [node name="RegularFloorPlate425" parent="floor/regular" index="12" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -58)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727783, 0, -4.322727)
 
 [node name="RegularFloorPlate426" parent="floor/regular" index="13" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -58)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727783, 0, -4.322727)
 
 [node name="RegularFloorPlate427" parent="floor/regular" index="14" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 0, -58)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 1.4727783, 0, -4.322727)
 
 [node name="RegularFloorPlate428" parent="floor/regular" index="15" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, -58)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -0.5272217, 0, -4.322729)
 
 [node name="RegularFloorPlate429" parent="floor/regular" index="16" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -58)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272217, 0, -4.322729)
 
 [node name="RegularFloorPlate430" parent="floor/regular" index="17" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -58)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272217, 0, -4.322729)
 
 [node name="RegularFloorPlate431" parent="floor/regular" index="18" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 0, -58)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -4.5272226, 0, -4.322729)
 
 [node name="RegularFloorPlate432" parent="floor/regular" index="19" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -58)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -6.5272226, 0, -4.322729)
 
 [node name="RegularFloorPlate457" parent="floor/regular" index="20" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -56)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 7.472778, 0, -6.322727)
 
 [node name="RegularFloorPlate458" parent="floor/regular" index="21" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -56)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 5.472778, 0, -6.322727)
 
 [node name="RegularFloorPlate459" parent="floor/regular" index="22" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -56)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727783, 0, -6.322727)
 
 [node name="RegularFloorPlate460" parent="floor/regular" index="23" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -56)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727783, 0, -6.322727)
 
 [node name="RegularFloorPlate461" parent="floor/regular" index="24" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 0, -56)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 1.4727783, 0, -6.322727)
 
 [node name="RegularFloorPlate463" parent="floor/regular" index="25" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -56)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272217, 0, -6.322729)
 
 [node name="RegularFloorPlate464" parent="floor/regular" index="26" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -56)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272217, 0, -6.322729)
 
 [node name="RegularFloorPlate465" parent="floor/regular" index="27" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 0, -56)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -4.5272226, 0, -6.322729)
 
 [node name="RegularFloorPlate466" parent="floor/regular" index="28" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -56)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -6.5272226, 0, -6.322729)
 
 [node name="RegularFloorPlate491" parent="floor/regular" index="29" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -54)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 7.4727783, 0, -8.322727)
 
 [node name="RegularFloorPlate492" parent="floor/regular" index="30" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -54)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 5.4727783, 0, -8.322727)
 
 [node name="RegularFloorPlate493" parent="floor/regular" index="31" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -54)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727783, 0, -8.322727)
 
 [node name="RegularFloorPlate494" parent="floor/regular" index="32" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -54)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727783, 0, -8.322727)
 
 [node name="RegularFloorPlate495" parent="floor/regular" index="33" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 0, -54)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 1.4727783, 0, -8.322727)
 
 [node name="RegularFloorPlate496" parent="floor/regular" index="34" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, -54)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -0.5272217, 0, -6.322729)
 
 [node name="RegularFloorPlate497" parent="floor/regular" index="35" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -54)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272217, 0, -8.322729)
 
 [node name="RegularFloorPlate498" parent="floor/regular" index="36" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -54)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272217, 0, -8.322729)
 
 [node name="RegularFloorPlate499" parent="floor/regular" index="37" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 0, -54)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -4.5272226, 0, -8.322729)
 
 [node name="RegularFloorPlate500" parent="floor/regular" index="38" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -54)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -6.5272226, 0, -8.322729)
 
 [node name="RegularFloorPlate525" parent="floor/regular" index="39" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -52)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 7.4727783, 0, -10.322727)
 
 [node name="RegularFloorPlate526" parent="floor/regular" index="40" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -52)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 5.4727783, 0, -10.322727)
 
 [node name="RegularFloorPlate527" parent="floor/regular" index="41" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -52)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727783, 0, -10.322727)
 
 [node name="RegularFloorPlate528" parent="floor/regular" index="42" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -52)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727783, 0, -10.322727)
 
 [node name="RegularFloorPlate529" parent="floor/regular" index="43" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 0, -52)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 1.4727783, 0, -10.322727)
 
 [node name="RegularFloorPlate530" parent="floor/regular" index="44" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, -52)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -0.5272217, 0, -10.322729)
 
 [node name="RegularFloorPlate531" parent="floor/regular" index="45" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -52)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272217, 0, -10.322729)
 
 [node name="RegularFloorPlate532" parent="floor/regular" index="46" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -52)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272217, 0, -10.322729)
 
 [node name="RegularFloorPlate533" parent="floor/regular" index="47" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 0, -52)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -4.5272226, 0, -10.322729)
 
 [node name="RegularFloorPlate534" parent="floor/regular" index="48" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -52)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -6.5272226, 0, -10.322729)
 
 [node name="RegularFloorPlate559" parent="floor/regular" index="49" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -50)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 7.472779, 0, -12.322727)
 
 [node name="RegularFloorPlate560" parent="floor/regular" index="50" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -50)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 5.472779, 0, -12.322727)
 
 [node name="RegularFloorPlate561" parent="floor/regular" index="51" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -50)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727783, 0, -12.322727)
 
 [node name="RegularFloorPlate562" parent="floor/regular" index="52" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -50)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727783, 0, -12.322727)
 
 [node name="RegularFloorPlate563" parent="floor/regular" index="53" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 0, -50)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 1.4727783, 0, -12.322727)
 
 [node name="RegularFloorPlate564" parent="floor/regular" index="54" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, -50)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -0.5272217, 0, -12.322729)
 
 [node name="RegularFloorPlate565" parent="floor/regular" index="55" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -50)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272217, 0, -12.322729)
 
 [node name="RegularFloorPlate566" parent="floor/regular" index="56" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -50)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272217, 0, -12.322729)
 
 [node name="RegularFloorPlate567" parent="floor/regular" index="57" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 0, -50)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -4.5272226, 0, -12.322729)
 
 [node name="RegularFloorPlate568" parent="floor/regular" index="58" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -50)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -6.5272226, 0, -12.322729)
 
 [node name="RegularFloorPlate593" parent="floor/regular" index="59" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -48)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 7.472779, 0, -14.322727)
 
 [node name="RegularFloorPlate594" parent="floor/regular" index="60" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -48)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 5.472779, 0, -14.322727)
 
 [node name="RegularFloorPlate595" parent="floor/regular" index="61" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -48)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727783, 0, -14.322727)
 
 [node name="RegularFloorPlate596" parent="floor/regular" index="62" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -48)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727783, 0, -14.322727)
 
 [node name="RegularFloorPlate597" parent="floor/regular" index="63" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 0, -48)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 1.4727783, 0, -14.322727)
 
 [node name="RegularFloorPlate598" parent="floor/regular" index="64" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, -48)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -0.5272217, 0, -14.322729)
 
 [node name="RegularFloorPlate599" parent="floor/regular" index="65" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -48)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272217, 0, -14.322729)
 
 [node name="RegularFloorPlate600" parent="floor/regular" index="66" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -48)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272217, 0, -14.322729)
 
 [node name="RegularFloorPlate601" parent="floor/regular" index="67" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 0, -48)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -4.5272226, 0, -14.322729)
 
 [node name="RegularFloorPlate602" parent="floor/regular" index="68" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -48)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -6.5272226, 0, -14.322729)
 
 [node name="RegularFloorPlate627" parent="floor/regular" index="69" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -46)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 7.472779, 0, -16.322727)
 
 [node name="RegularFloorPlate628" parent="floor/regular" index="70" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -46)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 5.472779, 0, -16.322727)
 
 [node name="RegularFloorPlate629" parent="floor/regular" index="71" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -46)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727793, 0, -16.322727)
 
 [node name="RegularFloorPlate630" parent="floor/regular" index="72" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -46)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727793, 0, -16.322727)
 
 [node name="RegularFloorPlate631" parent="floor/regular" index="73" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 0, -46)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 1.4727793, 0, -16.322727)
 
 [node name="RegularFloorPlate632" parent="floor/regular" index="74" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, -46)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -0.5272207, 0, -16.322727)
 
 [node name="RegularFloorPlate633" parent="floor/regular" index="75" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -46)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272207, 0, -16.322727)
 
 [node name="RegularFloorPlate634" parent="floor/regular" index="76" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -46)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272207, 0, -16.322727)
 
 [node name="RegularFloorPlate635" parent="floor/regular" index="77" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 0, -46)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -4.5272226, 0, -16.322727)
 
 [node name="RegularFloorPlate636" parent="floor/regular" index="78" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -46)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -6.5272226, 0, -16.32273)
 
 [node name="RegularFloorPlate661" parent="floor/regular" index="79" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -44)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 7.4727793, 0, -18.322727)
 
 [node name="RegularFloorPlate662" parent="floor/regular" index="80" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -44)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 5.4727793, 0, -18.322727)
 
 [node name="RegularFloorPlate663" parent="floor/regular" index="81" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -44)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727793, 0, -18.322727)
 
 [node name="RegularFloorPlate664" parent="floor/regular" index="82" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -44)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727793, 0, -18.322727)
 
 [node name="RegularFloorPlate665" parent="floor/regular" index="83" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 0, -44)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 1.4727793, 0, -18.322727)
 
 [node name="RegularFloorPlate666" parent="floor/regular" index="84" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, -44)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -0.5272207, 0, -18.322727)
 
 [node name="RegularFloorPlate667" parent="floor/regular" index="85" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -44)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272207, 0, -18.322727)
 
 [node name="RegularFloorPlate668" parent="floor/regular" index="86" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -44)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272207, 0, -18.322727)
 
 [node name="RegularFloorPlate669" parent="floor/regular" index="87" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 0, -44)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -4.5272226, 0, -18.322727)
 
 [node name="RegularFloorPlate670" parent="floor/regular" index="88" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -44)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -6.5272226, 0, -18.32273)
 
 [node name="RegularFloorPlate682" parent="floor/regular" index="89" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -42)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 23.472778, 0, -20.322727)
 
 [node name="RegularFloorPlate683" parent="floor/regular" index="90" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -42)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 25.472778, 0, -20.322727)
 
 [node name="RegularFloorPlate684" parent="floor/regular" index="91" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -42)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 27.472778, 0, -20.322727)
 
 [node name="RegularFloorPlate685" parent="floor/regular" index="92" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -42)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 29.472778, 0, -20.322725)
 
 [node name="RegularFloorPlate686" parent="floor/regular" index="93" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -42)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 21.472778, 0, -20.322727)
 
 [node name="RegularFloorPlate687" parent="floor/regular" index="94" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -42)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 19.472778, 0, -20.322727)
 
 [node name="RegularFloorPlate688" parent="floor/regular" index="95" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -42)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 17.472778, 0, -20.322727)
 
 [node name="RegularFloorPlate689" parent="floor/regular" index="96" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -42)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.472779, 0, -20.322727)
 
 [node name="RegularFloorPlate690" parent="floor/regular" index="97" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -42)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.472779, 0, -20.322727)
 
 [node name="RegularFloorPlate691" parent="floor/regular" index="98" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -42)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 13.472779, 0, -20.322727)
 
 [node name="RegularFloorPlate692" parent="floor/regular" index="99" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -42)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 11.472779, 0, -20.322727)
 
 [node name="RegularFloorPlate693" parent="floor/regular" index="100" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -42)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 9.472779, 0, -20.322727)
 
 [node name="RegularFloorPlate694" parent="floor/regular" index="101" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -42)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 9.472779, 0, -20.322727)
 
 [node name="RegularFloorPlate695" parent="floor/regular" index="102" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -42)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 7.4727793, 0, -20.322727)
 
 [node name="RegularFloorPlate696" parent="floor/regular" index="103" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -42)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 5.4727793, 0, -20.322727)
 
 [node name="RegularFloorPlate697" parent="floor/regular" index="104" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -42)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727793, 0, -20.322727)
 
 [node name="RegularFloorPlate698" parent="floor/regular" index="105" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -42)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727793, 0, -20.322727)
 
 [node name="RegularFloorPlate699" parent="floor/regular" index="106" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 0, -42)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 1.4727793, 0, -20.322727)
 
 [node name="RegularFloorPlate700" parent="floor/regular" index="107" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, -42)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -0.5272207, 0, -20.322727)
 
 [node name="RegularFloorPlate701" parent="floor/regular" index="108" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -42)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272207, 0, -20.322727)
 
 [node name="RegularFloorPlate702" parent="floor/regular" index="109" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -42)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272207, 0, -20.322727)
 
 [node name="RegularFloorPlate703" parent="floor/regular" index="110" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 0, -42)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -4.5272207, 0, -20.322727)
 
 [node name="RegularFloorPlate704" parent="floor/regular" index="111" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -42)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -6.5272207, 0, -20.32273)
 
 [node name="RegularFloorPlate716" parent="floor/regular" index="112" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -40)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 23.472778, 0, -22.322727)
 
 [node name="RegularFloorPlate717" parent="floor/regular" index="113" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -40)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 25.472778, 0, -22.322727)
 
 [node name="RegularFloorPlate718" parent="floor/regular" index="114" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -40)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 27.472778, 0, -22.322727)
 
 [node name="RegularFloorPlate719" parent="floor/regular" index="115" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -40)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 29.472778, 0, -22.322725)
 
 [node name="RegularFloorPlate720" parent="floor/regular" index="116" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -40)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 21.472778, 0, -22.322727)
 
 [node name="RegularFloorPlate721" parent="floor/regular" index="117" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -40)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 19.472778, 0, -22.322727)
 
 [node name="RegularFloorPlate722" parent="floor/regular" index="118" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -40)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 17.472778, 0, -22.322727)
 
 [node name="RegularFloorPlate723" parent="floor/regular" index="119" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -40)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.472779, 0, -22.322727)
 
 [node name="RegularFloorPlate724" parent="floor/regular" index="120" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -40)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.472779, 0, -22.322727)
 
 [node name="RegularFloorPlate725" parent="floor/regular" index="121" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -40)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 13.472779, 0, -22.322727)
 
 [node name="RegularFloorPlate726" parent="floor/regular" index="122" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -40)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 11.472779, 0, -22.322727)
 
 [node name="RegularFloorPlate727" parent="floor/regular" index="123" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -40)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 9.472779, 0, -22.322727)
 
 [node name="RegularFloorPlate728" parent="floor/regular" index="124" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -40)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 9.472779, 0, -22.322727)
 
 [node name="RegularFloorPlate729" parent="floor/regular" index="125" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -40)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 7.4727793, 0, -22.322727)
 
 [node name="RegularFloorPlate730" parent="floor/regular" index="126" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -40)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 5.4727793, 0, -22.322727)
 
 [node name="RegularFloorPlate731" parent="floor/regular" index="127" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -40)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727793, 0, -22.322727)
 
 [node name="RegularFloorPlate732" parent="floor/regular" index="128" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -40)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727793, 0, -22.322727)
 
 [node name="RegularFloorPlate733" parent="floor/regular" index="129" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 0, -40)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 1.4727793, 0, -22.322727)
 
 [node name="RegularFloorPlate734" parent="floor/regular" index="130" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, -40)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -0.5272207, 0, -22.322727)
 
 [node name="RegularFloorPlate735" parent="floor/regular" index="131" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -40)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272207, 0, -22.322727)
 
 [node name="RegularFloorPlate736" parent="floor/regular" index="132" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -40)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272207, 0, -22.322727)
 
 [node name="RegularFloorPlate737" parent="floor/regular" index="133" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 0, -40)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -4.5272207, 0, -22.322727)
 
 [node name="RegularFloorPlate738" parent="floor/regular" index="134" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -40)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -6.5272207, 0, -22.32273)
 
 [node name="RegularFloorPlate750" parent="floor/regular" index="135" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -38)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 23.472778, 0, -24.322727)
 
 [node name="RegularFloorPlate751" parent="floor/regular" index="136" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -38)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 25.472778, 0, -24.322725)
 
 [node name="RegularFloorPlate752" parent="floor/regular" index="137" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -38)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 27.472778, 0, -24.322725)
 
 [node name="RegularFloorPlate753" parent="floor/regular" index="138" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -38)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 29.472778, 0, -24.322725)
 
 [node name="RegularFloorPlate754" parent="floor/regular" index="139" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -38)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 21.472778, 0, -24.322727)
 
 [node name="RegularFloorPlate755" parent="floor/regular" index="140" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -38)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 19.47278, 0, -24.322727)
 
 [node name="RegularFloorPlate756" parent="floor/regular" index="141" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -38)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 17.47278, 0, -24.322727)
 
 [node name="RegularFloorPlate757" parent="floor/regular" index="142" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -38)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.472779, 0, -24.322727)
 
 [node name="RegularFloorPlate758" parent="floor/regular" index="143" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -38)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.472779, 0, -24.322727)
 
 [node name="RegularFloorPlate759" parent="floor/regular" index="144" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -38)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 13.472779, 0, -24.322727)
 
 [node name="RegularFloorPlate760" parent="floor/regular" index="145" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -38)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 11.472779, 0, -24.322727)
 
 [node name="RegularFloorPlate761" parent="floor/regular" index="146" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -38)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 9.472779, 0, -24.322727)
 
 [node name="RegularFloorPlate762" parent="floor/regular" index="147" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -38)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 9.472779, 0, -24.322727)
 
 [node name="RegularFloorPlate763" parent="floor/regular" index="148" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -38)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 7.4727798, 0, -24.322727)
 
 [node name="RegularFloorPlate764" parent="floor/regular" index="149" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -38)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 5.4727798, 0, -24.322727)
 
 [node name="RegularFloorPlate765" parent="floor/regular" index="150" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -38)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727793, 0, -24.322727)
 
 [node name="RegularFloorPlate766" parent="floor/regular" index="151" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -38)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727793, 0, -24.322727)
 
 [node name="RegularFloorPlate767" parent="floor/regular" index="152" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 0, -38)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 1.4727793, 0, -24.322727)
 
 [node name="RegularFloorPlate768" parent="floor/regular" index="153" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, -38)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -0.5272207, 0, -24.322727)
 
 [node name="RegularFloorPlate769" parent="floor/regular" index="154" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -38)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272207, 0, -24.32273)
 
 [node name="RegularFloorPlate770" parent="floor/regular" index="155" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -38)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272207, 0, -24.32273)
 
 [node name="RegularFloorPlate771" parent="floor/regular" index="156" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 0, -38)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -4.5272207, 0, -24.32273)
 
 [node name="RegularFloorPlate772" parent="floor/regular" index="157" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -38)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -6.5272207, 0, -24.32273)
 
 [node name="RegularFloorPlate784" parent="floor/regular" index="158" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -36)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 23.47278, 0, -26.322727)
 
 [node name="RegularFloorPlate785" parent="floor/regular" index="159" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -36)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 25.47278, 0, -26.322725)
 
 [node name="RegularFloorPlate786" parent="floor/regular" index="160" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -36)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 27.47278, 0, -26.322725)
 
 [node name="RegularFloorPlate787" parent="floor/regular" index="161" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -36)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 29.472778, 0, -26.322725)
 
 [node name="RegularFloorPlate788" parent="floor/regular" index="162" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -36)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 21.47278, 0, -26.322727)
 
 [node name="RegularFloorPlate789" parent="floor/regular" index="163" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -36)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 19.47278, 0, -26.322727)
 
 [node name="RegularFloorPlate790" parent="floor/regular" index="164" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -36)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 17.47278, 0, -26.322727)
 
 [node name="RegularFloorPlate791" parent="floor/regular" index="165" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -36)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.47278, 0, -26.322727)
 
 [node name="RegularFloorPlate792" parent="floor/regular" index="166" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -36)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.47278, 0, -26.322727)
 
 [node name="RegularFloorPlate793" parent="floor/regular" index="167" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -36)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 13.47278, 0, -26.322727)
 
 [node name="RegularFloorPlate794" parent="floor/regular" index="168" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -36)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 11.47278, 0, -26.322727)
 
 [node name="RegularFloorPlate795" parent="floor/regular" index="169" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -36)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 9.47278, 0, -26.322727)
 
 [node name="RegularFloorPlate796" parent="floor/regular" index="170" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -36)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 9.47278, 0, -26.322727)
 
 [node name="RegularFloorPlate797" parent="floor/regular" index="171" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -36)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 7.4727798, 0, -26.322727)
 
 [node name="RegularFloorPlate798" parent="floor/regular" index="172" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -36)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 5.4727798, 0, -26.322727)
 
 [node name="RegularFloorPlate799" parent="floor/regular" index="173" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -36)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727802, 0, -26.322727)
 
 [node name="RegularFloorPlate800" parent="floor/regular" index="174" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -36)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727802, 0, -26.322727)
 
 [node name="RegularFloorPlate801" parent="floor/regular" index="175" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 0, -36)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 1.4727802, 0, -26.322727)
 
 [node name="RegularFloorPlate802" parent="floor/regular" index="176" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, -36)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -0.5272198, 0, -26.322727)
 
 [node name="RegularFloorPlate803" parent="floor/regular" index="177" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -36)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272198, 0, -26.32273)
 
 [node name="RegularFloorPlate804" parent="floor/regular" index="178" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -36)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272198, 0, -26.32273)
 
 [node name="RegularFloorPlate805" parent="floor/regular" index="179" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 0, -36)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -4.5272207, 0, -26.32273)
 
 [node name="RegularFloorPlate806" parent="floor/regular" index="180" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -36)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -6.5272207, 0, -26.32273)
 
 [node name="RegularFloorPlate818" parent="floor/regular" index="181" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -34)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 23.47278, 0, -28.322727)
 
 [node name="RegularFloorPlate819" parent="floor/regular" index="182" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -34)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 25.47278, 0, -28.322725)
 
 [node name="RegularFloorPlate820" parent="floor/regular" index="183" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -34)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 27.47278, 0, -28.322725)
 
 [node name="RegularFloorPlate821" parent="floor/regular" index="184" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -34)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 29.472778, 0, -28.322725)
 
 [node name="RegularFloorPlate822" parent="floor/regular" index="185" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -34)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 21.47278, 0, -28.322727)
 
 [node name="RegularFloorPlate823" parent="floor/regular" index="186" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -34)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 19.47278, 0, -28.322727)
 
 [node name="RegularFloorPlate824" parent="floor/regular" index="187" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -34)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 17.47278, 0, -28.322727)
 
 [node name="RegularFloorPlate825" parent="floor/regular" index="188" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -34)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.47278, 0, -28.322727)
 
 [node name="RegularFloorPlate826" parent="floor/regular" index="189" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -34)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.47278, 0, -28.322727)
 
 [node name="RegularFloorPlate827" parent="floor/regular" index="190" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -34)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 13.47278, 0, -28.322727)
 
 [node name="RegularFloorPlate828" parent="floor/regular" index="191" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -34)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 11.47278, 0, -28.322727)
 
 [node name="RegularFloorPlate829" parent="floor/regular" index="192" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -34)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 9.47278, 0, -28.322727)
 
 [node name="RegularFloorPlate830" parent="floor/regular" index="193" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -34)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 9.47278, 0, -28.322727)
 
 [node name="RegularFloorPlate831" parent="floor/regular" index="194" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -34)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 7.4727798, 0, -28.322727)
 
 [node name="RegularFloorPlate832" parent="floor/regular" index="195" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -34)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 5.4727798, 0, -28.322727)
 
 [node name="RegularFloorPlate833" parent="floor/regular" index="196" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -34)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727802, 0, -28.322727)
 
 [node name="RegularFloorPlate834" parent="floor/regular" index="197" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -34)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727802, 0, -28.322727)
 
 [node name="RegularFloorPlate835" parent="floor/regular" index="198" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 0, -34)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 1.4727802, 0, -28.322727)
 
 [node name="RegularFloorPlate836" parent="floor/regular" index="199" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, -34)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -0.5272198, 0, -28.322727)
 
 [node name="RegularFloorPlate837" parent="floor/regular" index="200" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -34)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272198, 0, -28.32273)
 
 [node name="RegularFloorPlate838" parent="floor/regular" index="201" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -34)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272198, 0, -28.32273)
 
 [node name="RegularFloorPlate839" parent="floor/regular" index="202" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 0, -34)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -4.5272207, 0, -28.32273)
 
 [node name="RegularFloorPlate840" parent="floor/regular" index="203" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -34)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -6.5272207, 0, -28.32273)
 
 [node name="RegularFloorPlate852" parent="floor/regular" index="204" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -32)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 23.47278, 0, -30.322725)
 
 [node name="RegularFloorPlate853" parent="floor/regular" index="205" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -32)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 25.47278, 0, -30.322725)
 
 [node name="RegularFloorPlate854" parent="floor/regular" index="206" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -32)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 27.47278, 0, -30.322725)
 
 [node name="RegularFloorPlate855" parent="floor/regular" index="207" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -32)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 29.472778, 0, -30.322725)
 
 [node name="RegularFloorPlate856" parent="floor/regular" index="208" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -32)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 21.47278, 0, -30.322727)
 
 [node name="RegularFloorPlate857" parent="floor/regular" index="209" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -32)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 19.47278, 0, -30.322727)
 
 [node name="RegularFloorPlate858" parent="floor/regular" index="210" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -32)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 17.47278, 0, -30.322727)
 
 [node name="RegularFloorPlate859" parent="floor/regular" index="211" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -32)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.47278, 0, -30.322727)
 
 [node name="RegularFloorPlate860" parent="floor/regular" index="212" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -32)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.47278, 0, -30.322727)
 
 [node name="RegularFloorPlate861" parent="floor/regular" index="213" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -32)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 13.47278, 0, -30.322727)
 
 [node name="RegularFloorPlate862" parent="floor/regular" index="214" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -32)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 11.47278, 0, -30.322727)
 
 [node name="RegularFloorPlate863" parent="floor/regular" index="215" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -32)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 9.47278, 0, -30.322727)
 
 [node name="RegularFloorPlate864" parent="floor/regular" index="216" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -32)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 9.47278, 0, -30.322727)
 
 [node name="RegularFloorPlate865" parent="floor/regular" index="217" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -32)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 7.47278, 0, -30.322727)
 
 [node name="RegularFloorPlate866" parent="floor/regular" index="218" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -32)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 5.47278, 0, -30.322727)
 
 [node name="RegularFloorPlate867" parent="floor/regular" index="219" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -32)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727802, 0, -30.322727)
 
 [node name="RegularFloorPlate868" parent="floor/regular" index="220" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -32)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727802, 0, -30.322727)
 
 [node name="RegularFloorPlate869" parent="floor/regular" index="221" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 0, -32)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 1.4727802, 0, -30.322727)
 
 [node name="RegularFloorPlate870" parent="floor/regular" index="222" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, -32)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -0.5272198, 0, -30.32273)
 
 [node name="RegularFloorPlate871" parent="floor/regular" index="223" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -32)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272198, 0, -30.32273)
 
 [node name="RegularFloorPlate872" parent="floor/regular" index="224" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -32)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272198, 0, -30.32273)
 
 [node name="RegularFloorPlate873" parent="floor/regular" index="225" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 0, -32)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -4.5272207, 0, -30.32273)
 
 [node name="RegularFloorPlate874" parent="floor/regular" index="226" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -32)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -6.5272207, 0, -30.32273)
 
 [node name="RegularFloorPlate886" parent="floor/regular" index="227" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -30)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 23.47278, 0, -32.322727)
 
 [node name="RegularFloorPlate887" parent="floor/regular" index="228" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -30)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 25.47278, 0, -32.322727)
 
 [node name="RegularFloorPlate888" parent="floor/regular" index="229" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -30)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 27.47278, 0, -32.322727)
 
 [node name="RegularFloorPlate889" parent="floor/regular" index="230" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -30)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 29.472778, 0, -32.322727)
 
 [node name="RegularFloorPlate890" parent="floor/regular" index="231" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -30)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 21.47278, 0, -32.322727)
 
 [node name="RegularFloorPlate891" parent="floor/regular" index="232" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -30)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 19.47278, 0, -32.322727)
 
 [node name="RegularFloorPlate892" parent="floor/regular" index="233" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -30)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 17.47278, 0, -32.322727)
 
 [node name="RegularFloorPlate893" parent="floor/regular" index="234" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -30)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.47278, 0, -32.322727)
 
 [node name="RegularFloorPlate894" parent="floor/regular" index="235" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -30)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.47278, 0, -32.322727)
 
 [node name="RegularFloorPlate895" parent="floor/regular" index="236" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -30)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 13.47278, 0, -32.322727)
 
 [node name="RegularFloorPlate896" parent="floor/regular" index="237" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -30)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 11.47278, 0, -32.322727)
 
 [node name="RegularFloorPlate897" parent="floor/regular" index="238" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -30)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 9.47278, 0, -32.322727)
 
 [node name="RegularFloorPlate898" parent="floor/regular" index="239" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -30)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 9.47278, 0, -32.322727)
 
 [node name="RegularFloorPlate899" parent="floor/regular" index="240" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -30)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 7.47278, 0, -32.322727)
 
 [node name="RegularFloorPlate900" parent="floor/regular" index="241" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -30)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 5.47278, 0, -32.322727)
 
 [node name="RegularFloorPlate901" parent="floor/regular" index="242" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -30)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727802, 0, -32.322727)
 
 [node name="RegularFloorPlate902" parent="floor/regular" index="243" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -30)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727802, 0, -32.322727)
 
 [node name="RegularFloorPlate903" parent="floor/regular" index="244" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 0, -30)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 1.4727802, 0, -32.322727)
 
 [node name="RegularFloorPlate904" parent="floor/regular" index="245" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, -30)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -0.5272198, 0, -32.322727)
 
 [node name="RegularFloorPlate905" parent="floor/regular" index="246" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -30)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272198, 0, -32.322727)
 
 [node name="RegularFloorPlate906" parent="floor/regular" index="247" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -30)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272198, 0, -32.322727)
 
 [node name="RegularFloorPlate907" parent="floor/regular" index="248" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 0, -30)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -4.5272207, 0, -32.322727)
 
 [node name="RegularFloorPlate908" parent="floor/regular" index="249" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -30)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -6.5272207, 0, -32.322727)
 
 [node name="RegularFloorPlate920" parent="floor/regular" index="250" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -28)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 23.47278, 0, -34.322727)
 
 [node name="RegularFloorPlate921" parent="floor/regular" index="251" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -28)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 25.47278, 0, -34.322727)
 
 [node name="RegularFloorPlate922" parent="floor/regular" index="252" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -28)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 27.47278, 0, -34.322727)
 
 [node name="RegularFloorPlate923" parent="floor/regular" index="253" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -28)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 29.472778, 0, -34.322727)
 
 [node name="RegularFloorPlate924" parent="floor/regular" index="254" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -28)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 21.47278, 0, -34.322727)
 
 [node name="RegularFloorPlate925" parent="floor/regular" index="255" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -28)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 19.47278, 0, -34.322727)
 
 [node name="RegularFloorPlate926" parent="floor/regular" index="256" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -28)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 17.47278, 0, -34.322727)
 
 [node name="RegularFloorPlate927" parent="floor/regular" index="257" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -28)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.47278, 0, -34.322727)
 
 [node name="RegularFloorPlate928" parent="floor/regular" index="258" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -28)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.47278, 0, -34.322727)
 
 [node name="RegularFloorPlate929" parent="floor/regular" index="259" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -28)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 13.47278, 0, -34.322727)
 
 [node name="RegularFloorPlate930" parent="floor/regular" index="260" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -28)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 11.47278, 0, -34.322727)
 
 [node name="RegularFloorPlate931" parent="floor/regular" index="261" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -28)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 9.47278, 0, -34.322727)
 
 [node name="RegularFloorPlate932" parent="floor/regular" index="262" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -28)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 9.47278, 0, -34.322727)
 
 [node name="RegularFloorPlate933" parent="floor/regular" index="263" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -28)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 7.4727807, 0, -34.322727)
 
 [node name="RegularFloorPlate934" parent="floor/regular" index="264" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -28)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 5.4727807, 0, -34.322727)
 
 [node name="RegularFloorPlate935" parent="floor/regular" index="265" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -28)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727802, 0, -34.322727)
 
 [node name="RegularFloorPlate936" parent="floor/regular" index="266" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -28)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.4727802, 0, -34.322727)
 
 [node name="RegularFloorPlate937" parent="floor/regular" index="267" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 0, -28)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 1.4727802, 0, -34.322727)
 
 [node name="RegularFloorPlate938" parent="floor/regular" index="268" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, -28)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -0.5272198, 0, -34.322727)
 
 [node name="RegularFloorPlate939" parent="floor/regular" index="269" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -28)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272198, 0, -34.322727)
 
 [node name="RegularFloorPlate940" parent="floor/regular" index="270" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -28)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -2.5272198, 0, -34.322727)
 
 [node name="RegularFloorPlate941" parent="floor/regular" index="271" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 0, -28)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -4.5272207, 0, -34.322727)
 
 [node name="RegularFloorPlate942" parent="floor/regular" index="272" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -28)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -6.5272207, 0, -34.322727)
 
 [node name="RegularFloorPlate954" parent="floor/regular" index="273" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -26)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 23.47278, 0, -36.322727)
 
 [node name="RegularFloorPlate955" parent="floor/regular" index="274" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -26)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 25.47278, 0, -36.322727)
 
 [node name="RegularFloorPlate956" parent="floor/regular" index="275" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -26)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 27.47278, 0, -36.322727)
 
 [node name="RegularFloorPlate957" parent="floor/regular" index="276" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -26)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 29.472778, 0, -36.322727)
 
 [node name="RegularFloorPlate958" parent="floor/regular" index="277" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -26)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 21.47278, 0, -36.322727)
 
 [node name="RegularFloorPlate959" parent="floor/regular" index="278" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -26)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 19.47278, 0, -36.322727)
 
 [node name="RegularFloorPlate960" parent="floor/regular" index="279" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -26)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 17.47278, 0, -36.322727)
 
 [node name="RegularFloorPlate988" parent="floor/regular" index="280" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -24)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 23.472782, 0, -38.322727)
 
 [node name="RegularFloorPlate989" parent="floor/regular" index="281" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -24)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 25.472782, 0, -38.322727)
 
 [node name="RegularFloorPlate990" parent="floor/regular" index="282" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -24)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 27.472782, 0, -38.322727)
 
 [node name="RegularFloorPlate991" parent="floor/regular" index="283" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -24)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 29.472778, 0, -38.322727)
 
 [node name="RegularFloorPlate992" parent="floor/regular" index="284" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -24)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 21.472782, 0, -38.322727)
 
 [node name="RegularFloorPlate993" parent="floor/regular" index="285" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -24)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 19.47278, 0, -38.322727)
 
 [node name="RegularFloorPlate994" parent="floor/regular" index="286" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -24)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 17.47278, 0, -38.322727)
 
 [node name="RegularFloorPlate1022" parent="floor/regular" index="287" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -22)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 23.472782, 0, -40.322727)
 
 [node name="RegularFloorPlate1023" parent="floor/regular" index="288" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -22)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 25.472782, 0, -40.322727)
 
 [node name="RegularFloorPlate1024" parent="floor/regular" index="289" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -22)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 27.472782, 0, -40.322727)
 
 [node name="RegularFloorPlate1025" parent="floor/regular" index="290" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -22)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 29.472778, 0, -40.322723)
 
 [node name="RegularFloorPlate1026" parent="floor/regular" index="291" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -22)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 21.472782, 0, -40.322727)
 
 [node name="RegularFloorPlate1027" parent="floor/regular" index="292" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -22)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 19.472782, 0, -40.322727)
 
 [node name="RegularFloorPlate1028" parent="floor/regular" index="293" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -22)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 17.472782, 0, -40.322727)
 
 [node name="RegularFloorPlate1056" parent="floor/regular" index="294" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -20)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 23.472782, 0, -42.322727)
 
 [node name="RegularFloorPlate1057" parent="floor/regular" index="295" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -20)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 25.472782, 0, -42.322727)
 
 [node name="RegularFloorPlate1058" parent="floor/regular" index="296" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -20)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 27.472782, 0, -42.322727)
 
 [node name="RegularFloorPlate1059" parent="floor/regular" index="297" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -20)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 29.472782, 0, -42.322723)
 
 [node name="RegularFloorPlate1060" parent="floor/regular" index="298" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -20)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 21.472782, 0, -42.322727)
 
 [node name="RegularFloorPlate1061" parent="floor/regular" index="299" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -20)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 19.472782, 0, -42.322727)
 
 [node name="RegularFloorPlate1062" parent="floor/regular" index="300" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -20)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 17.472782, 0, -42.322727)
 
 [node name="RegularFloorPlate1090" parent="floor/regular" index="301" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 23.472782, 0, -44.322727)
 
 [node name="RegularFloorPlate1091" parent="floor/regular" index="302" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -18)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 25.472782, 0, -44.322727)
 
 [node name="RegularFloorPlate1092" parent="floor/regular" index="303" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -18)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 27.472782, 0, -44.322727)
 
 [node name="RegularFloorPlate1093" parent="floor/regular" index="304" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -18)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 29.472782, 0, -44.322723)
 
 [node name="RegularFloorPlate1094" parent="floor/regular" index="305" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -18)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 21.472782, 0, -44.322727)
 
 [node name="RegularFloorPlate1095" parent="floor/regular" index="306" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -18)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 19.472782, 0, -44.322727)
 
 [node name="RegularFloorPlate1096" parent="floor/regular" index="307" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -18)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 17.472782, 0, -44.322727)
 
 [node name="RegularFloorPlate1124" parent="floor/regular" index="308" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 23.472782, 0, -46.322727)
 
 [node name="RegularFloorPlate1125" parent="floor/regular" index="309" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -16)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 25.472782, 0, -46.322727)
 
 [node name="RegularFloorPlate1126" parent="floor/regular" index="310" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -16)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 27.472782, 0, -46.322727)
 
 [node name="RegularFloorPlate1127" parent="floor/regular" index="311" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -16)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 29.472782, 0, -46.322723)
 
 [node name="RegularFloorPlate1128" parent="floor/regular" index="312" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -16)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 21.472782, 0, -46.322727)
 
 [node name="RegularFloorPlate1129" parent="floor/regular" index="313" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -16)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 19.472782, 0, -46.322727)
 
 [node name="RegularFloorPlate1130" parent="floor/regular" index="314" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -16)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 17.472782, 0, -46.322727)
 
 [node name="RegularFloorPlate1158" parent="floor/regular" index="315" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -14)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 23.472782, 0, -48.322723)
 
 [node name="RegularFloorPlate1159" parent="floor/regular" index="316" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -14)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 25.472782, 0, -48.322723)
 
 [node name="RegularFloorPlate1160" parent="floor/regular" index="317" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -14)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 27.472782, 0, -48.322723)
 
 [node name="RegularFloorPlate1161" parent="floor/regular" index="318" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -14)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 29.472782, 0, -48.322723)
 
 [node name="RegularFloorPlate1162" parent="floor/regular" index="319" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -14)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 21.472782, 0, -48.322727)
 
 [node name="RegularFloorPlate1163" parent="floor/regular" index="320" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -14)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 19.472782, 0, -48.322727)
 
 [node name="RegularFloorPlate1164" parent="floor/regular" index="321" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -14)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 17.472782, 0, -48.322727)
 
 [node name="RegularFloorPlate1165" parent="floor/regular" index="322" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -14)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 13.472782, 0, -48.322727)
 
 [node name="RegularFloorPlate1166" parent="floor/regular" index="323" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -14)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.472782, 0, -48.322727)
 
 [node name="RegularFloorPlate1167" parent="floor/regular" index="324" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -14)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 11.472782, 0, -48.322727)
 
 [node name="RegularFloorPlate1168" parent="floor/regular" index="325" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -12)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 13.472782, 0, -50.322727)
 
 [node name="RegularFloorPlate1169" parent="floor/regular" index="326" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -12)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.472782, 0, -50.322727)
 
 [node name="RegularFloorPlate1170" parent="floor/regular" index="327" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -12)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 11.472782, 0, -50.322727)
 
 [node name="RegularFloorPlate1171" parent="floor/regular" index="328" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -10)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 13.472782, 0, -52.322727)
 
 [node name="RegularFloorPlate1172" parent="floor/regular" index="329" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -10)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.472782, 0, -52.322727)
 
 [node name="RegularFloorPlate1173" parent="floor/regular" index="330" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -10)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 11.472782, 0, -52.322727)
 
 [node name="RegularFloorPlate1174" parent="floor/regular" index="331" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -8)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 13.472782, 0, -54.322727)
 
 [node name="RegularFloorPlate1175" parent="floor/regular" index="332" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -8)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.472782, 0, -54.322727)
 
 [node name="RegularFloorPlate1176" parent="floor/regular" index="333" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -8)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 11.472782, 0, -54.322727)
 
 [node name="RegularFloorPlate1177" parent="floor/regular" index="334" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -6)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 13.472782, 0, -56.322727)
 
 [node name="RegularFloorPlate1178" parent="floor/regular" index="335" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -6)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.472782, 0, -56.322727)
 
 [node name="RegularFloorPlate1179" parent="floor/regular" index="336" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -6)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 11.472782, 0, -56.322727)
 
 [node name="RegularFloorPlate1180" parent="floor/regular" index="337" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -4)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 13.472782, 0, -58.322727)
 
 [node name="RegularFloorPlate1181" parent="floor/regular" index="338" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -4)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.472782, 0, -58.322727)
 
 [node name="RegularFloorPlate1182" parent="floor/regular" index="339" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -4)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 11.472782, 0, -58.322727)
 
 [node name="RegularFloorPlate1183" parent="floor/regular" index="340" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -2)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 13.472783, 0, -60.322727)
 
 [node name="RegularFloorPlate1184" parent="floor/regular" index="341" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -2)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.472783, 0, -60.322727)
 
 [node name="RegularFloorPlate1185" parent="floor/regular" index="342" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -2)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 11.472783, 0, -60.322727)
 
 [node name="RegularFloorPlate1186" parent="floor/regular" index="343" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 0)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 13.472783, 0, -62.322727)
 
 [node name="RegularFloorPlate1187" parent="floor/regular" index="344" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.472783, 0, -62.322727)
 
 [node name="RegularFloorPlate1188" parent="floor/regular" index="345" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 11.472783, 0, -62.322727)
 
 [node name="RegularFloorPlate1189" parent="floor/regular" index="346" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -16)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 13.472781, 0, -46.322727)
 
 [node name="RegularFloorPlate1190" parent="floor/regular" index="347" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -16)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.472782, 0, -46.322727)
 
 [node name="RegularFloorPlate1191" parent="floor/regular" index="348" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -16)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 11.472781, 0, -46.322727)
 
 [node name="RegularFloorPlate1199" parent="floor/regular" index="349" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -18)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 13.472781, 0, -44.322727)
 
 [node name="RegularFloorPlate1200" parent="floor/regular" index="350" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -18)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.472781, 0, -44.322727)
 
 [node name="RegularFloorPlate1201" parent="floor/regular" index="351" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -18)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 11.472781, 0, -44.322727)
 
 [node name="RegularFloorPlate1202" parent="floor/regular" index="352" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -20)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 13.472781, 0, -42.322727)
 
 [node name="RegularFloorPlate1203" parent="floor/regular" index="353" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -20)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.472781, 0, -42.322727)
 
 [node name="RegularFloorPlate1204" parent="floor/regular" index="354" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -20)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 11.472781, 0, -42.322727)
 
 [node name="RegularFloorPlate1205" parent="floor/regular" index="355" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -22)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 13.472781, 0, -40.322727)
 
 [node name="RegularFloorPlate1206" parent="floor/regular" index="356" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -22)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.472781, 0, -40.322727)
 
 [node name="RegularFloorPlate1207" parent="floor/regular" index="357" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -22)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 11.472781, 0, -40.322727)
 
 [node name="RegularFloorPlate1208" parent="floor/regular" index="358" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -24)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 13.472781, 0, -38.322727)
 
 [node name="RegularFloorPlate1209" parent="floor/regular" index="359" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -24)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.472781, 0, -38.322727)
 
 [node name="RegularFloorPlate1210" parent="floor/regular" index="360" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -24)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 11.472781, 0, -38.322727)
 
 [node name="RegularFloorPlate1211" parent="floor/regular" index="361" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -26)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 13.47278, 0, -36.322727)
 
 [node name="RegularFloorPlate1212" parent="floor/regular" index="362" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -26)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 15.47278, 0, -36.322727)
 
 [node name="RegularFloorPlate1213" parent="floor/regular" index="363" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -26)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 11.47278, 0, -36.322727)
 
 [node name="RegularFloorPlate1192" parent="floor/regular" index="364" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 23.472782, 0, -50.322723)
 
 [node name="RegularFloorPlate1193" parent="floor/regular" index="365" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -12)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 25.472782, 0, -50.322723)
 
 [node name="RegularFloorPlate1194" parent="floor/regular" index="366" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -12)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 27.472782, 0, -50.322723)
 
 [node name="RegularFloorPlate1195" parent="floor/regular" index="367" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -12)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 29.472782, 0, -50.322723)
 
 [node name="RegularFloorPlate1196" parent="floor/regular" index="368" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -12)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 21.472782, 0, -50.322727)
 
 [node name="RegularFloorPlate1197" parent="floor/regular" index="369" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -12)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 19.472782, 0, -50.322727)
 
 [node name="RegularFloorPlate1198" parent="floor/regular" index="370" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -12)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 17.472782, 0, -50.322727)
 
 [node name="RegularFloorPlate1226" parent="floor/regular" index="371" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -10)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 23.472782, 0, -52.322723)
 
 [node name="RegularFloorPlate1227" parent="floor/regular" index="372" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -10)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 25.472782, 0, -52.322723)
 
 [node name="RegularFloorPlate1228" parent="floor/regular" index="373" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -10)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 27.472782, 0, -52.322723)
 
 [node name="RegularFloorPlate1229" parent="floor/regular" index="374" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -10)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 29.472782, 0, -52.322723)
 
 [node name="RegularFloorPlate1230" parent="floor/regular" index="375" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -10)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 21.472782, 0, -52.322727)
 
 [node name="RegularFloorPlate1231" parent="floor/regular" index="376" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -10)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 19.472782, 0, -52.322727)
 
 [node name="RegularFloorPlate1232" parent="floor/regular" index="377" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -10)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 17.472782, 0, -52.322727)
 
 [node name="RegularFloorPlate1260" parent="floor/regular" index="378" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 23.472782, 0, -54.322723)
 
 [node name="RegularFloorPlate1261" parent="floor/regular" index="379" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -8)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 25.472782, 0, -54.322723)
 
 [node name="RegularFloorPlate1262" parent="floor/regular" index="380" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -8)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 27.472782, 0, -54.322723)
 
 [node name="RegularFloorPlate1263" parent="floor/regular" index="381" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -8)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 29.472782, 0, -54.322723)
 
 [node name="RegularFloorPlate1264" parent="floor/regular" index="382" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -8)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 21.472782, 0, -54.322727)
 
 [node name="RegularFloorPlate1265" parent="floor/regular" index="383" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -8)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 19.472782, 0, -54.322727)
 
 [node name="RegularFloorPlate1266" parent="floor/regular" index="384" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -8)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 17.472782, 0, -54.322727)
 
 [node name="RegularFloorPlate1294" parent="floor/regular" index="385" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 23.472782, 0, -56.322723)
 
 [node name="RegularFloorPlate1295" parent="floor/regular" index="386" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -6)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 25.472782, 0, -56.322723)
 
 [node name="RegularFloorPlate1296" parent="floor/regular" index="387" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -6)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 27.472782, 0, -56.322723)
 
 [node name="RegularFloorPlate1297" parent="floor/regular" index="388" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -6)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 29.472782, 0, -56.322723)
 
 [node name="RegularFloorPlate1298" parent="floor/regular" index="389" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -6)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 21.472782, 0, -56.322727)
 
 [node name="RegularFloorPlate1299" parent="floor/regular" index="390" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -6)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 19.472782, 0, -56.322727)
 
 [node name="RegularFloorPlate1300" parent="floor/regular" index="391" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -6)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 17.472782, 0, -56.322727)
 
 [node name="RegularFloorPlate1329" parent="floor/regular" index="392" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -4)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 25.472782, 0, -58.322723)
 
 [node name="RegularFloorPlate1330" parent="floor/regular" index="393" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -4)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 27.472782, 0, -58.322723)
 
 [node name="RegularFloorPlate1331" parent="floor/regular" index="394" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -4)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 29.472782, 0, -58.322723)
 
 [node name="RegularFloorPlate1332" parent="floor/regular" index="395" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -4)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 21.472782, 0, -58.322727)
 
 [node name="RegularFloorPlate1333" parent="floor/regular" index="396" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -4)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 19.472782, 0, -58.322727)
 
 [node name="RegularFloorPlate1334" parent="floor/regular" index="397" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -4)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 17.472782, 0, -58.322727)
 
 [node name="RegularFloorPlate1362" parent="floor/regular" index="398" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 23.472782, 0, -60.322723)
 
 [node name="RegularFloorPlate1363" parent="floor/regular" index="399" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -2)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 25.472782, 0, -60.322723)
 
 [node name="RegularFloorPlate1364" parent="floor/regular" index="400" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -2)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 27.472782, 0, -60.322723)
 
 [node name="RegularFloorPlate1365" parent="floor/regular" index="401" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -2)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 29.472782, 0, -60.322723)
 
 [node name="RegularFloorPlate1366" parent="floor/regular" index="402" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -2)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 21.472782, 0, -60.322727)
 
 [node name="RegularFloorPlate1367" parent="floor/regular" index="403" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -2)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 19.472782, 0, -60.322727)
 
 [node name="RegularFloorPlate1368" parent="floor/regular" index="404" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -2)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 17.472782, 0, -60.322727)
 
 [node name="RegularFloorPlate1396" parent="floor/regular" index="405" instance=ExtResource("3_irjko")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 23.472782, 0, -62.322723)
 
 [node name="RegularFloorPlate1397" parent="floor/regular" index="406" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 0)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 25.472782, 0, -62.322723)
 
 [node name="RegularFloorPlate1398" parent="floor/regular" index="407" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 27.472782, 0, -62.322723)
 
 [node name="RegularFloorPlate1399" parent="floor/regular" index="408" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 0)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 29.472782, 0, -62.322723)
 
 [node name="RegularFloorPlate1400" parent="floor/regular" index="409" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 21.472782, 0, -62.322727)
 
 [node name="RegularFloorPlate1401" parent="floor/regular" index="410" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 19.472782, 0, -62.322727)
 
 [node name="RegularFloorPlate1402" parent="floor/regular" index="411" instance=ExtResource("3_irjko")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 0)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 17.472782, 0, -62.322727)
 
 [node name="StartFloorPlate" parent="floor" index="1" instance=ExtResource("4_hio26")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 23.472782, 0, -58.322723)
 
 [node name="EndFloorPlate" parent="floor" index="2" instance=ExtResource("5_v7moh")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.011826, 0, -56)
+transform = Transform3D(1, 0, -1.7484555e-07, 0, 1, 0, 1.7484555e-07, 0, 1, -0.53904724, 0, -8.322729)
 
 [node name="walls" type="Node3D" parent="." index="3"]
 
 [node name="WallBow" parent="walls" index="0" instance=ExtResource("4_ia5n6")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, -6)
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 23.472782, 0, -56.322723)
 
 [node name="WallBow3" parent="walls" index="1" instance=ExtResource("4_ia5n6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -36)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 23.47278, 0, -26.322727)
 
 [node name="WallBow5" parent="walls" index="2" instance=ExtResource("4_ia5n6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -24)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 5.4727807, 0, -38.322727)
 
 [node name="WallBow2" parent="walls" index="3" instance=ExtResource("4_ia5n6")]
-transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 6, 0, -6)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.472782, 0, -56.322727)
 
 [node name="WallBow4" parent="walls" index="4" instance=ExtResource("4_ia5n6")]
-transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 12, 0, -48)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.472778, 0, -14.322727)
 
 [node name="WallBow6" parent="walls" index="5" instance=ExtResource("4_ia5n6")]
-transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 24, 0, -36)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5272198, 0, -26.322727)
 
 [node name="WallBow7" parent="walls" index="6" instance=ExtResource("4_ia5n6")]
-transform = Transform3D(1.3113416e-07, 0, -1, 0, 1, 0, 1, 0, 1.3113416e-07, 24, 0, -54)
+transform = Transform3D(-4.371138e-08, 0, 1, 0, 1, 0, -1, 0, -4.371138e-08, -0.5272217, 0, -8.322729)
 
 [node name="WallBow8" parent="walls" index="7" instance=ExtResource("4_ia5n6")]
-transform = Transform3D(1, 0, 1.7484555e-07, 0, 1, 0, -1.7484555e-07, 0, 1, 24, 0, -54)
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.5272217, 0, -8.322729)
 
 [node name="StraigthWall" parent="walls" index="8" instance=ExtResource("5_xrlu7")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -6, 0, -9)
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 29.472782, 0, -53.322723)
 
 [node name="StraigthWall2" parent="walls" index="9" instance=ExtResource("5_xrlu7")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 12, 0, -9)
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 11.472782, 0, -53.322727)
 
 [node name="StraigthWall4" parent="walls" index="10" instance=ExtResource("5_xrlu7")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -6, 0, -27)
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 29.472778, 0, -35.322727)
 
 [node name="StraigthWall5" parent="walls" index="11" instance=ExtResource("5_xrlu7")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -6, 0, -33)
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 29.472778, 0, -29.322725)
 
 [node name="StraigthWall15" parent="walls" index="12" instance=ExtResource("5_xrlu7")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 30, 0, -39)
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -6.5272207, 0, -23.32273)
 
 [node name="StraigthWall16" parent="walls" index="13" instance=ExtResource("5_xrlu7")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 30, 0, -45)
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -6.5272226, 0, -17.32273)
 
 [node name="StraigthWall18" parent="walls" index="14" instance=ExtResource("5_xrlu7")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 30, 0, -51)
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -6.5272226, 0, -11.322729)
 
 [node name="StraigthWall19" parent="walls" index="15" instance=ExtResource("5_xrlu7")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 18, 0, -51)
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 5.4727783, 0, -11.322727)
 
 [node name="StraigthWall17" parent="walls" index="16" instance=ExtResource("5_xrlu7")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 30, 0, -45)
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -6.5272226, 0, -17.32273)
 
 [node name="StraigthWall6" parent="walls" index="17" instance=ExtResource("5_xrlu7")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -42)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 20.472778, 0, -20.322727)
 
 [node name="StraigthWall8" parent="walls" index="18" instance=ExtResource("5_xrlu7")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 0)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 20.472782, 0, -62.322727)
 
 [node name="StraigthWall7" parent="walls" index="19" instance=ExtResource("5_xrlu7")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, -42)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 14.472779, 0, -20.322727)
 
 [node name="StraigthWall12" parent="walls" index="20" instance=ExtResource("5_xrlu7")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21, 0, -30)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 2.4727802, 0, -32.322727)
 
 [node name="StraigthWall13" parent="walls" index="21" instance=ExtResource("5_xrlu7")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21, 0, -30)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 2.4727802, 0, -32.322727)
 
 [node name="WallTee" parent="walls" index="22" instance=ExtResource("8_kt1m0")]
-transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -6, 0, -18)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.472782, 0, -44.322723)
 
 [node name="WallTee2" parent="walls" index="23" instance=ExtResource("8_kt1m0")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -18)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 11.472781, 0, -44.322727)
 
 [node name="WallDoor" parent="walls" index="24" instance=ExtResource("9_3stth")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 3, 0, -18)
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 20.472782, 0, -44.322727)

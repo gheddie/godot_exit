@@ -1,0 +1,41 @@
+[gd_scene load_steps=7 format=3 uid="uid://x1jd1wlk8d3r"]
+
+[ext_resource type="Script" uid="uid://ddx0t8p118lh8" path="res://assets/architecture/common/Exit.gd" id="1_drtnf"]
+[ext_resource type="PackedScene" uid="uid://dkt3huav5875r" path="res://assets/architecture/common/Exit.glb" id="1_tj7a5"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_drtnf"]
+size = Vector3(1, 5, 3.8)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_rh7qt"]
+size = Vector3(4.8, 5, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_fsclj"]
+size = Vector3(1, 5, 3.8)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_tj7a5"]
+size = Vector3(1, 2.9, 1.3000001)
+
+[node name="Exit" type="StaticBody3D"]
+script = ExtResource("1_drtnf")
+
+[node name="Exit" parent="." instance=ExtResource("1_tj7a5")]
+
+[node name="RightCollider" type="CollisionShape3D" parent="."]
+transform = Transform3D(0.8, 0, 0, 0, 1, 0, 0, 0, 1, 2, 2.5, -0.10000008)
+shape = SubResource("BoxShape3D_drtnf")
+
+[node name="BackCollider" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.5, 0, 2.5, 1.6)
+shape = SubResource("BoxShape3D_rh7qt")
+
+[node name="LeftCollider" type="CollisionShape3D" parent="."]
+transform = Transform3D(0.8, 0, 0, 0, 1, 0, 0, 0, 1, -1.9999999, 2.5, -0.10000008)
+shape = SubResource("BoxShape3D_fsclj")
+
+[node name="ExitTrigger" type="Area3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ExitTrigger"]
+transform = Transform3D(2.5, 0, 0, 0, 1, 0, 0, 0, 2.3000002, 0, 1.45, -0.34500012)
+shape = SubResource("BoxShape3D_tj7a5")
+
+[connection signal="body_shape_entered" from="ExitTrigger" to="." method="onBodyEntered"]
