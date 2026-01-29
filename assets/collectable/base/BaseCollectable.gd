@@ -12,5 +12,8 @@ func acceptPlayerPosition(_position: Vector3) -> void:
 		harvestingFinished()
 
 func harvestingFinished() -> void:
+	# queue_free()
+	pass
+
+func evaluatePlayerPosition(playerPosition: Vector3) -> void:
 	queue_free()
-	# pass

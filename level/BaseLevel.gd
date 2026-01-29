@@ -21,7 +21,7 @@ func onTimerElapsed() -> void:
 	tickLevelObjects()
 	var targettedObject = player.getTargettedObject()
 	if targettedObject != null:
-		levelObjectManager.acceptTargettedObject(targettedObject)
+		levelObjectManager.acceptTargettedObject(targettedObject, player)
 
 func tickLevelObjects() -> void:
 	levelObjectManager.tickLevelObjects()

@@ -51,5 +51,7 @@ func tickLevelObjects() -> void:
 	for plate in floorPlates.values():
 		plate.tick()
 
-func acceptTargettedObject(targetted: Object) -> void:
+func acceptTargettedObject(targetted: Object, player: Player) -> void:
 	print("acceptTargettedObject --> ", str(targetted))	
+	if targetted is BaseCollectable:
+		targetted.evaluatePlayerPosition(player.global_position)		
