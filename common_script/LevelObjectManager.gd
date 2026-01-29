@@ -4,7 +4,6 @@ extends Object
 var floorPlates : Dictionary[String, FloorPlate] = {}
 var doors : Dictionary[String, WallDoor] = {}
 var collectables : Dictionary[String, BaseCollectable] = {}
-
 var startPlate : StartFloorPlate
 var endPlate : EndFloorPlate
 
@@ -47,3 +46,10 @@ func acceptPlayerPosition(position: Vector3) -> void:
 		if collectable != null:
 			collectable.acceptPlayerPosition(position)		
 		pass
+
+func tickLevelObjects() -> void:
+	for plate in floorPlates.values():
+		plate.tick()
+
+func acceptTargettedObject(targetted: Object) -> void:
+	print("acceptTargettedObject --> ", str(targetted))	

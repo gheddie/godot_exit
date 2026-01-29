@@ -10,3 +10,6 @@ func acceptPlayerPosition(_position: Vector3) -> void:
 
 func initialize() -> void:
 	pass
+
+func tick() -> void:
+	print(str("ticking --> ", str(self)))

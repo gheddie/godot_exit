@@ -7,3 +7,6 @@ func acceptPlayerPosition(position: Vector3) -> void
 
 @abstract
 func initialize() -> void
+
+@abstract
+func tick() -> void

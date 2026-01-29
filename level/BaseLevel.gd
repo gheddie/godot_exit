@@ -4,8 +4,30 @@ extends Node3D
 
 var playerInstance: PackedScene = preload("res://assets/player/Player.tscn")
 var levelObjectManager: LevelObjectManager
+var objectTimer : Timer
+var player : Player
+
+const TIMER_OBJECT_TIMEOUT = 1.0
+
+func initObjectTimer() -> void:
+	objectTimer = Timer.new()
+	add_child(objectTimer)
+	objectTimer.wait_time = TIMER_OBJECT_TIMEOUT	
+	objectTimer.start()
+	# assert(!objectTimer.is_stopped())
+	objectTimer.connect("timeout", onTimerElapsed)			
+	
+func onTimerElapsed() -> void:
+	tickLevelObjects()
+	var targettedObject = player.getTargettedObject()
+	if targettedObject != null:
+		levelObjectManager.acceptTargettedObject(targettedObject)
+
+func tickLevelObjects() -> void:
+	levelObjectManager.tickLevelObjects()
 
 func _ready() -> void:	
+	initObjectTimer()
 	GameManagerInstance.actualLevel = self
 	levelObjectManager = LevelObjectManager.new()
 	var floorPlates = findFloorPlates(get_tree().root, [])
@@ -29,7 +51,7 @@ func put_collectables() -> void:
 		levelObjectManager.acceptLevelObject(collectableInstance)
 	
 func put_player() -> void:	
-	var player = playerInstance.instantiate()
+	player = playerInstance.instantiate()
 	player.global_position = levelObjectManager.getStartPosition()
 	get_tree().get_current_scene().add_child(player)
 	

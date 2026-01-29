@@ -7,8 +7,10 @@ extends CharacterBody3D
 const WALK_SPEED = 10.0
 const TURN_SPEED = 5.0
 
+@onready var forwardRaycast: RayCast3D = $ForwardRayCast
+
 func _process(_delta: float) -> void:
-	GameManagerInstance.acceptPlayerPosition(global_position)
+	GameManagerInstance.acceptPlayerPosition(global_position)	
 
 func _physics_process(delta: float) -> void:
 	if not is_on_floor():
@@ -29,3 +31,10 @@ func handle_rotation(delta: float) -> void:
 		rotation.y += TURN_SPEED * delta
 	if Input.is_action_pressed("turn_right"):
 		rotation.y -= TURN_SPEED * delta	
+
+func getTargettedObject() -> Object:
+	if forwardRaycast.is_colliding():
+		var collider = forwardRaycast.get_collider()		
+		return collider
+	else:
+		return null

@@ -6,3 +6,6 @@ func acceptPlayerPosition(_position: Vector3) -> void:
 
 func initialize() -> void:
 	pass
+
+func tick() -> void:
+	pass
