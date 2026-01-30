@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://cbp1s6cnixrnk"]
+
+[ext_resource type="PackedScene" uid="uid://ra2geqm5jylu" path="res://assets/collectable/base/BaseCollectable.tscn" id="1_fr5aj"]
+[ext_resource type="Script" uid="uid://bj82x73lpsu0t" path="res://assets/collectable/palmtree/PalmTreeCollectable.gd" id="2_1mxbe"]
+[ext_resource type="PackedScene" uid="uid://dwhbkff3hpsr6" path="res://assets/collectable/palmtree/PalmTree.glb" id="2_s47wl"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1mxbe"]
+size = Vector3(1, 8.400001, 1)
+
+[node name="PalmTreeCollectable" unique_id=174892680 instance=ExtResource("1_fr5aj")]
+script = ExtResource("2_1mxbe")
+
+[node name="PalmTree" parent="." index="0" unique_id=795827301 instance=ExtResource("2_s47wl")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=691719326]
+transform = Transform3D(2.1, 0, 0, 0, 1, 0, 0, 0, 2.28, 0, 3.7000003, 0)
+shape = SubResource("BoxShape3D_1mxbe")

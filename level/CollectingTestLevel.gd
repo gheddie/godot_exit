@@ -11,7 +11,7 @@ func getCollectablePositions() -> Array:
 		"simplebox@RegularFloorPlate6",
 		"simplebox@RegularFloorPlate4",
 		"simplebox@RegularFloorPlate22",
-		"mineral@RegularFloorPlate25",		
+		"palmtree@RegularFloorPlate25",		
 		"mineral@RegularFloorPlate96",
 		"simplebox@RegularFloorPlate94",
 		"simplebox@RegularFloorPlate105",

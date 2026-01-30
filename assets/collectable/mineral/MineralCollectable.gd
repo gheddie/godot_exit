@@ -19,3 +19,6 @@ func registerElapsableParts(harvestingDescriptor: HarvestingDescriptor) -> void:
 
 func getDescriptor() -> String:
 	return "Mineral"
+
+func getWobbleFactor() -> float:
+	return 0.75

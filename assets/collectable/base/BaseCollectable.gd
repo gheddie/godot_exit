@@ -26,7 +26,7 @@ func harvestMe(playerPosition: Vector3) -> void:
 
 func wobble() -> void:		
 	var origScale = scale
-	var tweenedScale = scale * 0.75	
+	var tweenedScale = scale * getWobbleFactor()
 	var tween = create_tween()	
 	tween.tween_property(self, "scale", tweenedScale, WOBBLE_INTERVAL)
 	tween.tween_property(self, "scale", origScale, WOBBLE_INTERVAL)	
@@ -55,3 +55,6 @@ func registerElapsableParts(harvestingDescriptor: HarvestingDescriptor) -> void
 
 @abstract
 func getDescriptor() -> String
+
+@abstract
+func getWobbleFactor() -> float
