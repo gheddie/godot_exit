@@ -6,7 +6,7 @@ extends StaticBody3D
 
 var opened: bool = false
 
-const DOOR_OFFSET = 5.0
+const DOOR_OFFSET = 1.0
 
 func open() -> void:
 	if !opened:
@@ -14,7 +14,7 @@ func open() -> void:
 		collisionShape.queue_free()
 		opened = true
 
-func acceptPlayerPosition(position: Vector3) -> void:
+func evaluatePlayerPosition(playerPosition: Vector3) -> void:
 	var distance = global_position.distance_to(position)	
 	if distance <= DOOR_OFFSET:
 		open()

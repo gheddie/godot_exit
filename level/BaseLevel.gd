@@ -18,13 +18,9 @@ func initObjectTimer() -> void:
 	objectTimer.connect("timeout", onTimerElapsed)			
 	
 func onTimerElapsed() -> void:
-	tickLevelObjects()
 	var targettedObject = player.getTargettedObject()
 	if targettedObject != null:
 		levelObjectManager.acceptTargettedObject(targettedObject, player)
-
-func tickLevelObjects() -> void:
-	levelObjectManager.tickLevelObjects()
 
 func _ready() -> void:	
 	initObjectTimer()
@@ -76,6 +72,3 @@ func findDoors(node, list) :
 
 @abstract
 func get_collectable_positions() -> Array
-
-func acceptPlayerPosition(position: Vector3) -> void:
-	levelObjectManager.acceptPlayerPosition(position)

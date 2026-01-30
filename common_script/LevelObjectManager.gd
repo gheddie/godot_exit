@@ -46,22 +46,10 @@ func getEndPosition() -> Vector3:
 func getPlatePosition(name: String) -> Vector3:
 	return getPlateByName(name).global_position
 
-func acceptPlayerPosition(position: Vector3) -> void:
-	for plate in floorPlates.values():
-		plate.acceptPlayerPosition(position)
-	for door in doors.values():
-		door.acceptPlayerPosition(position)
-	for collectable in collectables.values():
-		if collectable != null:
-			collectable.acceptPlayerPosition(position)				
-
-func tickLevelObjects() -> void:
-	for plate in floorPlates.values():
-		plate.tick()
-
 func acceptTargettedObject(targetted: Object, player: Player) -> void:
-	# print("acceptTargettedObject --> ", str(targetted))	
 	if targetted is BaseCollectable:
+		targetted.evaluatePlayerPosition(player.global_position)		
+	if targetted is WallDoor:
 		targetted.evaluatePlayerPosition(player.global_position)		
 		
 func watchObjects(level: BaseLevel) -> void:

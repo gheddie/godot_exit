@@ -7,9 +7,6 @@ const WOBBLE_INTERVAL = 0.05
 
 var collectedImpact: int  = 0
 
-func acceptPlayerPosition(playerPosition: Vector3) -> void:
-	pass
-			
 func harvestMe(playerPosition: Vector3) -> void:
 	var distance = global_position.distance_to(playerPosition)
 	# print(str("distance to player --> ", str(distance)))
