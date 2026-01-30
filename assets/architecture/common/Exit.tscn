@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://x1jd1wlk8d3r"]
+[gd_scene format=3 uid="uid://x1jd1wlk8d3r"]
 
 [ext_resource type="Script" uid="uid://ddx0t8p118lh8" path="res://assets/architecture/common/Exit.gd" id="1_drtnf"]
 [ext_resource type="PackedScene" uid="uid://dkt3huav5875r" path="res://assets/architecture/common/Exit.glb" id="1_tj7a5"]
@@ -13,29 +13,29 @@ size = Vector3(4.8, 5, 1)
 size = Vector3(1, 5, 3.8)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_tj7a5"]
-size = Vector3(1, 2.9, 1.3000001)
+size = Vector3(1, 2.9, 0.5)
 
-[node name="Exit" type="StaticBody3D"]
+[node name="Exit" type="StaticBody3D" unique_id=261291452]
 script = ExtResource("1_drtnf")
 
-[node name="Exit" parent="." instance=ExtResource("1_tj7a5")]
+[node name="Exit" parent="." unique_id=2114220528 instance=ExtResource("1_tj7a5")]
 
-[node name="RightCollider" type="CollisionShape3D" parent="."]
+[node name="RightCollider" type="CollisionShape3D" parent="." unique_id=70988685]
 transform = Transform3D(0.8, 0, 0, 0, 1, 0, 0, 0, 1, 2, 2.5, -0.10000008)
 shape = SubResource("BoxShape3D_drtnf")
 
-[node name="BackCollider" type="CollisionShape3D" parent="."]
+[node name="BackCollider" type="CollisionShape3D" parent="." unique_id=977663441]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.5, 0, 2.5, 1.6)
 shape = SubResource("BoxShape3D_rh7qt")
 
-[node name="LeftCollider" type="CollisionShape3D" parent="."]
+[node name="LeftCollider" type="CollisionShape3D" parent="." unique_id=342073175]
 transform = Transform3D(0.8, 0, 0, 0, 1, 0, 0, 0, 1, -1.9999999, 2.5, -0.10000008)
 shape = SubResource("BoxShape3D_fsclj")
 
-[node name="ExitTrigger" type="Area3D" parent="."]
+[node name="ExitTrigger" type="Area3D" parent="." unique_id=945109234]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="ExitTrigger"]
-transform = Transform3D(2.5, 0, 0, 0, 1, 0, 0, 0, 2.3000002, 0, 1.45, -0.34500012)
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ExitTrigger" unique_id=1043340514]
+transform = Transform3D(2.5, 0, 0, 0, 1, 0, 0, 0, 2.3000002, 0, 1.45, 0.57500005)
 shape = SubResource("BoxShape3D_tj7a5")
 
 [connection signal="body_shape_entered" from="ExitTrigger" to="." method="onBodyEntered"]

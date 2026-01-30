@@ -1,13 +1,9 @@
 extends Node3D
 
-func _ready() -> void:		
+func _ready() -> void:			
 	
-	LevelProviderInstance.registerLevel(preload("res://level/Level1.tscn"))
-	LevelProviderInstance.registerLevel(preload("res://level/Level2.tscn"))
-	LevelProviderInstance.registerLevel(preload("res://level/Level3.tscn"))		
-	LevelProviderInstance.registerLevel(preload("res://level/Level4.tscn"))
-	LevelProviderInstance.registerLevel(preload("res://level/Level5.tscn"))
-	LevelProviderInstance.registerLevel(preload("res://level/Level6.tscn"))		
-	LevelProviderInstance.registerLevel(preload("res://level/Level7.tscn"))
+	LevelProviderInstance.registerLevel(preload("res://level/CollectingTestLevel.tscn"))
+	LevelProviderInstance.registerLevel(preload("res://level/LevelA.tscn"))
+	LevelProviderInstance.registerLevel(preload("res://level/DuplicationLevel.tscn"))	
 	
 	LevelProviderInstance.startLevelSequence(get_tree())	

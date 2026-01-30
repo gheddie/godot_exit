@@ -32,11 +32,12 @@ func _ready() -> void:
 	levelObjectManager = LevelObjectManager.new()
 	var floorPlates = findFloorPlates(get_tree().root, [])
 	for floorPlate in floorPlates:
-		levelObjectManager.acceptLevelObject(floorPlate)
+		levelObjectManager.acceptLevelObject(floorPlate, self)
 	var doors = findDoors(get_tree().root, [])
 	for door in doors:
-		levelObjectManager.acceptLevelObject(door)
-	print(str("starting level ", str(self), ", ", "[", str(levelObjectManager.getPlateCount()), "] ", " floor plates..."), str("(", levelObjectManager.getStartPosition(), "->", levelObjectManager.getEndPosition(), ")"))
+		levelObjectManager.acceptLevelObject(door, self)
+	# print(str("starting level ", str(self), ", ", "[", str(levelObjectManager.getPlateCount()), "] ", " floor plates..."), str("(", levelObjectManager.getStartPosition(), "->", levelObjectManager.getEndPosition(), ")"))
+	levelObjectManager.watchObjects(self)
 	put_player()
 	put_collectables()	
 	
@@ -48,7 +49,7 @@ func put_collectables() -> void:
 		collectableInstance = CollectableFactoryInstance.makeCollectableInstance(collectable.split("@")[0])			
 		collectableInstance.global_position = levelObjectManager.getPlatePosition(collectable.split("@")[1])		
 		get_tree().get_current_scene().add_child(collectableInstance)
-		levelObjectManager.acceptLevelObject(collectableInstance)
+		levelObjectManager.acceptLevelObject(collectableInstance, self)
 	
 func put_player() -> void:	
 	player = playerInstance.instantiate()

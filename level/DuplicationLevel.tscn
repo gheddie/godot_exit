@@ -1,0 +1,53 @@
+[gd_scene format=3 uid="uid://bowditkcqjvrg"]
+
+[ext_resource type="PackedScene" uid="uid://r6c5xfkfev64" path="res://level/BaseLevel.tscn" id="1_45ilo"]
+[ext_resource type="PackedScene" uid="uid://craoy8cx6i3ao" path="res://assets/architecture/floor/end/EndFloorPlate.tscn" id="2_dp0l5"]
+[ext_resource type="Script" uid="uid://cj7k3snv2qhdc" path="res://level/DuplicationLevel.gd" id="2_xeshx"]
+[ext_resource type="PackedScene" uid="uid://dn72v4tcielvb" path="res://assets/architecture/floor/start/StartFloorPlate.tscn" id="3_r3u3n"]
+[ext_resource type="PackedScene" uid="uid://olf3xpdlfxs" path="res://assets/architecture/floor/regular/RegularFloorPlate.tscn" id="4_25jhw"]
+[ext_resource type="PackedScene" uid="uid://d0fm5sijs3e0g" path="res://assets/architecture/wall/StraigthWall.tscn" id="6_wck70"]
+
+[node name="DuplicationLevel" unique_id=451670763 instance=ExtResource("1_45ilo")]
+script = ExtResource("2_xeshx")
+
+[node name="floor" type="Node3D" parent="." index="2" unique_id=1289901273]
+
+[node name="Regular1" parent="floor" index="0" unique_id=714742585 instance=ExtResource("4_25jhw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2)
+
+[node name="Regular2" parent="floor" index="1" unique_id=519507398 instance=ExtResource("4_25jhw")]
+
+[node name="Regular3" parent="floor" index="2" unique_id=1959685500 instance=ExtResource("4_25jhw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2)
+
+[node name="Regular4" parent="floor" index="3" unique_id=1078988164 instance=ExtResource("4_25jhw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -2)
+
+[node name="Regular5" parent="floor" index="4" unique_id=1567493048 instance=ExtResource("4_25jhw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0)
+
+[node name="Regular6" parent="floor" index="5" unique_id=1903106443 instance=ExtResource("4_25jhw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 2)
+
+[node name="Regular7" parent="floor" index="6" unique_id=1147209529 instance=ExtResource("4_25jhw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -2)
+
+[node name="Regular8" parent="floor" index="7" unique_id=1030230292 instance=ExtResource("4_25jhw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 0)
+
+[node name="Regular9" parent="floor" index="8" unique_id=510378736 instance=ExtResource("4_25jhw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 2)
+
+[node name="EndFloorPlate" parent="." index="3" unique_id=471863807 instance=ExtResource("2_dp0l5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4)
+
+[node name="StartFloorPlate" parent="." index="4" unique_id=1889033334 instance=ExtResource("3_r3u3n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4)
+
+[node name="walls" type="Node3D" parent="." index="5" unique_id=1636762169]
+
+[node name="StraigthWall3" parent="walls" index="0" unique_id=1955505384 instance=ExtResource("6_wck70")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 3, 0, 0)
+
+[node name="StraigthWall2" parent="walls" index="1" unique_id=948422723 instance=ExtResource("6_wck70")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -3, 0, 0)

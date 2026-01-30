@@ -1,15 +1,15 @@
-[gd_scene load_steps=3 format=3 uid="uid://d0fm5sijs3e0g"]
+[gd_scene format=3 uid="uid://d0fm5sijs3e0g"]
 
 [ext_resource type="PackedScene" uid="uid://ca75fmi1q2w27" path="res://assets/architecture/wall/StraightWall.glb" id="1_regcg"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_regcg"]
 size = Vector3(6, 4, 0.4)
 
-[node name="StraigthWall" type="StaticBody3D"]
+[node name="StraigthWall" type="StaticBody3D" unique_id=1598089827]
 
-[node name="StraightWall" parent="." instance=ExtResource("1_regcg")]
+[node name="StraightWall" parent="." unique_id=1631209602 instance=ExtResource("1_regcg")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0, 0, 0)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=552823312]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.9999999, 1.4901161e-08)
 shape = SubResource("BoxShape3D_regcg")

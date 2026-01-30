@@ -1,7 +1,0 @@
-class_name Level2
-extends BaseLevel
-
-func get_collectable_positions() -> Array:
-	return [
-		"red@RegularFloorPlate102",		
-		]

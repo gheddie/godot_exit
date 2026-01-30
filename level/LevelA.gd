@@ -1,7 +1,7 @@
-class_name Level6
+class_name LevelA
 extends BaseLevel
 
 func get_collectable_positions() -> Array:
 	return [
-		"red@RegularFloorPlate71"
+		"red@Regular1"
 		]

@@ -9,14 +9,18 @@ var collectedImpact: int  = 0
 
 func acceptPlayerPosition(_position: Vector3) -> void:
 	var distance = global_position.distance_to(_position)
+	# print(str("distance to player --> ", str(distance)))
 	if distance <= COLLECTABLE_OFFSET:
-		collectedImpact += 1
+		harvestMe()
 		if collectedImpact >= MAX_COLLECTABLE_IMPACT:	
 			harvestingFinished()
+			
+func harvestMe() -> void:
+	collectedImpact += 1
+	print(str("harvested up to --> ", str(collectedImpact)))
 
 func harvestingFinished() -> void:
-	# queue_free()
-	pass
+	queue_free()	
 
 func evaluatePlayerPosition(playerPosition: Vector3) -> void:
-	queue_free()
+	pass
