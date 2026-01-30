@@ -7,7 +7,7 @@ var levelObjectManager: LevelObjectManager
 var objectTimer : Timer
 var player : Player
 
-const TIMER_OBJECT_TIMEOUT = 1.0
+const TIMER_OBJECT_TIMEOUT = 0.25
 
 func initObjectTimer() -> void:
 	objectTimer = Timer.new()

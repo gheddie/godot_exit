@@ -12,7 +12,8 @@ const GRAVITY = 9.81
 @onready var forwardRaycast: RayCast3D = $ForwardRayCast
 
 func _process(_delta: float) -> void:
-	GameManagerInstance.acceptPlayerPosition(global_position)	
+	# GameManagerInstance.acceptPlayerPosition(global_position)	
+	pass
 
 func _physics_process(delta: float) -> void:
 	if not is_on_floor():

@@ -10,4 +10,5 @@ func initialize() -> void:
 	add_child(exitTemplate.instantiate())
 
 func tick() -> void:
-	print(str("ticking --> ", str(self)))
+	# print(str("ticking --> ", str(self)))
+	pass
