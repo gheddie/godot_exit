@@ -3,5 +3,5 @@ extends BaseLevel
 
 func get_collectable_positions() -> Array:
 	return [
-		"red@Regular1"
+		"mineral@Regular1"
 		]

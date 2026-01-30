@@ -2,7 +2,7 @@
 class_name BaseCollectable
 extends StaticBody3D
 
-const COLLECTABLE_OFFSET = 3.0
+const HARVESTING_OFFSET = 3.5
 const WOBBLE_INTERVAL = 0.05
 
 var collectedImpact: int  = 0
@@ -10,7 +10,7 @@ var collectedImpact: int  = 0
 func harvestMe(playerPosition: Vector3) -> void:
 	var distance = global_position.distance_to(playerPosition)
 	# print(str("distance to player --> ", str(distance)))
-	if distance <= COLLECTABLE_OFFSET:
+	if distance <= HARVESTING_OFFSET:
 		wobble()
 		collectedImpact += 1
 		print(str("harvested up to --> ", str(collectedImpact)))

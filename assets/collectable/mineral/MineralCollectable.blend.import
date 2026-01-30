@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://c4xq04yjgne64"
-path="res://.godot/imported/GreenCollectable.blend-3680f971582c6dd9ecba92a7106131b3.scn"
+uid="uid://c57hyj3gysxf4"
+path="res://.godot/imported/MineralCollectable.blend-a7fba8e3a1ae5c15c95bad2fd3398076.scn"
 
 [deps]
 
-source_file="res://assets/collectable/green/GreenCollectable.blend"
-dest_files=["res://.godot/imported/GreenCollectable.blend-3680f971582c6dd9ecba92a7106131b3.scn"]
+source_file="res://assets/collectable/mineral/MineralCollectable.blend"
+dest_files=["res://.godot/imported/MineralCollectable.blend-a7fba8e3a1ae5c15c95bad2fd3398076.scn"]
 
 [params]
 
@@ -48,6 +48,7 @@ blender/meshes/colors=false
 blender/meshes/uvs=true
 blender/meshes/normals=true
 blender/meshes/export_geometry_nodes_instances=false
+blender/meshes/gpu_instances=false
 blender/meshes/tangents=true
 blender/meshes/skins=2
 blender/meshes/export_bones_deforming_mesh_only=false

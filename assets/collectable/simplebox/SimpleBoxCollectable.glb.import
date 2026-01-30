@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://by2a5sfkuuiw4"
-path="res://.godot/imported/GreenCollectable.glb-a56182711ba8d5cb2aaeff750d591557.scn"
+uid="uid://csnbk1sdw1ddi"
+path="res://.godot/imported/SimpleBoxCollectable.glb-fbbbbc14aef7f4ae49a3800feb496ce2.scn"
 
 [deps]
 
-source_file="res://assets/collectable/green/GreenCollectable.glb"
-dest_files=["res://.godot/imported/GreenCollectable.glb-a56182711ba8d5cb2aaeff750d591557.scn"]
+source_file="res://assets/collectable/simplebox/SimpleBoxCollectable.glb"
+dest_files=["res://.godot/imported/SimpleBoxCollectable.glb-fbbbbc14aef7f4ae49a3800feb496ce2.scn"]
 
 [params]
 

@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://82fiwksmwv6l"
-path="res://.godot/imported/RedCollectable.blend-e34d8abaa54fa2081023c972c62c9b25.scn"
+uid="uid://dfnmosaqj42g7"
+path="res://.godot/imported/SimpleBoxCollectable.blend-e20d7af86d8dcecb4ffd7db452d05b84.scn"
 
 [deps]
 
-source_file="res://assets/collectable/red/RedCollectable.blend"
-dest_files=["res://.godot/imported/RedCollectable.blend-e34d8abaa54fa2081023c972c62c9b25.scn"]
+source_file="res://assets/collectable/simplebox/SimpleBoxCollectable.blend"
+dest_files=["res://.godot/imported/SimpleBoxCollectable.blend-e20d7af86d8dcecb4ffd7db452d05b84.scn"]
 
 [params]
 
@@ -48,6 +48,7 @@ blender/meshes/colors=false
 blender/meshes/uvs=true
 blender/meshes/normals=true
 blender/meshes/export_geometry_nodes_instances=false
+blender/meshes/gpu_instances=false
 blender/meshes/tangents=true
 blender/meshes/skins=2
 blender/meshes/export_bones_deforming_mesh_only=false

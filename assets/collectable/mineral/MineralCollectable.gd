@@ -1,5 +1,5 @@
-class_name RedCollectable
+class_name MineralCollectable
 extends BaseCollectable
 
 func getMaxCollectableImpact() -> int:
-	return 30
+	return 20

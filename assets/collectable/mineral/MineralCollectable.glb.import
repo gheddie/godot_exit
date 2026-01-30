@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://ddw1jttocy08s"
-path="res://.godot/imported/BlueCollectable.glb-5a6981ecc13e9ad414fe1b613603756f.scn"
+uid="uid://ch3u7na2sk25s"
+path="res://.godot/imported/MineralCollectable.glb-d21b6b7a9a741ab4dd7d220a6ed37e54.scn"
 
 [deps]
 
-source_file="res://assets/collectable/blue/BlueCollectable.glb"
-dest_files=["res://.godot/imported/BlueCollectable.glb-5a6981ecc13e9ad414fe1b613603756f.scn"]
+source_file="res://assets/collectable/mineral/MineralCollectable.glb"
+dest_files=["res://.godot/imported/MineralCollectable.glb-d21b6b7a9a741ab4dd7d220a6ed37e54.scn"]
 
 [params]
 

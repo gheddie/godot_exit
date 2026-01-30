@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://10nd4ioa65i1"]
+
+[ext_resource type="PackedScene" uid="uid://ra2geqm5jylu" path="res://assets/collectable/base/BaseCollectable.tscn" id="1_p0eom"]
+[ext_resource type="PackedScene" uid="uid://ch3u7na2sk25s" path="res://assets/collectable/mineral/MineralCollectable.glb" id="2_4k1y8"]
+[ext_resource type="Script" uid="uid://ch63qbkq1eeh6" path="res://assets/collectable/mineral/MineralCollectable.gd" id="2_p0ddk"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_p0eom"]
+size = Vector3(3.6000001, 3.1000001, 3.4)
+
+[node name="MineralCollectable" unique_id=265404752 instance=ExtResource("1_p0eom")]
+script = ExtResource("2_p0ddk")
+
+[node name="MineralCollectable" parent="." index="0" unique_id=668608204 instance=ExtResource("2_4k1y8")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1850739564]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.30000007, 1.5500001, 0.099999845)
+shape = SubResource("BoxShape3D_p0eom")

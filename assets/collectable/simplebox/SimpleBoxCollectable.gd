@@ -1,5 +1,5 @@
-class_name BlueCollectable
+class_name SimpleBoxCollectable
 extends BaseCollectable
 
 func getMaxCollectableImpact() -> int:
-	return 10
+	return 28

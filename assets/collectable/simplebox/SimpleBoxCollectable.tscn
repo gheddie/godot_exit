@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://d4frqbnft6sjl"]
+
+[ext_resource type="PackedScene" uid="uid://ra2geqm5jylu" path="res://assets/collectable/base/BaseCollectable.tscn" id="1_8pt76"]
+[ext_resource type="Script" uid="uid://cv86fi6mrw7xp" path="res://assets/collectable/simplebox/SimpleBoxCollectable.gd" id="2_kuwwt"]
+[ext_resource type="PackedScene" uid="uid://csnbk1sdw1ddi" path="res://assets/collectable/simplebox/SimpleBoxCollectable.glb" id="3_4rq4r"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4rq4r"]
+size = Vector3(2.4, 2.1000001, 2.4)
+
+[node name="SimpleBoxCollectable" unique_id=1487968091 instance=ExtResource("1_8pt76")]
+script = ExtResource("2_kuwwt")
+
+[node name="SimpleBoxCollectable" parent="." index="0" unique_id=2096128894 instance=ExtResource("3_4rq4r")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=717511581]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.0500001, 0)
+shape = SubResource("BoxShape3D_4rq4r")

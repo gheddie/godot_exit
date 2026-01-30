@@ -3,17 +3,17 @@ extends BaseLevel
 
 func get_collectable_positions() -> Array:
 	return [
-		"red@RegularFloorPlate",		
-		"red@RegularFloorPlate7",
-		"blue@RegularFloorPlate8",
-		"red@RegularFloorPlate3",
-		"red@RegularFloorPlate2",
-		"blue@RegularFloorPlate6",
-		"red@RegularFloorPlate4",
-		"green@RegularFloorPlate22",
-		"red@RegularFloorPlate25",		
-		"blue@RegularFloorPlate96",
-		"red@RegularFloorPlate94",
-		"green@RegularFloorPlate105",
-		"red@RegularFloorPlate103"
+		"mineral@RegularFloorPlate",		
+		"simplebox@RegularFloorPlate7",
+		"mineral@RegularFloorPlate8",
+		"mineral@RegularFloorPlate3",
+		"simplebox@RegularFloorPlate2",
+		"simplebox@RegularFloorPlate6",
+		"simplebox@RegularFloorPlate4",
+		"simplebox@RegularFloorPlate22",
+		"mineral@RegularFloorPlate25",		
+		"mineral@RegularFloorPlate96",
+		"simplebox@RegularFloorPlate94",
+		"simplebox@RegularFloorPlate105",
+		"mineral@RegularFloorPlate103"
 	]
