@@ -1,7 +1,7 @@
 class_name CollectingTestLevel
 extends BaseLevel
 
-func get_collectable_positions() -> Array:
+func getCollectablePositions() -> Array:
 	return [
 		"mineral@RegularFloorPlate",		
 		"simplebox@RegularFloorPlate7",

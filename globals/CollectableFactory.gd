@@ -9,5 +9,5 @@ func _ready() -> void:
 
 func makeCollectableInstance(type: String) -> BaseCollectable:
 	assert(templates.has(type) != null, str("unregistered collectable type --> ", type))
-	print(str("making collectable of type {", type, "}"))
+	# print(str("making collectable of type {", type, "}"))
 	return templates.get(type).instantiate()

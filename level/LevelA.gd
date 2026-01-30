@@ -1,7 +1,7 @@
 class_name LevelA
 extends BaseLevel
 
-func get_collectable_positions() -> Array:
+func getCollectablePositions() -> Array:
 	return [
 		"mineral@Regular1"
 		]

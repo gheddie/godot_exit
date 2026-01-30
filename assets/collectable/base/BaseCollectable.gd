@@ -5,16 +5,23 @@ extends StaticBody3D
 const HARVESTING_OFFSET = 3.5
 const WOBBLE_INTERVAL = 0.05
 
-var collectedImpact: int  = 0
+var harvestingDescriptor: HarvestingDescriptor
+var mappedMeshes: Dictionary
+
+func _init() -> void:	
+	harvestingDescriptor = HarvestingDescriptor.new(getMaxCollectableImpact(), getHarvestingTesholds(), self)
+	harvestingDescriptor.validate()	
+	registerElapsableParts(harvestingDescriptor)
+	
+func _ready() -> void:
+	mappedMeshes = TreeUtil.mapSceneObjects(self, {})	
 
 func harvestMe(playerPosition: Vector3) -> void:
 	var distance = global_position.distance_to(playerPosition)
-	# print(str("distance to player --> ", str(distance)))
 	if distance <= HARVESTING_OFFSET:
 		wobble()
-		collectedImpact += 1
-		print(str("harvested up to --> ", str(collectedImpact)))
-		if collectedImpact >= getMaxCollectableImpact():	
+		harvestingDescriptor.onHarvested()
+		if harvestingDescriptor.harvestingFinished():
 			harvestingFinished()
 
 func wobble() -> void:		
@@ -30,5 +37,21 @@ func harvestingFinished() -> void:
 func evaluatePlayerPosition(playerPosition: Vector3) -> void:
 	harvestMe(playerPosition)
 	
+func onHarvestingTresholdElapsed(elapsedTreshold: int) -> void:
+	print(str("onHarvestingTresholdElapsed --> ", str(elapsedTreshold)))
+	for part in harvestingDescriptor.getElapsablePartsByTreshold(elapsedTreshold):
+		var mesh: MeshInstance3D = mappedMeshes.get(part)
+		# print(str("removing part --> ", str(mesh), str(" of collectable: "), str(getDescriptor())))				
+		mesh.queue_free()
+	
 @abstract
 func getMaxCollectableImpact() -> int
+
+@abstract
+func getHarvestingTesholds() -> Array[int]
+
+@abstract
+func registerElapsableParts(harvestingDescriptor: HarvestingDescriptor) -> void
+
+@abstract
+func getDescriptor() -> String

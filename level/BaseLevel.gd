@@ -31,13 +31,12 @@ func _ready() -> void:
 	var doors = findDoors(get_tree().root, [])
 	for door in doors:
 		levelObjectManager.acceptLevelObject(door, self)
-	# print(str("starting level ", str(self), ", ", "[", str(levelObjectManager.getPlateCount()), "] ", " floor plates..."), str("(", levelObjectManager.getStartPosition(), "->", levelObjectManager.getEndPosition(), ")"))
 	levelObjectManager.watchObjects(self)
 	put_player()
 	put_collectables()	
 	
 func put_collectables() -> void:	
-	var collectables = get_collectable_positions()
+	var collectables = getCollectablePositions()
 	print(str("putting ", str(collectables.size()), " collectables..."))
 	var collectableInstance: BaseCollectable
 	for collectable in collectables:		
@@ -73,4 +72,4 @@ func findDoors(node, list) :
 	return list
 
 @abstract
-func get_collectable_positions() -> Array
+func getCollectablePositions() -> Array
