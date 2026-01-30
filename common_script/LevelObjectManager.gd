@@ -4,6 +4,7 @@ extends Object
 var floorPlates : Dictionary[String, FloorPlate] = {}
 var doors : Dictionary[String, WallDoor] = {}
 var collectables : Dictionary[String, BaseCollectable] = {}
+var platesWithCollectables: Array[String] = []
 
 var startPlate : StartFloorPlate
 var endPlate : EndFloorPlate
@@ -59,3 +60,7 @@ func watchObjects(level: BaseLevel) -> void:
 func checkStartAndEndPosition(level: BaseLevel) -> void:
 	assert(startPlate != null, str("no start position set --> ", str(level)))
 	assert(endPlate != null, str("no end position set --> ", str(level)))
+	
+func acceptCollectablePosition(plateName: String) -> void:
+	assert(!platesWithCollectables.has(plateName), str("already a collectabe placed on plate --> ", str(plateName)))
+	platesWithCollectables.append(plateName)

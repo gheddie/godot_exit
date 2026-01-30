@@ -14,13 +14,12 @@ func initObjectTimer() -> void:
 	add_child(objectTimer)
 	objectTimer.wait_time = TIMER_OBJECT_TIMEOUT	
 	objectTimer.start()
-	# assert(!objectTimer.is_stopped())
 	objectTimer.connect("timeout", onTimerElapsed)			
 	
 func onTimerElapsed() -> void:
-	var targettedObject = player.getTargettedObject()
-	if targettedObject != null:
-		levelObjectManager.acceptTargettedObject(targettedObject, player)
+	var targettedObjects = player.getTargettedObjects()
+	for targetted in targettedObjects:	
+		levelObjectManager.acceptTargettedObject(targetted, player)
 
 func _ready() -> void:	
 	initObjectTimer()
@@ -42,8 +41,11 @@ func put_collectables() -> void:
 	print(str("putting ", str(collectables.size()), " collectables..."))
 	var collectableInstance: BaseCollectable
 	for collectable in collectables:		
-		collectableInstance = CollectableFactoryInstance.makeCollectableInstance(collectable.split("@")[0])			
-		collectableInstance.global_position = levelObjectManager.getPlatePosition(collectable.split("@")[1])		
+		var collectableType = collectable.split("@")[0]
+		var collectablePlateName = collectable.split("@")[1]		
+		levelObjectManager.acceptCollectablePosition(collectablePlateName)
+		collectableInstance = CollectableFactoryInstance.makeCollectableInstance(collectableType)
+		collectableInstance.global_position = levelObjectManager.getPlatePosition(collectablePlateName)				
 		get_tree().get_current_scene().add_child(collectableInstance)
 		levelObjectManager.acceptLevelObject(collectableInstance, self)
 	

@@ -1,21 +1,27 @@
-[gd_scene load_steps=4 format=3 uid="uid://chfhdkirh1qes"]
+[gd_scene format=3 uid="uid://chfhdkirh1qes"]
 
 [ext_resource type="Script" uid="uid://bfp7jmyfl7yin" path="res://assets/player/Player.gd" id="1_kpjcp"]
 [ext_resource type="PackedScene" uid="uid://chjtx8kt35eka" path="res://assets/player/Player.glb" id="1_xhfnw"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_xhfnw"]
 
-[node name="Player" type="CharacterBody3D"]
+[node name="Player" type="CharacterBody3D" unique_id=1114894971]
 script = ExtResource("1_kpjcp")
 
-[node name="Player" parent="." instance=ExtResource("1_xhfnw")]
+[node name="Player" parent="." unique_id=280189468 instance=ExtResource("1_xhfnw")]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1480276849]
 transform = Transform3D(2.3000002, 0, 0, 0, 1.3, 0, 0, 0, 2.2, 0, 0, 0)
 shape = SubResource("CapsuleShape3D_xhfnw")
 
-[node name="Camera3D" type="Camera3D" parent="."]
+[node name="Camera3D" type="Camera3D" parent="." unique_id=623865380]
 transform = Transform3D(-0.7071068, 0.35355338, -0.6123724, 4.371139e-08, 0.8660254, 0.50000006, 0.7071067, 0.35355338, -0.6123725, -4, 6.6000004, -5.7)
 
-[node name="ForwardRayCast" type="RayCast3D" parent="."]
+[node name="ForwardRayCast" type="RayCast3D" parent="." unique_id=1957040071]
+transform = Transform3D(9.396926, 17.101006, 1.4950174e-07, 0, -2.1855694e-06, 10, 3.4202013, -46.98463, -4.1075268e-07, 0, -0.8, 0)
+
+[node name="LeftRayCast" type="RayCast3D" parent="." unique_id=235147991]
 transform = Transform3D(10, 0, 0, 0, -2.1855694e-06, 10, 0, -50, -4.371139e-07, 0, -0.8, 0)
+
+[node name="RightRayCast" type="RayCast3D" parent="." unique_id=10882161]
+transform = Transform3D(9.396926, -17.101006, -1.4950174e-07, 0, -2.1855694e-06, 10, -3.4202013, -46.98463, -4.1075268e-07, 0, -0.8, 0)

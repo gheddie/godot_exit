@@ -11,5 +11,9 @@ func get_collectable_positions() -> Array:
 		"blue@RegularFloorPlate6",
 		"red@RegularFloorPlate4",
 		"green@RegularFloorPlate22",
-		"red@RegularFloorPlate25"
+		"red@RegularFloorPlate25",		
+		"blue@RegularFloorPlate96",
+		"red@RegularFloorPlate94",
+		"green@RegularFloorPlate105",
+		"red@RegularFloorPlate103"
 	]

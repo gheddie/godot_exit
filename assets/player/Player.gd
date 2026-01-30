@@ -10,6 +10,8 @@ const JUMP_HEIGHT = 2.5
 const GRAVITY = 9.81
 
 @onready var forwardRaycast: RayCast3D = $ForwardRayCast
+@onready var leftRaycast: RayCast3D = $LeftRayCast
+@onready var rightRaycast: RayCast3D = $RightRayCast
 
 func _process(_delta: float) -> void:
 	# GameManagerInstance.acceptPlayerPosition(global_position)	
@@ -40,9 +42,12 @@ func handle_rotation(delta: float) -> void:
 	if Input.is_action_pressed("turn_right"):
 		rotation.y -= TURN_SPEED * delta	
 
-func getTargettedObject() -> Object:
+func getTargettedObjects() -> Array[Object]:
+	var targetted: Array[Object] = []
 	if forwardRaycast.is_colliding():
-		var collider = forwardRaycast.get_collider()		
-		return collider
-	else:
-		return null
+		targetted.append(forwardRaycast.get_collider())
+	if leftRaycast.is_colliding():
+		targetted.append(leftRaycast.get_collider())
+	if rightRaycast.is_colliding():
+		targetted.append(rightRaycast.get_collider())
+	return targetted
