@@ -38,7 +38,7 @@ func evaluatePlayerPosition(playerPosition: Vector3) -> void:
 	harvestMe(playerPosition)
 	
 func onHarvestingTresholdElapsed(elapsedTreshold: int) -> void:
-	print(str("onHarvestingTresholdElapsed --> ", str(elapsedTreshold)))
+	# print(str("onHarvestingTresholdElapsed --> ", str(elapsedTreshold)))
 	for part in harvestingDescriptor.getElapsablePartsByTreshold(elapsedTreshold):
 		var mesh: MeshInstance3D = mappedMeshes.get(part)
 		# print(str("removing part --> ", str(mesh), str(" of collectable: "), str(getDescriptor())))				

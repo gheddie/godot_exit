@@ -1,7 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://dn72v4tcielvb"]
+[gd_scene format=3 uid="uid://dn72v4tcielvb"]
 
 [ext_resource type="PackedScene" uid="uid://c7e3vg3fcj8wh" path="res://assets/architecture/floor/FloorPlate.tscn" id="1_o8egd"]
 [ext_resource type="Script" uid="uid://x2lgbrnh7c1t" path="res://assets/architecture/floor/start/StartFloorPlate.gd" id="2_jwkdu"]
 
-[node name="StartFloorPlate" instance=ExtResource("1_o8egd")]
+[node name="StartFloorPlate" unique_id=1575550778 instance=ExtResource("1_o8egd")]
 script = ExtResource("2_jwkdu")
