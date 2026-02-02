@@ -13,7 +13,7 @@ extends LevelItem
 
 var opened: bool = false
 
-const DOOR_OFFSET = 1.0
+const DOOR_OFFSET = 2.5
 
 func open() -> void:
 	if canBeOpened():
@@ -22,7 +22,8 @@ func open() -> void:
 			opened = true
 
 func evaluatePlayerPosition(_playerPosition: Vector3) -> void:
-	var distance = global_position.distance_to(position)	
+	var distance = global_position.distance_to(_playerPosition)	
+	# print(distance)
 	if distance <= DOOR_OFFSET:
 		open()
 		

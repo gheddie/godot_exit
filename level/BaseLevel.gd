@@ -5,7 +5,7 @@ extends Node3D
 var playerInstance: PackedScene = preload("res://assets/player/Player.tscn")
 var levelObjectManager: LevelObjectManager
 var levelItemTimer : Timer
-var player : Player
+var _player : Player
 
 const TIMER_OBJECT_TIMEOUT = 0.25
 
@@ -18,9 +18,10 @@ func initObjectTimer() -> void:
 	
 func onLevelItemTimerElapsed() -> void:
 	levelObjectManager.updateLevelItems()
-	var targettedObjects = player.getTargettedObjects()
+	var targettedObjects = _player.getTargettedObjects()
 	for targetted in targettedObjects:	
-		levelObjectManager.acceptTargettedObject(targetted, player)		
+		levelObjectManager.acceptTargettedObject(targetted, _player)	
+	GameManagerInstance.player.tweenCameraPosition()
 
 func _ready() -> void:
 	initObjectTimer()
@@ -50,9 +51,10 @@ func put_collectables() -> void:
 		levelObjectManager.acceptLevelObject(collectableInstance, self)
 	
 func put_player() -> void:	
-	player = playerInstance.instantiate()
-	player.global_position = levelObjectManager.getStartPosition()
-	get_tree().get_current_scene().add_child(player)
+	_player = playerInstance.instantiate()
+	_player.global_position = levelObjectManager.getStartPosition()
+	get_tree().get_current_scene().add_child(_player)
+	GameManagerInstance.player = _player
 	
 func findFloorPlates(node, list) :
 	var children = node.get_children()
@@ -74,3 +76,6 @@ func findDoors(node, list) :
 
 @abstract
 func getCollectablePositions() -> Array
+
+func isCollectingInProcess() -> bool:
+	return levelObjectManager.isCollectingInProcess()

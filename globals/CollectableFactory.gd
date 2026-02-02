@@ -7,8 +7,8 @@ func _ready() -> void:
 	templates.set("simplebox", preload("res://assets/collectable/simplebox/SimpleBoxCollectable.tscn"))
 	templates.set("mineral", preload("res://assets/collectable/mineral/MineralCollectable.tscn"))
 	templates.set("palmtree", preload("res://assets/collectable/palmtree/PalmTreeCollectable.tscn"))
+	templates.set("tank", preload("res://assets/collectable/tank/TankCollectable.tscn"))
 
 func makeCollectableInstance(type: String) -> BaseCollectable:
 	assert(templates.has(type) != null, str("unregistered collectable type --> ", type))
-	# print(str("making collectable of type {", type, "}"))
 	return templates.get(type).instantiate()

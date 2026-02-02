@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://b02e5xck6jpbb"
-path="res://.godot/imported/Player.blend-bbb533b56507af5a16e829990d9d75ef.scn"
+uid="uid://m3quju6l1c14"
+path="res://.godot/imported/Tank.blend-d82df5fd7b22f58bb2ad11a2033b01cb.scn"
 
 [deps]
 
-source_file="res://assets/player/Player.blend"
-dest_files=["res://.godot/imported/Player.blend-bbb533b56507af5a16e829990d9d75ef.scn"]
+source_file="res://assets/collectable/tank/Tank.blend"
+dest_files=["res://.godot/imported/Tank.blend-d82df5fd7b22f58bb2ad11a2033b01cb.scn"]
 
 [params]
 

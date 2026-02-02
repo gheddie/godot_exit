@@ -4,10 +4,10 @@ extends BaseLevel
 func getCollectablePositions() -> Array:
 	return [
 		"mineral@RegularFloorPlate",		
-		"mineral@RegularFloorPlate8",
+		"palmtree@RegularFloorPlate8",
 		"simplebox@RegularFloorPlate2",
 		"mineral@RegularFloorPlate96",
-		"simplebox@RegularFloorPlate94",
-		"simplebox@RegularFloorPlate105",
+		"tank@RegularFloorPlate94",
+		"palmtree@RegularFloorPlate105",
 		"mineral@RegularFloorPlate103"
 	]

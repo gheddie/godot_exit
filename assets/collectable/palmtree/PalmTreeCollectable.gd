@@ -5,7 +5,7 @@ func getMaxCollectableImpact() -> int:
 	return 75
 
 func getHarvestingTesholds() -> Array[int]:
-	return [45,40,35,30,25,20,15]
+	return [45,40,35,30,25,20,0]
 
 func registerElapsableParts(harvestingDescriptor: HarvestingDescriptor) -> void:	
 	# leafs
@@ -16,7 +16,7 @@ func registerElapsableParts(harvestingDescriptor: HarvestingDescriptor) -> void:
 	harvestingDescriptor.registerElapsableParts(30, ["Trunk4"], self)
 	harvestingDescriptor.registerElapsableParts(25, ["Trunk3"], self)
 	harvestingDescriptor.registerElapsableParts(20, ["Trunk2"], self)
-	harvestingDescriptor.registerElapsableParts(15, ["Trunk1"], self)		
+	harvestingDescriptor.registerElapsableParts(0, ["Trunk1"], self)		
 
 func getDescriptor() -> String:
 	return "PalmTree"

@@ -7,6 +7,7 @@ const WOBBLE_INTERVAL = 0.05
 
 var harvestingDescriptor: HarvestingDescriptor
 var mappedMeshes: Dictionary
+var justHarvested: bool = false
 
 func _init() -> void:	
 	harvestingDescriptor = HarvestingDescriptor.new(getMaxCollectableImpact(), getHarvestingTesholds(), self)
@@ -19,10 +20,13 @@ func _ready() -> void:
 func harvestMe(playerPosition: Vector3) -> void:
 	var distance = global_position.distance_to(playerPosition)
 	if distance <= HARVESTING_OFFSET:
+		justHarvested = true
 		wobble()
 		harvestingDescriptor.onHarvested()
 		if harvestingDescriptor.harvestingFinished():
 			harvestingFinished()
+	else:
+		justHarvested = false
 
 func wobble() -> void:		
 	var origScale = scale

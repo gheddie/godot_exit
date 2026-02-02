@@ -70,3 +70,10 @@ func updateLevelItems() -> void:
 	for item in levelItems:
 		if item != null:
 			item.updateState()
+
+func isCollectingInProcess() -> bool:
+	for c in collectables.values():
+		if is_instance_valid(c):
+			if c.justHarvested:
+				return true
+	return false		

@@ -2,7 +2,7 @@ class_name SimpleBoxCollectable
 extends BaseCollectable
 
 func getMaxCollectableImpact() -> int:
-	return 67
+	return 49
 
 func getHarvestingTesholds() -> Array[int]:
 	return [48,25,17,9]

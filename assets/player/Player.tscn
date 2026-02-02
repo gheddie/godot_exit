@@ -3,25 +3,30 @@
 [ext_resource type="Script" uid="uid://bfp7jmyfl7yin" path="res://assets/player/Player.gd" id="1_kpjcp"]
 [ext_resource type="PackedScene" uid="uid://chjtx8kt35eka" path="res://assets/player/Player.glb" id="1_xhfnw"]
 
-[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_xhfnw"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_b87do"]
+size = Vector3(0.4, 0.8, 2.7)
 
 [node name="Player" type="CharacterBody3D" unique_id=1114894971]
 script = ExtResource("1_kpjcp")
 
-[node name="Player" parent="." unique_id=280189468 instance=ExtResource("1_xhfnw")]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1480276849]
-transform = Transform3D(2.3000002, 0, 0, 0, 1.3, 0, 0, 0, 2.2, 0, 0, 0)
-shape = SubResource("CapsuleShape3D_xhfnw")
+[node name="Player" parent="." unique_id=784671911 instance=ExtResource("1_xhfnw")]
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=623865380]
-transform = Transform3D(-0.7071068, 0.35355338, -0.6123724, 4.371139e-08, 0.8660254, 0.50000006, 0.7071067, 0.35355338, -0.6123725, -4, 6.6000004, -5.7)
+transform = Transform3D(-0.7071068, 0.35355338, -0.6123724, 4.371139e-08, 0.8660254, 0.5, 0.7071067, 0.35355338, -0.6123725, -2, 3, -3)
 
 [node name="ForwardRayCast" type="RayCast3D" parent="." unique_id=1957040071]
-transform = Transform3D(9.396926, 17.101006, 1.4950174e-07, 0, -2.1855694e-06, 10, 3.4202013, -46.98463, -4.1075268e-07, 0, -0.8, 0)
+transform = Transform3D(9.396926, 17.101006, 1.4950174e-07, 0, -2.1855694e-06, 10, 3.4202013, -46.98463, -4.1075268e-07, 0, 0.19999999, 0)
 
 [node name="LeftRayCast" type="RayCast3D" parent="." unique_id=235147991]
-transform = Transform3D(10, 0, 0, 0, -2.1855694e-06, 10, 0, -50, -4.371139e-07, 0, -0.8, 0)
+transform = Transform3D(10, 0, 0, 0, -2.1855694e-06, 10, 0, -50, -4.371139e-07, 0, 0.19999999, 0)
 
 [node name="RightRayCast" type="RayCast3D" parent="." unique_id=10882161]
-transform = Transform3D(9.396926, -17.101006, -1.4950174e-07, 0, -2.1855694e-06, 10, -3.4202013, -46.98463, -4.1075268e-07, 0, -0.8, 0)
+transform = Transform3D(9.396926, -17.101006, -1.4950174e-07, 0, -2.1855694e-06, 10, -3.4202013, -46.98463, -4.1075268e-07, 0, 0.19999999, 0)
+
+[node name="Collider1" type="CollisionShape3D" parent="." unique_id=67470456]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6999999, 0.40000007, -0.049999893)
+shape = SubResource("BoxShape3D_b87do")
+
+[node name="Collider2" type="CollisionShape3D" parent="." unique_id=667903036]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.70000005, 0.40000007, -0.049999893)
+shape = SubResource("BoxShape3D_b87do")

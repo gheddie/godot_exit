@@ -461,16 +461,16 @@ transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -9, 
 [node name="StraigthWall2" parent="walls" index="1" unique_id=1699060568 instance=ExtResource("6_fsa6r")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 9, 0, 0)
 
-[node name="WallCorner" parent="walls" index="2" unique_id=591659573 instance=ExtResource("7_ad4kb")]
+[node name="WallCorner" parent="walls" index="2" unique_id=188979282 instance=ExtResource("7_ad4kb")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, -19)
 
-[node name="WallCorner2" parent="walls" index="3" unique_id=386268763 instance=ExtResource("7_ad4kb")]
+[node name="WallCorner2" parent="walls" index="3" unique_id=1486059533 instance=ExtResource("7_ad4kb")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -9, 0, -19)
 
-[node name="WallCorner3" parent="walls" index="4" unique_id=1845655191 instance=ExtResource("7_ad4kb")]
+[node name="WallCorner3" parent="walls" index="4" unique_id=780587366 instance=ExtResource("7_ad4kb")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 9, 0, 13)
 
-[node name="WallCorner4" parent="walls" index="5" unique_id=1705424326 instance=ExtResource("7_ad4kb")]
+[node name="WallCorner4" parent="walls" index="5" unique_id=928029711 instance=ExtResource("7_ad4kb")]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -9, 0, 13)
 
 [node name="SmallFence" parent="walls" index="6" unique_id=216372283 instance=ExtResource("8_putgt")]
@@ -556,5 +556,5 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 6)
 [node name="SimpleWallDoor" parent="walls/doors" index="0" unique_id=1341521754 instance=ExtResource("9_787q5")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0, 0, -12.9507885)
 
-[node name="CollectableWallDoor" parent="walls/doors" index="1" unique_id=862530895 instance=ExtResource("10_wtog0")]
+[node name="CollectableWallDoor" parent="walls/doors" index="1" unique_id=1841785454 instance=ExtResource("10_wtog0")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0, 0, 9)
