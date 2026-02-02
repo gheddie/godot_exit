@@ -2,9 +2,10 @@ class_name LevelObjectManager
 extends Object
 
 var floorPlates : Dictionary[String, FloorPlate] = {}
-var doors : Dictionary[String, WallDoor] = {}
 var collectables : Dictionary[String, BaseCollectable] = {}
 var platesWithCollectables: Array[String] = []
+
+var levelItems: Array[LevelItem] = []
 
 var startPlate : StartFloorPlate
 var endPlate : EndFloorPlate
@@ -14,7 +15,9 @@ var watchDog : LevelObjectManagerWatchDog
 func _init() -> void:
 	watchDog = LevelObjectManagerWatchDog.new()
 
-func acceptLevelObject(levelItem: Node3D, level: BaseLevel) -> void:
+func acceptLevelObject(levelItem: LevelItem, level: BaseLevel) -> void:
+	levelItem.initialize()
+	levelItems.append(levelItem)
 	watchDog.checkLevelObject(levelItem, level)
 	if levelItem is FloorPlate:
 		floorPlates.set(levelItem.name, levelItem)
@@ -25,8 +28,6 @@ func acceptLevelObject(levelItem: Node3D, level: BaseLevel) -> void:
 	if levelItem is EndFloorPlate:
 		assert(endPlate == null, "end plate already set!!!")
 		endPlate = levelItem
-	if levelItem is WallDoor:
-		doors.set(levelItem.name, levelItem)
 	if levelItem is BaseCollectable:
 		collectables.set(str(levelItem.get_instance_id()), levelItem)
 
@@ -64,3 +65,8 @@ func checkStartAndEndPosition(level: BaseLevel) -> void:
 func acceptCollectablePosition(plateName: String) -> void:
 	assert(!platesWithCollectables.has(plateName), str("already a collectabe placed on plate --> ", str(plateName)))
 	platesWithCollectables.append(plateName)
+
+func updateLevelItems() -> void:
+	for item in levelItems:
+		if item != null:
+			item.updateState()

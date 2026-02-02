@@ -3,3 +3,6 @@ extends FloorPlate
 
 func initialize() -> void:
 	pass
+
+func updateState() -> void:
+	pass

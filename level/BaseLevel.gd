@@ -4,24 +4,25 @@ extends Node3D
 
 var playerInstance: PackedScene = preload("res://assets/player/Player.tscn")
 var levelObjectManager: LevelObjectManager
-var objectTimer : Timer
+var levelItemTimer : Timer
 var player : Player
 
 const TIMER_OBJECT_TIMEOUT = 0.25
 
 func initObjectTimer() -> void:
-	objectTimer = Timer.new()
-	add_child(objectTimer)
-	objectTimer.wait_time = TIMER_OBJECT_TIMEOUT	
-	objectTimer.start()
-	objectTimer.connect("timeout", onTimerElapsed)			
+	levelItemTimer = Timer.new()
+	add_child(levelItemTimer)
+	levelItemTimer.wait_time = TIMER_OBJECT_TIMEOUT	
+	levelItemTimer.start()
+	levelItemTimer.connect("timeout", onLevelItemTimerElapsed)			
 	
-func onTimerElapsed() -> void:
+func onLevelItemTimerElapsed() -> void:
+	levelObjectManager.updateLevelItems()
 	var targettedObjects = player.getTargettedObjects()
 	for targetted in targettedObjects:	
-		levelObjectManager.acceptTargettedObject(targetted, player)
+		levelObjectManager.acceptTargettedObject(targetted, player)		
 
-func _ready() -> void:	
+func _ready() -> void:
 	initObjectTimer()
 	GameManagerInstance.actualLevel = self
 	levelObjectManager = LevelObjectManager.new()

@@ -23,3 +23,9 @@ func getDescriptor() -> String:
 
 func getWobbleFactor() -> float:
 	return 0.9
+
+func updateState() -> void:
+	pass
+
+func initialize() -> void:
+	pass

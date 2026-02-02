@@ -5,3 +5,6 @@ var exitTemplate: PackedScene = preload("res://assets/architecture/common/Exit.t
 
 func initialize() -> void:
 	add_child(exitTemplate.instantiate())
+
+func updateState() -> void:
+	pass

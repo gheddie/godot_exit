@@ -1,6 +1,6 @@
 @abstract
 class_name BaseCollectable
-extends StaticBody3D
+extends LevelItem
 
 const HARVESTING_OFFSET = 3.5
 const WOBBLE_INTERVAL = 0.05
