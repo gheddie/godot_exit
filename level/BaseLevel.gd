@@ -35,7 +35,7 @@ func _ready() -> void:
 	put_player()
 	put_collectables()	
 	
-func put_collectables() -> void:	
+func put_collectables() -> void:
 	var collectables = getCollectablePositions()
 	print(str("putting ", str(collectables.size()), " collectables..."))
 	var collectableInstance: BaseCollectable

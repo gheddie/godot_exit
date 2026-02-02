@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://cr0rcl7hj6yym"]
+
+[ext_resource type="PackedScene" uid="uid://7e1b71fuuwge" path="res://assets/misc/LightBulbSocket.glb" id="1_ihg7j"]
+[ext_resource type="Script" uid="uid://x1uyudjx3v3e" path="res://assets/misc/LightBulb.gd" id="1_xhkh5"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_ihg7j"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xhkh5"]
+albedo_color = Color(1, 0, 0, 1)
+emission_enabled = true
+emission = Color(1, 0, 0, 1)
+emission_energy_multiplier = 2.5
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_iouch"]
+albedo_color = Color(0, 1, 0, 1)
+emission_enabled = true
+emission = Color(0, 1, 0, 1)
+emission_energy_multiplier = 2.5
+
+[node name="LightBulb" type="StaticBody3D" unique_id=315747370]
+script = ExtResource("1_xhkh5")
+
+[node name="LightBulbSocket" parent="." unique_id=1892830511 instance=ExtResource("1_ihg7j")]
+
+[node name="BulbOff" type="MeshInstance3D" parent="." unique_id=2062539024]
+transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 0.099999994, 0, 0)
+mesh = SubResource("SphereMesh_ihg7j")
+
+[node name="BulbRed" type="MeshInstance3D" parent="." unique_id=2094433723]
+transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 0.099999994, 0, 0)
+mesh = SubResource("SphereMesh_ihg7j")
+surface_material_override/0 = SubResource("StandardMaterial3D_xhkh5")
+
+[node name="BulbGreen" type="MeshInstance3D" parent="." unique_id=1874171948]
+transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 0.099999994, 0, 0)
+material_override = SubResource("StandardMaterial3D_iouch")
+mesh = SubResource("SphereMesh_ihg7j")

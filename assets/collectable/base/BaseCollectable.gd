@@ -43,6 +43,8 @@ func onHarvestingTresholdElapsed(elapsedTreshold: int) -> void:
 		var mesh: MeshInstance3D = mappedMeshes.get(part)
 		# print(str("removing part --> ", str(mesh), str(" of collectable: "), str(getDescriptor())))				
 		mesh.queue_free()
+		GameManagerInstance.collectableCash.acceptCollectables(self, 10)
+		# GameManagerInstance.collectableCash.debug()
 	
 @abstract
 func getMaxCollectableImpact() -> int

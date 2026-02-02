@@ -26,9 +26,9 @@ func validate() -> void:
 	assert(!harvestingTresholds.max() >= initialHarvestingPoints)
 	# TODO tresholds should be a descending sequence!!
 
-func registerElapsableParts(treshold: int, partNames: Array[String], collectable: BaseCollectable) -> void:
+func registerElapsableParts(treshold: int, partNames: Array[String], _collectable: BaseCollectable) -> void:
 	assert(harvestingTresholds.has(treshold), str("invalid treshold --> ", str(treshold)))
-	assert(!partNames.size() == 0, str("no parts provided --> ", str(collectable)))
+	assert(!partNames.size() == 0, str("no parts provided --> ", str(_collectable)))
 	elapsableParts.set(treshold, partNames)
 
 func getElapsablePartsByTreshold(treshold: int) -> Array:

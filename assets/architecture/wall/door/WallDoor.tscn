@@ -1,0 +1,94 @@
+[gd_scene format=3 uid="uid://vvw5iyrgcxfm"]
+
+[ext_resource type="PackedScene" uid="uid://iovrbkfqiml2" path="res://assets/architecture/wall/door/WallDoor.glb" id="2_53icy"]
+[ext_resource type="PackedScene" uid="uid://cr0rcl7hj6yym" path="res://assets/misc/LightBulb.tscn" id="3_o0jx0"]
+[ext_resource type="PackedScene" uid="uid://4lgby2f273dl" path="res://assets/architecture/wall/door/DoorWing.glb" id="3_rfoiu"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_60ws8"]
+size = Vector3(0.5, 4, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_53icy"]
+size = Vector3(0.5, 4, 4)
+
+[sub_resource type="Animation" id="Animation_rfoiu"]
+resource_name = "OpenWing"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("DoorWing:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, -4, 0)]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(1),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"onOpenFinished"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_8jmta"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("DoorWing:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_8jmta"]
+_data = {
+&"OpenWing": SubResource("Animation_rfoiu"),
+&"RESET": SubResource("Animation_8jmta")
+}
+
+[node name="WallDoor" type="StaticBody3D" unique_id=1341521754]
+
+[node name="CollisionShape1" type="CollisionShape3D" parent="." unique_id=110935645]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, -2.5)
+shape = SubResource("BoxShape3D_60ws8")
+
+[node name="WallDoor" parent="." unique_id=379688222 instance=ExtResource("2_53icy")]
+
+[node name="CollisionShape2" type="CollisionShape3D" parent="." unique_id=651009460]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 2.5)
+shape = SubResource("BoxShape3D_60ws8")
+
+[node name="CollisionShapeCenter" type="CollisionShape3D" parent="." unique_id=282816213]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0)
+shape = SubResource("BoxShape3D_53icy")
+
+[node name="DoorWing" parent="." unique_id=269733146 instance=ExtResource("3_rfoiu")]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=282232346]
+libraries/ = SubResource("AnimationLibrary_8jmta")
+
+[node name="Bulb1" parent="." unique_id=315747370 instance=ExtResource("3_o0jx0")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -0.25, 2, 2.5)
+
+[node name="Bulb2" parent="." unique_id=70650895 instance=ExtResource("3_o0jx0")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -0.25, 2, -2.5)
+
+[node name="Bulb3" parent="." unique_id=2044136753 instance=ExtResource("3_o0jx0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.24999976, 2, -2.5)
+
+[node name="Bulb4" parent="." unique_id=1021397969 instance=ExtResource("3_o0jx0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.25000024, 2, 2.5)

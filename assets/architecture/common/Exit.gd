@@ -7,10 +7,10 @@ func _ready() -> void:
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	pass
 
 
-func onBodyEntered(body_rid: RID, body: Node3D, body_shape_index: int, local_shape_index: int) -> void:
+func onBodyEntered(_body_rid: RID, body: Node3D, _body_shape_index: int, _local_shape_index: int) -> void:
 	if body is Player:
 		LevelProviderInstance.levelFinished()

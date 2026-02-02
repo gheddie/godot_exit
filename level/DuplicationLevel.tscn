@@ -5,7 +5,7 @@
 [ext_resource type="Script" uid="uid://cj7k3snv2qhdc" path="res://level/DuplicationLevel.gd" id="2_xeshx"]
 [ext_resource type="PackedScene" uid="uid://dn72v4tcielvb" path="res://assets/architecture/floor/start/StartFloorPlate.tscn" id="3_r3u3n"]
 [ext_resource type="PackedScene" uid="uid://olf3xpdlfxs" path="res://assets/architecture/floor/regular/RegularFloorPlate.tscn" id="4_25jhw"]
-[ext_resource type="PackedScene" uid="uid://d0fm5sijs3e0g" path="res://assets/architecture/wall/StraigthWall.tscn" id="6_wck70"]
+[ext_resource type="PackedScene" uid="uid://d0fm5sijs3e0g" path="res://assets/architecture/wall/straightwall/StraigthWall.tscn" id="6_wck70"]
 
 [node name="DuplicationLevel" unique_id=451670763 instance=ExtResource("1_45ilo")]
 script = ExtResource("2_xeshx")

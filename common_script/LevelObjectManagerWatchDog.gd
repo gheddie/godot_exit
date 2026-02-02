@@ -6,7 +6,7 @@ var faultyItems: Array[Node3D] = []
 
 const MIN_DISTANCE = 0.0
 
-func checkLevelObject(levelItem: Node3D, level: BaseLevel) -> void:
+func checkLevelObject(levelItem: Node3D, _level: BaseLevel) -> void:
 	for item in items:
 		var distanceToExisting = levelItem.global_position.distance_to(item.global_position)
 		if distanceToExisting <= MIN_DISTANCE:
