@@ -24,6 +24,7 @@ config/icon="res://icon.svg"
 CollectableFactoryInstance="*res://globals/CollectableFactory.gd"
 GameManagerInstance="*res://globals/GameManager.gd"
 LevelProviderInstance="*res://LevelProvider.gd"
+MeshMaterialFactoryInstance="*uid://uitf06rrtyxp"
 
 [input]
 

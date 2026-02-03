@@ -61,10 +61,9 @@ func tweenCameraPosition() -> void:
 	var justCollecting: bool = GameManagerInstance.actualLevel.isCollectingInProcess()
 	var cameraTargetPosition: Vector3
 	if justCollecting:
-		print("collecting in process...")
+		# print("collecting in process...")
 		cameraTargetPosition = harvestingCamPos
 	else:
-		pass
 		cameraTargetPosition = origCamPos
 	if camera.global_position != cameraTargetPosition:
 		var cameraPositionTween = get_tree().create_tween()

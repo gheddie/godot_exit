@@ -11,4 +11,14 @@ func _ready() -> void:
 
 func makeCollectableInstance(type: String) -> BaseCollectable:
 	assert(templates.has(type) != null, str("unregistered collectable type --> ", type))
-	return templates.get(type).instantiate()
+	var instance = templates.get(type).instantiate()	
+	applyMaterials(instance)
+	return instance
+
+func applyMaterials(collectable: BaseCollectable) -> void:
+	"""
+	for meshKey in collectable.mappedMeshes:
+		# print(collectable.mappedMeshes.get(meshKey))
+		print(meshKey)
+		"""
+	pass

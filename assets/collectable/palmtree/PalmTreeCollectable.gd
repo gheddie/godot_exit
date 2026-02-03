@@ -29,3 +29,6 @@ func updateState() -> void:
 
 func initialize() -> void:
 	pass
+
+func getDefaultMaterialKey() -> String:
+	return ""

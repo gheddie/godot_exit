@@ -45,15 +45,15 @@ func put_collectables() -> void:
 		var collectableType = collectable.split("@")[0]
 		var collectablePlateName = collectable.split("@")[1]		
 		levelObjectManager.acceptCollectablePosition(collectablePlateName)
-		collectableInstance = CollectableFactoryInstance.makeCollectableInstance(collectableType)
-		collectableInstance.global_position = levelObjectManager.getPlatePosition(collectablePlateName)				
+		collectableInstance = CollectableFactoryInstance.makeCollectableInstance(collectableType)		
 		get_tree().get_current_scene().add_child(collectableInstance)
+		collectableInstance.global_position = levelObjectManager.getPlatePosition(collectablePlateName)				
 		levelObjectManager.acceptLevelObject(collectableInstance, self)
 	
 func put_player() -> void:	
-	_player = playerInstance.instantiate()
-	_player.global_position = levelObjectManager.getStartPosition()
+	_player = playerInstance.instantiate()	
 	get_tree().get_current_scene().add_child(_player)
+	_player.global_position = levelObjectManager.getStartPosition()
 	GameManagerInstance.player = _player
 	
 func findFloorPlates(node, list) :

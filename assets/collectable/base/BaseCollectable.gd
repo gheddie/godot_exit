@@ -13,10 +13,32 @@ func _init() -> void:
 	harvestingDescriptor = HarvestingDescriptor.new(getMaxCollectableImpact(), getHarvestingTesholds(), self)
 	harvestingDescriptor.validate()	
 	registerElapsableParts(harvestingDescriptor)
+	# initialize()
 	
 func _ready() -> void:
 	mappedMeshes = TreeUtil.mapSceneObjects(self, {})	
+	logMappedMeshes(mappedMeshes)
+	for mesh in mappedMeshes.values():
+		applyMaterial(mesh)
+		
+func logMappedMeshes(meshes: Dictionary) -> void:
+	var meshNameList: Array[String] = []
+	for meshName in meshes:
+		# print(meshName)
+		meshNameList.append(meshName)
+	print("------------------------------------------------")
+	print(str("map ojects for collectable --> ", getDescriptor()))
+	print("------------------------------------------------")	
+	for name in StringUtil.sortStringArray(meshNameList):
+		print(name)
+	print("------------------------------------------------")		
 
+func applyMaterial(mesh: MeshInstance3D) -> void:
+	mesh.material_override = getMaterial(buildMeshKey(mesh))		
+	
+func buildMeshKey(mesh: MeshInstance3D) -> String:
+	return getDescriptor() + "@" + mesh.name
+		
 func harvestMe(playerPosition: Vector3) -> void:
 	var distance = global_position.distance_to(playerPosition)
 	if distance <= HARVESTING_OFFSET:
@@ -46,10 +68,17 @@ func onHarvestingTresholdElapsed(elapsedTreshold: int) -> void:
 	for part in harvestingDescriptor.getElapsablePartsByTreshold(elapsedTreshold):
 		var mesh: MeshInstance3D = mappedMeshes.get(part)
 		# print(str("removing part --> ", str(mesh), str(" of collectable: "), str(getDescriptor())))				
+		assert(mesh != null, str("mesh nout found --> ", part))
 		mesh.queue_free()
 		GameManagerInstance.collectableCash.acceptCollectables(self, 10)
 		# GameManagerInstance.collectableCash.debug()
-	
+		
+func getMaterial(meshKey: String) -> StandardMaterial3D:
+	return MeshMaterialFactoryInstance.getMaterial(meshKey, self)
+
+@abstract	
+func getDefaultMaterialKey() -> String
+
 @abstract
 func getMaxCollectableImpact() -> int
 
@@ -57,7 +86,7 @@ func getMaxCollectableImpact() -> int
 func getHarvestingTesholds() -> Array[int]
 
 @abstract
-func registerElapsableParts(harvestingDescriptor: HarvestingDescriptor) -> void
+func registerElapsableParts(_harvestingDescriptor: HarvestingDescriptor) -> void
 
 @abstract
 func getDescriptor() -> String
