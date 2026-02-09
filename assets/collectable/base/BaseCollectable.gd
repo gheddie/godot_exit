@@ -34,7 +34,7 @@ func logMappedMeshes(meshes: Dictionary) -> void:
 	print("------------------------------------------------")		
 
 func applyMaterial(mesh: MeshInstance3D) -> void:
-	mesh.material_override = getMaterial(buildMeshKey(mesh))		
+	mesh.material_override = getMaterial(buildMeshKey(mesh))
 	
 func buildMeshKey(mesh: MeshInstance3D) -> String:
 	return getDescriptor() + "@" + mesh.name

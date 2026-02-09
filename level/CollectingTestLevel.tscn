@@ -8,8 +8,9 @@
 [ext_resource type="PackedScene" uid="uid://d0fm5sijs3e0g" path="res://assets/architecture/wall/straightwall/StraigthWall.tscn" id="6_fsa6r"]
 [ext_resource type="PackedScene" uid="uid://c4frnd44exhvu" path="res://assets/architecture/wall/wallcorner/WallCorner.tscn" id="7_ad4kb"]
 [ext_resource type="PackedScene" uid="uid://dtfalwtbux8m1" path="res://assets/architecture/wall/smallfence/SmallFence.tscn" id="8_putgt"]
-[ext_resource type="PackedScene" uid="uid://bnkupn1evj2pw" path="res://assets/architecture/wall/door/SimpleWallDoor.tscn" id="9_787q5"]
+[ext_resource type="PackedScene" uid="uid://c0pid6wd0o13x" path="res://assets/architecture/wall/door/HandledWallDoor.tscn" id="10_exvtm"]
 [ext_resource type="PackedScene" uid="uid://btvnf46suiyq6" path="res://assets/architecture/wall/door/CollectableWallDoor.tscn" id="10_wtog0"]
+[ext_resource type="PackedScene" uid="uid://t1d87xybvgat" path="res://assets/misc/handle/SimpleHandle.tscn" id="11_exvtm"]
 
 [node name="CollectingTestLevel" unique_id=1046353020 instance=ExtResource("1_2i6d0")]
 script = ExtResource("2_q28sk")
@@ -553,8 +554,14 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 6)
 
 [node name="doors" type="Node3D" parent="walls" index="32" unique_id=1709795130]
 
-[node name="SimpleWallDoor" parent="walls/doors" index="0" unique_id=1341521754 instance=ExtResource("9_787q5")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0, 0, -12.9507885)
-
-[node name="CollectableWallDoor" parent="walls/doors" index="1" unique_id=1841785454 instance=ExtResource("10_wtog0")]
+[node name="CollectableWallDoor" parent="walls/doors" index="0" unique_id=1841785454 instance=ExtResource("10_wtog0")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0, 0, 9)
+
+[node name="HandledWallDoor" parent="walls/doors" index="1" unique_id=1341521754 instance=ExtResource("10_exvtm")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0, 0, -13)
+
+[node name="handles" type="Node3D" parent="." index="6" unique_id=1947129921]
+
+[node name="OpenDoorHandle" parent="handles" index="0" unique_id=1022720870 node_paths=PackedStringArray("door") instance=ExtResource("11_exvtm")]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 1, 0, 1, 0, 1.3113416e-07, 8.5, 1.5, -16)
+door = NodePath("../../walls/doors/HandledWallDoor")
