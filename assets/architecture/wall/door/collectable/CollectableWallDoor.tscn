@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://btvnf46suiyq6"]
+
+[ext_resource type="PackedScene" uid="uid://vvw5iyrgcxfm" path="res://assets/architecture/wall/door/base/WallDoor.tscn" id="1_to4or"]
+[ext_resource type="Script" uid="uid://dbnn2wuaj46s1" path="res://assets/architecture/wall/door/collectable/CollectableWallDoor.gd" id="2_gxhmu"]
+
+[node name="CollectableWallDoor" unique_id=1341521754 instance=ExtResource("1_to4or")]
+script = ExtResource("2_gxhmu")

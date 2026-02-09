@@ -7,10 +7,10 @@
 [ext_resource type="PackedScene" uid="uid://craoy8cx6i3ao" path="res://assets/architecture/floor/end/EndFloorPlate.tscn" id="5_b6xkx"]
 [ext_resource type="PackedScene" uid="uid://dtfalwtbux8m1" path="res://assets/architecture/wall/smallfence/SmallFence.tscn" id="6_up0ev"]
 [ext_resource type="PackedScene" uid="uid://d0fm5sijs3e0g" path="res://assets/architecture/wall/straightwall/StraigthWall.tscn" id="7_tihh3"]
-[ext_resource type="PackedScene" uid="uid://vvw5iyrgcxfm" path="res://assets/architecture/wall/door/WallDoor.tscn" id="8_hlf87"]
+[ext_resource type="PackedScene" uid="uid://vvw5iyrgcxfm" path="res://assets/architecture/wall/door/base/WallDoor.tscn" id="8_hlf87"]
 [ext_resource type="PackedScene" uid="uid://dana7u7dfrvfe" path="res://assets/architecture/wall/wallbow/WallBow.tscn" id="9_ed61s"]
 [ext_resource type="PackedScene" uid="uid://c4frnd44exhvu" path="res://assets/architecture/wall/wallcorner/WallCorner.tscn" id="10_tnnrt"]
-[ext_resource type="PackedScene" uid="uid://bnkupn1evj2pw" path="res://assets/architecture/wall/door/SimpleWallDoor.tscn" id="11_ofi8a"]
+[ext_resource type="PackedScene" uid="uid://bnkupn1evj2pw" path="res://assets/architecture/wall/door/simple/SimpleWallDoor.tscn" id="11_ofi8a"]
 
 [node name="LevelA" unique_id=259622520 instance=ExtResource("1_vxpfm")]
 script = ExtResource("2_lg627")

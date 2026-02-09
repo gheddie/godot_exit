@@ -4,9 +4,9 @@
 [ext_resource type="Script" uid="uid://dby0qypejykx8" path="res://level/DoorTestLevel.gd" id="2_q4ede"]
 [ext_resource type="PackedScene" uid="uid://dn72v4tcielvb" path="res://assets/architecture/floor/start/StartFloorPlate.tscn" id="3_7an6b"]
 [ext_resource type="PackedScene" uid="uid://craoy8cx6i3ao" path="res://assets/architecture/floor/end/EndFloorPlate.tscn" id="4_2wf1n"]
-[ext_resource type="PackedScene" uid="uid://bnkupn1evj2pw" path="res://assets/architecture/wall/door/SimpleWallDoor.tscn" id="5_epf6s"]
+[ext_resource type="PackedScene" uid="uid://bnkupn1evj2pw" path="res://assets/architecture/wall/door/simple/SimpleWallDoor.tscn" id="5_epf6s"]
 [ext_resource type="PackedScene" uid="uid://olf3xpdlfxs" path="res://assets/architecture/floor/regular/RegularFloorPlate.tscn" id="6_epf6s"]
-[ext_resource type="PackedScene" uid="uid://btvnf46suiyq6" path="res://assets/architecture/wall/door/CollectableWallDoor.tscn" id="6_hxqfm"]
+[ext_resource type="PackedScene" uid="uid://btvnf46suiyq6" path="res://assets/architecture/wall/door/collectable/CollectableWallDoor.tscn" id="6_hxqfm"]
 [ext_resource type="PackedScene" uid="uid://dtfalwtbux8m1" path="res://assets/architecture/wall/smallfence/SmallFence.tscn" id="8_yjb8x"]
 
 [node name="DoorTestLevel" unique_id=1374961055 instance=ExtResource("1_rn8ux")]

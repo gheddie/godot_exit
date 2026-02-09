@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://vvw5iyrgcxfm"]
 
-[ext_resource type="PackedScene" uid="uid://iovrbkfqiml2" path="res://assets/architecture/wall/door/WallDoor.glb" id="2_53icy"]
+[ext_resource type="PackedScene" uid="uid://iovrbkfqiml2" path="res://assets/architecture/wall/door/base/WallDoor.glb" id="2_53icy"]
 [ext_resource type="PackedScene" uid="uid://cr0rcl7hj6yym" path="res://assets/misc/LightBulb.tscn" id="3_o0jx0"]
 [ext_resource type="PackedScene" uid="uid://4lgby2f273dl" path="res://assets/architecture/wall/door/DoorWing.glb" id="3_rfoiu"]
 
