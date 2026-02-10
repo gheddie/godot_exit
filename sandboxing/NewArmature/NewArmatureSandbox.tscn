@@ -1,0 +1,273 @@
+[gd_scene format=3 uid="uid://dd6wk8rhrtfv5"]
+
+[ext_resource type="PackedScene" uid="uid://ba7xtl866pitg" path="res://sandboxing/NewArmature/NewArmature.tscn" id="1_m418w"]
+[ext_resource type="PackedScene" uid="uid://s2jp31yvisfi" path="res://sandboxing/NewArmature/SimpleDumbPlate.tscn" id="2_er3ou"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_m418w"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_er3ou"]
+sky_material = SubResource("ProceduralSkyMaterial_m418w")
+
+[sub_resource type="Environment" id="Environment_sdo1d"]
+background_mode = 2
+sky = SubResource("Sky_er3ou")
+tonemap_mode = 2
+glow_enabled = true
+
+[node name="NewArmatureSandbox" type="Node3D" unique_id=462738333]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1233145111]
+environment = SubResource("Environment_sdo1d")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=851067881]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+shadow_enabled = true
+
+[node name="NewArmature" parent="." unique_id=146073371 instance=ExtResource("1_m418w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0)
+
+[node name="floor" type="Node3D" parent="." unique_id=644371754]
+
+[node name="Plate1" parent="floor" unique_id=297355503 instance=ExtResource("2_er3ou")]
+
+[node name="Plate2" parent="floor" unique_id=2008014002 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0)
+
+[node name="Plate3" parent="floor" unique_id=1991000455 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 0)
+
+[node name="Plate4" parent="floor" unique_id=1166501825 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2)
+
+[node name="Plate5" parent="floor" unique_id=1353158506 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -2)
+
+[node name="Plate6" parent="floor" unique_id=1596737699 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -2)
+
+[node name="Plate7" parent="floor" unique_id=651374486 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2)
+
+[node name="Plate8" parent="floor" unique_id=492534058 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 2)
+
+[node name="Plate9" parent="floor" unique_id=1835837729 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 2)
+
+[node name="Plate10" parent="floor" unique_id=549044425 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6)
+
+[node name="Plate11" parent="floor" unique_id=2131203601 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -6)
+
+[node name="Plate12" parent="floor" unique_id=1841291597 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -6)
+
+[node name="Plate13" parent="floor" unique_id=978595779 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8)
+
+[node name="Plate14" parent="floor" unique_id=961550239 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -8)
+
+[node name="Plate15" parent="floor" unique_id=1676185730 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -8)
+
+[node name="Plate16" parent="floor" unique_id=1910192603 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4)
+
+[node name="Plate17" parent="floor" unique_id=1698809281 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -4)
+
+[node name="Plate18" parent="floor" unique_id=1738544876 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -4)
+
+[node name="Plate19" parent="floor" unique_id=1361941181 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6)
+
+[node name="Plate20" parent="floor" unique_id=926576966 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 6)
+
+[node name="Plate21" parent="floor" unique_id=951115877 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 6)
+
+[node name="Plate22" parent="floor" unique_id=246215707 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4)
+
+[node name="Plate23" parent="floor" unique_id=1940296 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 4)
+
+[node name="Plate24" parent="floor" unique_id=1907094483 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 4)
+
+[node name="Plate25" parent="floor" unique_id=1975532674 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8)
+
+[node name="Plate26" parent="floor" unique_id=2073733367 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 8)
+
+[node name="Plate27" parent="floor" unique_id=797249135 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 8)
+
+[node name="Plate28" parent="floor" unique_id=617927887 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 0)
+
+[node name="Plate29" parent="floor" unique_id=75465882 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
+
+[node name="Plate30" parent="floor" unique_id=1157221448 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
+
+[node name="Plate31" parent="floor" unique_id=930997353 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -2)
+
+[node name="Plate32" parent="floor" unique_id=1715679830 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -2)
+
+[node name="Plate33" parent="floor" unique_id=61946898 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -2)
+
+[node name="Plate34" parent="floor" unique_id=1392438965 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 2)
+
+[node name="Plate35" parent="floor" unique_id=1266210611 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 2)
+
+[node name="Plate36" parent="floor" unique_id=188503152 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 2)
+
+[node name="Plate37" parent="floor" unique_id=1031294996 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -6)
+
+[node name="Plate38" parent="floor" unique_id=468547004 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -6)
+
+[node name="Plate39" parent="floor" unique_id=858429473 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -6)
+
+[node name="Plate40" parent="floor" unique_id=1239080865 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -8)
+
+[node name="Plate41" parent="floor" unique_id=935229026 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -8)
+
+[node name="Plate42" parent="floor" unique_id=1877740153 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -8)
+
+[node name="Plate43" parent="floor" unique_id=26771519 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -4)
+
+[node name="Plate44" parent="floor" unique_id=1388241651 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -4)
+
+[node name="Plate45" parent="floor" unique_id=1807823656 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -4)
+
+[node name="Plate46" parent="floor" unique_id=498966804 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 6)
+
+[node name="Plate47" parent="floor" unique_id=115127600 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 6)
+
+[node name="Plate48" parent="floor" unique_id=251585065 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 6)
+
+[node name="Plate49" parent="floor" unique_id=49921443 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 4)
+
+[node name="Plate50" parent="floor" unique_id=1663282998 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 4)
+
+[node name="Plate51" parent="floor" unique_id=1025912859 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 4)
+
+[node name="Plate52" parent="floor" unique_id=331321060 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 8)
+
+[node name="Plate53" parent="floor" unique_id=120442532 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 8)
+
+[node name="Plate54" parent="floor" unique_id=427887754 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 8)
+
+[node name="Plate55" parent="floor" unique_id=814827551 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 0)
+
+[node name="Plate56" parent="floor" unique_id=1684065538 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0)
+
+[node name="Plate57" parent="floor" unique_id=607075237 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 0)
+
+[node name="Plate58" parent="floor" unique_id=1520099216 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -2)
+
+[node name="Plate59" parent="floor" unique_id=1017133938 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -2)
+
+[node name="Plate60" parent="floor" unique_id=1768882302 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, -2)
+
+[node name="Plate61" parent="floor" unique_id=1939802964 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 2)
+
+[node name="Plate62" parent="floor" unique_id=608163615 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 2)
+
+[node name="Plate63" parent="floor" unique_id=1670254964 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 2)
+
+[node name="Plate64" parent="floor" unique_id=961829061 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -6)
+
+[node name="Plate65" parent="floor" unique_id=1303860432 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -6)
+
+[node name="Plate66" parent="floor" unique_id=294123194 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, -6)
+
+[node name="Plate67" parent="floor" unique_id=1941993885 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -8)
+
+[node name="Plate68" parent="floor" unique_id=1163605384 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -8)
+
+[node name="Plate69" parent="floor" unique_id=1968060742 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, -8)
+
+[node name="Plate70" parent="floor" unique_id=266631922 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -4)
+
+[node name="Plate71" parent="floor" unique_id=673543611 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -4)
+
+[node name="Plate72" parent="floor" unique_id=506427059 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, -4)
+
+[node name="Plate73" parent="floor" unique_id=1245246208 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 6)
+
+[node name="Plate74" parent="floor" unique_id=1419777415 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 6)
+
+[node name="Plate75" parent="floor" unique_id=1176767613 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 6)
+
+[node name="Plate76" parent="floor" unique_id=607618222 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 4)
+
+[node name="Plate77" parent="floor" unique_id=1907112705 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 4)
+
+[node name="Plate78" parent="floor" unique_id=2145759748 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 4)
+
+[node name="Plate79" parent="floor" unique_id=974376133 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 8)
+
+[node name="Plate80" parent="floor" unique_id=451879505 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 8)
+
+[node name="Plate81" parent="floor" unique_id=1022327887 instance=ExtResource("2_er3ou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 8)
